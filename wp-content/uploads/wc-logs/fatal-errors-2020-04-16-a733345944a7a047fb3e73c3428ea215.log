@@ -1,0 +1,2 @@
+2020-04-16T05:50:12+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+

@@ -1,0 +1,123 @@
+# Translation of Plugins - WP Menu Icons - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Menu Icons - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-12 08:59:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Menu Icons - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.quadmenu.com"
+msgstr "http://www.quadmenu.com"
+
+#. Description of the plugin/theme
+msgid "Add icons to your menu items."
+msgstr "Añade iconos a tus elementos de menú."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.quadmenu.com/"
+msgstr "http://www.quadmenu.com/"
+
+#. #-#-#-#-#  wp-menu-icons-code.pot (WP Menu Icons 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  wp-menu-icons-code.pot (WP Menu Icons 1.0.0)  #-#-#-#-#
+#. Author of the plugin/theme
+msgid "WP Menu Icons"
+msgstr "WP Menu Icons"
+
+#: includes/backend.php:282
+msgid "Size"
+msgstr "Tamaño"
+
+#: includes/backend.php:278
+msgid "Bottom"
+msgstr "Abajo"
+
+#: includes/backend.php:277
+msgid "Middle"
+msgstr "Medio"
+
+#: includes/backend.php:276
+msgid "Top"
+msgstr "Arriba"
+
+#: includes/backend.php:274
+msgid "Vertical Align"
+msgstr "Alineación vertical"
+
+#: includes/backend.php:270
+msgid "After"
+msgstr "Después"
+
+#: includes/backend.php:269
+msgid "Before"
+msgstr "Antes"
+
+#: includes/backend.php:267
+msgid "Position"
+msgstr "Posición"
+
+#: includes/backend.php:263
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/backend.php:262
+msgid "No"
+msgstr "No"
+
+#: includes/backend.php:260
+msgid "Hide Label"
+msgstr "Ocultar etiqueta"
+
+#: includes/backend.php:234
+msgid "Remove"
+msgstr "Quitar"
+
+#: includes/backend.php:221
+msgid "Saved"
+msgstr "Guardado"
+
+#: includes/backend.php:217
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/backend.php:209
+msgid "Deselect"
+msgstr "Desmarcar"
+
+#: includes/backend.php:196
+msgid "Search..."
+msgstr "Buscar..."
+
+#: includes/backend.php:193
+msgid "Search over %s %s."
+msgstr "Busca entre más de %s %s."
+
+#: includes/backend.php:186
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: includes/backend.php:178
+msgid "Mega Menu"
+msgstr "Mega Menú"
+
+#: includes/backend.php:167
+msgid "Close media panel"
+msgstr "Cerrar panel de medios"
+
+#: includes/backend.php:133 includes/backend.php:233
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/backend.php:103
+msgid "Color"
+msgstr "Color"
+
+#: includes/backend.php:102
+msgid "Select"
+msgstr "Seleccionar"

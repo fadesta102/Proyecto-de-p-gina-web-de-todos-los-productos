@@ -1,0 +1,434 @@
+/*** Clearfix ***/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.Hidden {
+	display: none;
+}
+
+/*** Fixes for Chosen styles ***/
+#wc_aelia_eu_vat_assistant_form .settings-section {
+	margin-top: 8px;
+}
+
+
+#wc_aelia_eu_vat_assistant_form .settings-section .form-table .description {
+	font-size: 13px;
+	color: #222;
+	font-style: italic;
+}
+
+#wc_aelia_eu_vat_assistant_form .chosen-container {
+	min-width: 25em;
+}
+
+#wc_aelia_eu_vat_assistant_form .chosen-choices .search-field input {
+	height: 100%;
+}
+
+/* CSS Styles for Admin pages */
+#wc_aelia_eu_vat_assistant_form .buttons {
+	margin-top: 1em;
+}
+
+#wc_aelia_eu_vat_assistant_form .buttons input {
+	margin-right: 1em;
+}
+
+#wc_aelia_eu_vat_assistant_form .settings-section h3 {
+	margin-bottom: 8px;
+}
+
+#wc_aelia_eu_vat_assistant_form .settings-section label {
+	font-weight: normal;
+}
+
+#wc_aelia_eu_vat_assistant_form .settings-section th {
+	padding: 10px 0;
+}
+
+#wc_aelia_eu_vat_assistant_form .settings-section td {
+	padding: 6px 0;
+}
+
+#wc_aelia_eu_vat_assistant_form .settings-section td .title {
+	min-width: 25em;
+}
+
+#wc_aelia_eu_vat_assistant_form #tab-checkout td input[type="text"],
+#wc_aelia_eu_vat_assistant_form #tab-self-certification td input[type="text"] {
+	width: 100%;
+}
+
+/* @since 1.11.0.191108 */
+#wc_aelia_eu_vat_assistant_form #tab-checkout td input.field_index,
+#wc_aelia_eu_vat_assistant_form #tab-self-certification td input.field_index,
+#wc_aelia_eu_vat_assistant_form .settings-section .form-table .field_index {
+	width: 6em;
+	text-align: right;
+}
+
+
+#wc_aelia_eu_vat_assistant_form th[scope="row"] {
+	padding-right: 1em;
+}
+
+#wc_aelia_eu_vat_assistant_form #section-exchange_rates th[scope="row"] {
+	display: none;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings th,
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings td {
+	width: auto;
+	padding: 0 8px;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings .set_manually {
+	text-align: center;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings #set_manually_all {
+	margin-left: 0.5em;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings .currency_name {
+	min-width: 20em;
+}
+
+#wc_aelia_eu_vat_assistant_form #wc_aelia_eu_vat_assistant\[vat_rounding_decimals\] {
+	width: 4em;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings .set_manually {
+	width: 9em;
+	text-align: center;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings .set_manually .selectors {
+	cursor: pointer;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings .set_manually .selectors span {
+	text-decoration: underline;
+	margin: 0 4px;
+}
+
+
+#wc_aelia_eu_vat_assistant_form #exchange_rates_settings #set_manually_all {
+	margin-left: 1em;
+}
+
+/*** Sales options ***/
+#wc_aelia_eu_vat_assistant_form .triggers {
+	margin-top: 4px;
+}
+
+#wc_aelia_eu_vat_assistant_form .triggers .trigger {
+	color: gray;
+	font-size: 90%;
+	border-bottom: 1px dotted;
+	cursor: pointer;
+}
+
+#wc_aelia_eu_vat_assistant_form #section-sale_restrictions .chosen-container,
+#wc_aelia_eu_vat_assistant_form #section-sale_restrictions .sale_disallowed_countries {
+	width: 100% !important;
+}
+
+/*** Shortcuts section ***/
+#wc_aelia_eu_vat_assistant_form #section-links .links > div {
+	margin-bottom: 20px;
+}
+
+#wc_aelia_eu_vat_assistant_form #section-links .links .title {
+	margin: 4px 0;
+}
+
+#wc_aelia_eu_vat_assistant_form #section-links ul {
+	margin: 0;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+/*** Meta boxes ***/
+#woocommerce_eu_vat_order_vat_info_box h4 {
+	margin: 0 0 4px 0;
+	padding: 0 0 4px 0;
+}
+
+#woocommerce_eu_vat_order_vat_info_box td {
+	padding: 2px 4px;
+	border-left: 1px dashed silver;
+}
+
+#woocommerce_eu_vat_order_vat_info_box td.label {
+	border-left: none;
+}
+
+#woocommerce_eu_vat_order_vat_info_box thead td {
+	text-align: center;
+}
+
+#woocommerce_eu_vat_order_vat_info_box tbody td {
+	border-top: 1px dashed silver;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .amount {
+	text-align: right;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .refund {
+	color: #A00;
+}
+
+#woocommerce_eu_vat_order_vat_info_box tfoot td {
+	border-top: 1px dashed gray;
+	font-weight: bold;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .title {
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .subtitle {
+	text-align: center;
+	padding: 0;
+	margin: 4px 0;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .vat_currency {
+	margin-bottom: 1em;
+}
+
+#woocommerce_eu_vat_order_vat_info_box .vat_currency .currency,
+#woocommerce_eu_vat_order_vat_info_box .vat_currency .exchange_rate_timestamp,
+#woocommerce_eu_vat_order_vat_info_box .vat_currency .exchange_rate_provider,
+#woocommerce_eu_vat_order_vat_info_box .vat_currency .exchange_rate {
+	font-weight: bold;
+}
+
+#woocommerce_eu_vat_order_vat_info_box table {
+	width: 100%;
+}
+
+#woocommerce_eu_vat_order_vat_info_box #vat_evidence {
+	margin-top: 1em;
+}
+
+#woocommerce_eu_vat_order_vat_info_box #vat_evidence .subtitle {
+	margin-top: 8px;
+}
+
+#woocommerce_eu_vat_order_vat_info_box #vat_evidence tbody tr:first-child td {
+	border-top: none;
+}
+
+/*** Tax settings page ***/
+.wc_tax_rates .eu_vat_assistant.update_vat_rates {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.wc_tax_rates .eu_vat_assistant.update_vat_rates .label {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/*** Reports ***/
+.wc_aelia_eu_vat_assistant.report.header {
+	border: 1px solid #e1e1e1;
+	background: white;
+	padding: 8px;
+}
+
+.wc_aelia_eu_vat_assistant.report.header h3 {
+	margin: 0 0 8px 0;
+}
+
+.wc_aelia_eu_vat_assistant.report.header h3.stats_range {
+	margin: 0;
+}
+
+.wc_aelia_eu_vat_assistant.report.header li {
+	float: left;
+	margin-right: 10px;
+}
+
+.wc_aelia_eu_vat_assistant.report.header .tips {
+	color: #2EA2CC;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.wc_aelia_eu_vat_assistant.report.header .close {
+	color: #2EA2CC;
+	font-size: 110%;
+	font-weight: normal;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.wc_aelia_eu_vat_assistant.report.header .more_info {
+	margin-bottom: 8px;
+	padding: 8px;
+	border: 1px dashed silver;
+}
+
+.wc_aelia_eu_vat_assistant.report.header .more_info blockquote {
+	background: #fafafa;
+	padding: 8px;
+	border-left: 2px solid #ccc;
+	font-style: italic;
+}
+
+.wc_aelia_eu_vat_assistant.report thead .column_headers th,
+.wc_aelia_eu_vat_assistant.report thead .column_headers td {
+	padding: 2px 3px;
+}
+
+.wc_aelia_eu_vat_assistant.report thead .report_information ul {
+	margin: 0;
+}
+
+.wc_aelia_eu_vat_assistant.report thead .report_information ul li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid silver;
+}
+
+.wc_aelia_eu_vat_assistant.report table {
+	border-collapse: collapse;
+	border: 1px solid #e1e1e1;
+}
+
+.wc_aelia_eu_vat_assistant.report .label {
+	font-weight: bold;
+}
+
+.wc_aelia_eu_vat_assistant.report .column_group.header {
+	font-weight: bold;
+	text-align: center;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+
+.wc_aelia_eu_vat_assistant.report .column_group.left {
+	border-left: 1px solid #e1e1e1;
+}
+
+.wc_aelia_eu_vat_assistant.report .column_group.right {
+	border-right: 1px solid #e1e1e1;
+}
+
+.wc_aelia_eu_vat_assistant.report .tax_rate,
+.wc_aelia_eu_vat_assistant.report .total_row {
+	text-align: right;
+}
+
+.wc_aelia_eu_vat_assistant.report .country_name {
+	width: 10em;
+}
+
+.wc_aelia_eu_vat_assistant.report .country_code {
+	width: 5em;
+}
+
+.wc_aelia_eu_vat_assistant.report .group_header {
+	border: 1px solid #e1e1e1;
+	background: #fcfcfc;
+}
+
+.wc_aelia_eu_vat_assistant.report .group_header .title {
+	font-weight: bold;
+}
+
+.wc_aelia_eu_vat_assistant.report .group_header .description {
+	font-size: 90%;
+}
+
+.wc_aelia_eu_vat_assistant.report .odd th,
+.wc_aelia_eu_vat_assistant.report .odd td {
+	background-color: #f1f1f1;
+}
+
+.wc_aelia_eu_vat_assistant.report tbody .order_id {
+	font-weight: bold;
+}
+
+.wc_aelia_eu_vat_assistant.report #vat-grand-totals th,
+.wc_aelia_eu_vat_assistant.report #vat-grand-totals td {
+	border-top: 1px solid #e1e1e1;
+}
+
+.wc_aelia_eu_vat_assistant.report tfoot {
+	border-top: 1px solid #e1e1e1;
+}
+
+#eu_vat_by_country_report_header .options h4 {
+	margin: 8px 0 4px 0;
+}
+
+#eu_vat_by_country_report_header .options ul {
+	margin: 2px 0 4px;
+}
+
+/*** Product settings ***/
+#woocommerce-product-data .euva.product_settings .section_header .title {
+	height: 24px;
+}
+
+#woocommerce-product-data .euva.product_settings .wc-metaboxes-wrapper {
+	width: 99%;
+}
+
+#woocommerce-product-data .euva.product_settings .wc-metabox-content {
+	border-top: 1px dashed #C0C0C0;
+}
+
+#woocommerce-product-data .euva.product_settings.variation {
+	border-top: 1px dashed gray;
+}
+
+#woocommerce-product-data .euva.product_settings.variation h2.title {
+	margin: 0;
+	font-size: 120%;
+}
+
+#woocommerce-product-data .euva.product_settings input[type="checkbox"] {
+	width: 16px;
+}
+
+#woocommerce-product-data .euva.product_settings.variation .wc-metaboxes {
+	padding: 0 !important;
+}
+
+#woocommerce-product-data .euva.product_settings.variation .wc-metaboxes td {
+	width: auto;
+}
+
+#woocommerce-product-data .euva.product_settings.variation .wc-metaboxes {
+	margin-top: 0 !important;
+	border-bottom: none;
+}
+
+/*** Edit Order page ***/
+
+#order_data .order_data_column .form-field._billing_vat_number_field {
+	width: 100%;
+	clear: both;
+}

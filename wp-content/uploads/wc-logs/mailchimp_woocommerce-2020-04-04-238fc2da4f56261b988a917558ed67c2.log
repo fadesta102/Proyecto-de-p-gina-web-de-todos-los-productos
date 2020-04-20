@@ -1,0 +1,4 @@
+2020-04-04T08:08:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 147
+2020-04-04T08:08:52+00:00 NOTICE product_submit.success :: addStoreProduct :: #147
+2020-04-04T14:51:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 151
+2020-04-04T14:52:04+00:00 NOTICE product_submit.success :: addStoreProduct :: #151

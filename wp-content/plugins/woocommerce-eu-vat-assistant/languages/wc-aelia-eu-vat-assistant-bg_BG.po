@@ -1,0 +1,1077 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce EU VAT Assistant v1.1.4.150113\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-17 19:18+0100\n"
+"Last-Translator: Ivaylo Ivanov <ivanov.ivaylo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:53
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Error returned by BitPay. Error code: %s. Error message: %s - %s."
+msgstr "BitPay върна грешка. Код на грешката: %s. Съобщение на грешката: %s – %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:65
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exception occurred while retrieving the exchange rates from BitPay. Error message: %s."
+msgstr "Възникна изключение при извличане на обменните курсове от BitPay. Код на грешката: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:102
+#@ wc-aelia-eu-vat-assistant
+msgid "An unexpected error occurred while fetching exchange rates from BitPay. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Възникна неочаквана грешка при извличане на обменните курсове от BitPay. Най-честата причина за този проблем е липсата на разширението CURL за PHP. Уверете се, че в системата ви е инсталирано и конфигурирано PHP CURL."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:135
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by BitPay."
+msgstr "Не можа да се извърши пребазиране на ставките според базовата валута „%s“. Валутата не е открита в данните на BitPay."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:63
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Error returned by DNB. Error code: %s. Error message: %s - %s."
+msgstr "ДНБ върна грешка. Код на грешката: %s. Съобщение на грешката: %s – %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:75
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exception occurred while retrieving the exchange rates from DNB. Error message: %s."
+msgstr "Възникна изключение при извличане на обменните курсове от ДНБ. Съобщение на грешката: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:119
+#@ wc-aelia-eu-vat-assistant
+msgid "An unexpected error occurred while fetching exchange rates from DNB. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Възникна неочаквана грешка при извличане на обменните курсове от ДНБ. Най-честата причина за този проблем е липсата на разширението CURL за PHP. Уверете се, че в системата ви е инсталирано и конфигурирано PHP CURL."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:152
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by DNB."
+msgstr "Не можа да се извърши пребазиране на ставките според базовата валута „%s“. Валутата не е открита в данните на ДНБ."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:56
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Error returned by ECB. Error code: %s. Error message: %s - %s."
+msgstr "ЕЦБ върна грешка. Код на грешката: %s. Съобщение на грешката: %s – %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:68
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exception occurred while retrieving the exchange rates from ECB. Error message: %s."
+msgstr "Възникна изключение при извличане на обменните курсове от ЕЦБ. Съобщение на грешката: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:108
+#@ wc-aelia-eu-vat-assistant
+msgid "An unexpected error occurred while fetching exchange rates from ECB. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Възникна неочаквана грешка при извличане на обменните курсове от ЕЦБ. Най-честата причина за този проблем е липсата на разширението CURL за PHP. Уверете се, че в системата ви е инсталирано и конфигурирано PHP CURL."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:141
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by ECB."
+msgstr "Не можа да се извърши пребазиране на ставките според базовата валута „%s“. Валутата не е открита в данните на ЕЦБ."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:74
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Error returned by HMRC. Feed URLs used for retrieval: %s. Error code: %s. Error message: %s - %s."
+msgstr "Британската агенция по приходите (HMRC) върна грешка. Код на грешката: %s. Съобщение на грешката: %s – %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:89
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exception occurred while retrieving the exchange rates from HMRC. Feed URLs used for retrieval: %s. Error message: %s."
+msgstr "Възникна изключение при извличане на обменните курсове от Британската агенция по приходите (HMRC). Съобщение на грешката: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:143
+#@ wc-aelia-eu-vat-assistant
+msgid "An unexpected error occurred while fetching exchange rates from HMRC. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Възникна неочаквана грешка при извличане на обменните курсове от Британската агенция по приходите (HMRC). Най-честата причина за този проблем е липсата на разширението CURL за PHP. Уверете се, че в системата ви е инсталирано и конфигурирано PHP CURL."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:176
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by HMRC."
+msgstr "Не можа да се извърши пребазиране на ставките според базовата валута „%s“. Валутата не е открита в данните на Британската агенция по приходите (HMRC)."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:166
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Error returned fetching Irish Revenue HTML page. Error code: %s. Error message: %s - %s."
+msgstr "HTML страницата на Ирландската агенция по приходите върна грешка. Код на грешката: %s. Съобщение на грешката: %s – %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:178
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exception occurred while retrieving the exchange rates from Irish Revenue HTML page. Error message: %s."
+msgstr "Възникна изключение при извличане на обменните курсове от HTML страницата на Ирландската агенция по приходите. Съобщение на грешката: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:218
+#@ wc-aelia-eu-vat-assistant
+msgid "An unexpected error occurred while fetching exchange rates from IrishRevenueHTML. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Възникна неочаквана грешка при извличане на обменните курсове от HTML страницата на Ирландската агенция по приходите. Най-честата причина за този проблем е липсата на разширението CURL за PHP. Уверете се, че в системата ви е инсталирано и конфигурирано PHP CURL."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:251
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by IrishRevenueHTML."
+msgstr "Не можа да се извърши пребазиране на ставките според базовата валута „%s“. Валутата не е открита в данните на HTML страницата на Ирландската агенция по приходите."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:59
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Plugin requires \"%s\" PHP extension."
+msgstr "Разширението изисква разширение „%s“ за PHP."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:87
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Plugin \"%s\" must be version \"%s\" or later."
+msgstr "Разширението „%s“ трябва да е версия „%s“ или по-нова."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:100
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Plugin \"%s\" must be installed and activated."
+msgstr "Разширението „%s“ трябва да е инсталирано и активирано."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:121
+#@ wc-aelia-eu-vat-assistant
+msgid "Plugin requires PHP 5.3 or greater."
+msgstr "Разширението изисква PHP 5.3 или по-нова версия."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:207
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Plugin \"%s\" could not be loaded due to missing requirements."
+msgstr "Разширението „%s“ не е заредено, защото не са покрити всички изисквания."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:219
+#@ wc-aelia-eu-vat-assistant
+msgid "<b>Note</b>: even though the plugin might be showing as \"<b><i>active</i></b>\", it will not load and its features will not be available until its requirements are met. If you need assistance, on this matter, please <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+msgstr "<b>Забележка</b>: Дори разширението да се показва като „<b><i>активно</i></b>“, то няма да се зареди и функциите му няма да са активни, докато не се покрият изискванията за функционирането му. Ако ви е необходима съдействие за това, моля, <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">свържете се с екипа за поддръжка</a>."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:77
+#@ wc-aelia-eu-vat-assistant
+msgid "Update EU VAT Rates"
+msgstr "Актуализиране на ставките на ДДС в ЕС"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:78
+#@ wc-aelia-eu-vat-assistant
+msgid "using"
+msgstr "с използване на"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:79
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT"
+msgstr "ДДС"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:82
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT rates have been updated. Please review them, to ensure that they are correct, then click on \"Save changes\" to save the new rates."
+msgstr "Ставките на ДДС са актуализирани. Прегледайте ги, за да се уверите, че са правилни и след това щракнете върху „Запазване на промените“, за да запазите новите ставки."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:85
+#@ wc-aelia-eu-vat-assistant
+msgid "An error occurred retrieving the VAT rates, therefore this function cannot be used at the moment. Please try again by reloading the page later."
+msgstr "Възникна грешка при извличане на ставките на ДДС и затова функцията не може да се използва в момента. Опитайте да заредите наново страницата по-късно."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:87
+#@ wc-aelia-eu-vat-assistant
+msgid "Tax payable to Country"
+msgstr "Държава на данъчно задължение"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:90
+#@ wc-aelia-eu-vat-assistant
+msgid "Specify to which country this tax should be paid. Leave empty to use the country to which the tax is applied (i.e. the one in the Country Code column)."
+msgstr "Посочете на коя държава трябва да се плати този данък. Оставете празно, за да се използва държавата, за която е приложен данъкът (т.е. държавата в колоната за държавен код)."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:91
+#@ wc-aelia-eu-vat-assistant
+msgid "Auto"
+msgstr "Автоматично"
+
+#: src/lib/classes/integration/pdf_invoices_packing_slips/eu_invoice_helper.php:168
+#: src/plugin-main.php:1158
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT #:"
+msgstr "ДДС №"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:135
+#@ wc-aelia-eu-vat-assistant
+msgid "Currency for VAT returns:"
+msgstr "Валута за ДДС декларациите:"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:142
+#@ wc-aelia-eu-vat-assistant
+msgid "Items"
+msgstr "Продукти"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:143
+#@ wc-aelia-eu-vat-assistant
+msgid "Shipping"
+msgstr "Доставка"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:147
+#@ wc-aelia-eu-vat-assistant
+msgid "Payable to Country"
+msgstr "Държава на задължение"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:148
+#@ wc-aelia-eu-vat-assistant
+msgid "Country Code (Payable)"
+msgstr "Държавен код (по задължение)"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:149
+#@ wc-aelia-eu-vat-assistant
+msgid "Country"
+msgstr "Държава"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:150
+#@ wc-aelia-eu-vat-assistant
+msgid "Country Code (Applied)"
+msgstr "Държавен код (по приложимост)"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:151
+#@ wc-aelia-eu-vat-assistant
+msgid "Tax Rate"
+msgstr "Процент на данъка"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:152
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:154
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT Charged"
+msgstr "Таксуван ДДС"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:153
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:155
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT Refunded"
+msgstr "Върнат ДДС"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:156
+#@ wc-aelia-eu-vat-assistant
+msgid "Final VAT Total"
+msgstr "Общо краен ДДС"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:162
+#@ wc-aelia-eu-vat-assistant
+msgid "No VAT has been processed in this period"
+msgstr "За този период не е обработен ДДС"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:214
+#@ wc-aelia-eu-vat-assistant
+msgid "Totals"
+msgstr "Общо"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:80
+#@ wc-aelia-eu-vat-assistant
+msgid "Export CSV"
+msgstr "Експорт към CSV"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:95
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Q%d %d"
+msgstr "Тримес.%d %d"
+
+#: src/lib/classes/reporting/reports_manager.php:30
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Reports could not be found for this WooCommerce version. Supported version are from %s to: %s."
+msgstr "Не могат да бъдат намерени отчети в тази версия на WooCommerce. Поддържат се само от версия %s до %s."
+
+#: src/lib/classes/reporting/reports_manager.php:61
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT by Country"
+msgstr "ДДС в ЕС по държави"
+
+#: src/lib/classes/settings/settings-renderer.php:53
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Label not found for currency \"%s\""
+msgstr "Не е открит надпис за валутата „%s“"
+
+#: src/lib/classes/settings/settings-renderer.php:67
+#@ wc-aelia-eu-vat-assistant
+msgid "Checkout"
+msgstr "Страница за плащане"
+
+#: src/lib/classes/settings/settings-renderer.php:71
+#@ wc-aelia-eu-vat-assistant
+msgid "Self-certification"
+msgstr "Лична декларация"
+
+#: src/lib/classes/settings/settings-renderer.php:75
+#: src/lib/classes/settings/settings-renderer.php:117
+#: src/lib/classes/settings/settings-renderer.php:617
+#@ wc-aelia-eu-vat-assistant
+msgid "Currency"
+msgstr "Валута"
+
+#: src/lib/classes/settings/settings-renderer.php:79
+#@ wc-aelia-eu-vat-assistant
+msgid "Sales"
+msgstr "Продажби"
+
+#: src/lib/classes/settings/settings-renderer.php:83
+#: src/lib/classes/settings/settings-renderer.php:147
+#: src/lib/classes/settings/settings-renderer.php:155
+#@ wc-aelia-eu-vat-assistant
+msgid "Options"
+msgstr "Опции"
+
+#: src/lib/classes/settings/settings-renderer.php:87
+#@ wc-aelia-eu-vat-assistant
+msgid "Shortcuts"
+msgstr "Клавишни комбинации"
+
+#: src/lib/classes/settings/settings-renderer.php:91
+#@ wc-aelia-eu-vat-assistant
+msgid "Support"
+msgstr "Поддръжка"
+
+#: src/lib/classes/settings/settings-renderer.php:101
+#@ wc-aelia-eu-vat-assistant
+msgid "Checkout settings"
+msgstr "Настройки за страницата за плащане"
+
+#: src/lib/classes/settings/settings-renderer.php:109
+#@ wc-aelia-eu-vat-assistant
+msgid "Self-certification settings"
+msgstr "Настройки за лична декларация"
+
+#: src/lib/classes/settings/settings-renderer.php:124
+#@ wc-aelia-eu-vat-assistant
+msgid "Automatic update of exchange rates"
+msgstr "Автоматично актуализиране на обменните курсове"
+
+#: src/lib/classes/settings/settings-renderer.php:131
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange rates"
+msgstr "Обменни курсове"
+
+#: src/lib/classes/settings/settings-renderer.php:139
+#@ wc-aelia-eu-vat-assistant
+msgid "Sale restrictions"
+msgstr "Ограничения за продажба"
+
+#: src/lib/classes/settings/settings-renderer.php:163
+#@ wc-aelia-eu-vat-assistant
+msgid "Support Information"
+msgstr "Информация при оказване помощ"
+
+#: src/lib/classes/settings/settings-renderer.php:171
+#@ wc-aelia-eu-vat-assistant
+msgid "Debug"
+msgstr "Проследяване на грешки"
+
+#: src/lib/classes/settings/settings-renderer.php:184
+#@ wc-aelia-eu-vat-assistant
+msgid "Optional"
+msgstr "по желание"
+
+#: src/lib/classes/settings/settings-renderer.php:185
+#@ wc-aelia-eu-vat-assistant
+msgid "Always required"
+msgstr "винаги задължително"
+
+#: src/lib/classes/settings/settings-renderer.php:186
+#@ wc-aelia-eu-vat-assistant
+msgid "Required only for EU addresses"
+msgstr "задължително само за адреси в ЕС"
+
+#: src/lib/classes/settings/settings-renderer.php:187
+#@ wc-aelia-eu-vat-assistant
+msgid "Hidden"
+msgstr "скрито"
+
+#: src/lib/classes/settings/settings-renderer.php:191
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT number field will be"
+msgstr "Полето за европейския номер по ДДС ще бъде"
+
+#: src/lib/classes/settings/settings-renderer.php:208
+#@ wc-aelia-eu-vat-assistant
+msgid "Choose if you would like to display the EU VAT Number field, and how you would like to handle it.<ul class=\"description\"><li><strong>Optional</strong> - Customers can enter a EU VAT number to get VAT exemption.</li><li><strong>Always required</strong> - Customers must enter a valid EU VAT number to complete a purchase. This means that only B2B sales with EU businesses can be completed.</li><li><strong>Required only for EU addresses</strong> - Customers who select a billing country that is part of the EU must enter a valid EU VAT number to complete a purchase. Customer who select a non-EU country can proceed without entering the VAT number.</li><li><strong>Hidden</strong> - Customers will not be able to enter a EU VAT number. This option is useful if you do not plan to sell to EU businesses.</li></ul>"
+msgstr "Изберете дали искате да се показва полето за европейския номер по ДДС и по какъв начин.<ul class=\"description\"><li><strong>По желание</strong> – Клиентите могат да въведат европейски номер по ДДС, за да не се начислява ДДС.</li><li><strong>Винаги задължително</strong> – Клиентите трябва да въведат валиден европейски номер по ДДС, за да осъществят покупката. Това означава да се извършват само междуфирмени (B2B) продажби.</li><li><strong>Задължително само за адреси в ЕС</strong> – Клиентите, които посочат държава за фактуриране, която е страна членка на ЕС, трябва да въведат валиден европейски номер по ДДС, за да осъществят покупката. Клиентите, които посочат държава, която не е страна членка на ЕС, могат да продължат и без въвеждане на номер по ДДС.</li><li><strong>Скрито</strong> – Клиентите няма да могат да въведат европейски номер по ДДС. Тази опция може да се ползва, ако не планирате да продавате на фирми в ЕС.</li></ul>"
+
+#: src/lib/classes/settings/settings-renderer.php:213
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT field label"
+msgstr "Надпис на полето за европейски номер по ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:214
+#@ wc-aelia-eu-vat-assistant
+msgid "The label that will be displayed above the EU VAT field at checkout."
+msgstr "Този надпис ще се показва над полето за европейски номер по ДДС на страницата за плащане."
+
+#: src/lib/classes/settings/settings-renderer.php:219
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT field description"
+msgstr "Описание на полето за европейски номер по ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:220
+#@ wc-aelia-eu-vat-assistant
+msgid "A description that will be displayed above the EU VAT field at checkout."
+msgstr "Описанието ще се показва над полето за европейски номер по ДДС на страницата за плащане."
+
+#: src/lib/classes/settings/settings-renderer.php:224
+#@ wc-aelia-eu-vat-assistant
+msgid "Show EU VAT field when customer is located in base country"
+msgstr "Показване на полето за европейски номер по ДДС, когато клиентът се намира в държавата на онлайн магазина"
+
+#: src/lib/classes/settings/settings-renderer.php:226
+#@ wc-aelia-eu-vat-assistant
+msgid "Show the EU VAT field when customer address is located in any European country, including your shop's base country."
+msgstr "Показване на полето за европейски номер по ДДС, когато клиентът се намира в която и да е държава от ЕС, вкл. и държавата на онлайн магазина."
+
+#: src/lib/classes/settings/settings-renderer.php:230
+#@ wc-aelia-eu-vat-assistant
+msgid "Deduct VAT if customer is located in base country"
+msgstr "Премахване на ДДС, когато клиентът се намира в държавата на онлайн магазина"
+
+#: src/lib/classes/settings/settings-renderer.php:232
+#@ wc-aelia-eu-vat-assistant
+msgid "Enable this option to deduct VAT from orders placed by customers who are located in your shop's base country, if they enter a valid EU VAT number."
+msgstr "Активирайте тази опция, за да премахнете ДДС за клиенти, които се намират в същата държава, където е и вашия онлайн магазин, когато въведат валиден европейски номер по ДДС."
+
+#: src/lib/classes/settings/settings-renderer.php:236
+#@ wc-aelia-eu-vat-assistant
+msgid "Store invalid VAT numbers"
+msgstr "Записване на невалидните номера по ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:239
+#@ wc-aelia-eu-vat-assistant
+msgid "Enable this option to store VAT numbers that don't pass validation. Note: when an invalid VAT number is detected, VAT will still be applied."
+msgstr "Активирайте тази опция, за да се записват номерата, които не издържат проверката. Забележка: ДДС се начислява при невалиден номер по ДДС."
+
+#: src/lib/classes/settings/settings-renderer.php:243
+#@ wc-aelia-eu-vat-assistant
+msgid "Accept VAT numbers that cannot be validated due to server busy"
+msgstr "Приемане на номера по ДДС, които не могат да бъдат проверени заради претоварване на сървърите"
+
+#: src/lib/classes/settings/settings-renderer.php:249
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT numbers are validates using EU VIES service. Occasionally, the VIES server may return a \"busy\" response, which means that the VAT number was not processed and its validity is unknown. If you enable this option, a VAT number that cannot be validated due to the VIES server being busy will be accepted, and the customer will be considered exempt from VAT."
+msgstr "Номерата по ДДС се проверяват чрез системата VIES. Понякога сървърът на VIES може да върне отговор „заето“, което означава, че номерът по ДДС не е проверен и не е ясно дали е валиден. Ако разрешите тази опция, номерът по ДДС, който не може да бъде проверен поради заетост на сървъра за VIES, ще бъдат приет и клиентът ще се счита за освободен от ДДС."
+
+#: src/lib/classes/settings/settings-renderer.php:253
+#@ wc-aelia-eu-vat-assistant
+msgid "No (never show it)"
+msgstr "Не (никога не го показвай)"
+
+#: src/lib/classes/settings/settings-renderer.php:254
+#@ wc-aelia-eu-vat-assistant
+msgid "Yes (always show it)"
+msgstr "Да (винаги го показвай)"
+
+#: src/lib/classes/settings/settings-renderer.php:256
+#@ wc-aelia-eu-vat-assistant
+msgid "Only when there is insufficient evidence about customer's location"
+msgstr "Само когато няма достатъчно доказателства за местоположението на клиента"
+
+#: src/lib/classes/settings/settings-renderer.php:260
+#@ wc-aelia-eu-vat-assistant
+msgid "Allow customers to self-certify their location of residence"
+msgstr "Разрешаване на клиента лично да декларира местоживеенето си"
+
+#: src/lib/classes/settings/settings-renderer.php:266
+#@ wc-aelia-eu-vat-assistant
+msgid "Choose if you would like to display a \"self-certification\" field at checkout. By ticking the self-certification box, customers will be allowed to certify that the country entered as part of the billing address is their country of residence. Such declaration will be recorded with the completed order as part of the EU VAT evidence."
+msgstr "Изберете дали да се показва полето за „лична декларация“ на страницата за плащане. С поставянето на отметка е полето за лична декларация клиентите ще могат да декларират, че държавата, посочена в адреса за фактуриране, е държавата им на местоживеене. Тази декларация ще бъде записана в завършената поръчка като част от доказателството за платено ДДС в ЕС."
+
+#: src/lib/classes/settings/settings-renderer.php:270
+#@ wc-aelia-eu-vat-assistant
+msgid "Require self-certification when the evidence about location is insufficient"
+msgstr "Изискване за лична декларация, когато доказателството за местоположение е недостатъчно"
+
+#: src/lib/classes/settings/settings-renderer.php:278
+#@ wc-aelia-eu-vat-assistant
+msgid "<a href=\"http://en.wikipedia.org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU regulations require at least two pieces of non-conflicting evidence</a> to prove a customer's location (e.g. billing address, shipping address, IP address). If you enable this option, the self-certification will become mandatory unless at least two of these information will match the same country. <strong>Important</strong>: this rule applies only when the self-certification field is visible to the customer (see visibility options, above)."
+msgstr "<a href=\"http://en.wikipedia.org/wiki/European_Union_value_added_tax#EU_VAT_area\">Законодателството на ЕС изисква да се съберат най-малко две непротиворечащи си доказателства</a>, които потвърждава местоположението на клиента (напр. адрес за фактуриране, адрес за доставка, IP адрес). Ако активирате тази опция, личната декларация става няма да е задължителна, ако вече две от тези доказателства са потвърдили съвпадане на държавите; при противоречие – декларацията ще е задължителна. <strong>Важно</strong>: Това правило се прилага само когато полето за лична декларация е видимо за клиента (вж. опциите за видимост по-горе)."
+
+#: src/lib/classes/settings/settings-renderer.php:282
+#@ wc-aelia-eu-vat-assistant
+msgid "Consider the shipping address as valid location evidence"
+msgstr "Считане на адреса за доставка за валидно доказателство за местоположението"
+
+#: src/lib/classes/settings/settings-renderer.php:291
+#@ wc-aelia-eu-vat-assistant
+msgid "Tick this box if you would like to use the shipping address as evidence to validate customer's location. When this option is enabled, and the customer enters the same country in both billing and shipping address, the plugin will consider them two pieces of non contradictory evidence and it will no longer ask for self-certification. We would recommend that you discuss with your Revenue office the possibility of using the shipping address as evidence before enabling this option."
+msgstr "Отбележете това поле, ако искате да използвате адреса за доставка като доказателство за проверка на местоположението на клиента. Когато тази опция е активирана и клиентът въведе една и съща държава в адреса за фактуриране и доставка, това приложение ще ги счете за две отделни непротиворечащи се доказателства и няма да изисква лична декларация. Препоръчваме ви да обсъдите с вашата данъчна служба възможността за използване на адреса за доставка като доказателство преди активиране на тази опция."
+
+#: src/lib/classes/settings/settings-renderer.php:295
+#@ wc-aelia-eu-vat-assistant
+msgid "Hide the self-certification field when a valid VAT number is entered"
+msgstr "Скиване на полето за лична декларация, когато е въведен валиден номер по ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:300
+#@ wc-aelia-eu-vat-assistant
+msgid "Enable this option if you would like to hide the self-certification field at checkout even when the customer enters a valid VAT number. <strong>Important</strong>: when this option is enabled, if the customer will enter a valid VAT number the self-certification requirement above will be ignored."
+msgstr "Активирайте тази опция, ако искате да скриете полето за лина декларация на страницата за плащане, когато клиентът въведе валиден номер по ДДС. <strong>Важно</strong>: Когато тази опция е активирана и клиентът въведе валиден номер по ДДС, изискването за лична декларация ще бъде игнорирано."
+
+#: src/lib/classes/settings/settings-renderer.php:304
+#@ wc-aelia-eu-vat-assistant
+msgid "Self-certification field label"
+msgstr "Надпис на полето за лична декларация"
+
+#: src/lib/classes/settings/settings-renderer.php:308
+#@ wc-aelia-eu-vat-assistant
+msgid "The label that will be displayed above the self-certification field at checkout. You can use the <code>{billing_country}</code> placeholder to automatically show the billing country chosen by the customer."
+msgstr "Този надпис ще се показва над полето за европейски номер по ДДС на страницата за плащане. Може да използвате контейнер <code>{billing_country}</code>, за да извеждате държавата за фактуриране, посочена от клиента."
+
+#: src/lib/classes/settings/settings-renderer.php:313
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT Currency"
+msgstr "Валута за ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:322
+#@ wc-aelia-eu-vat-assistant
+msgid "EU regulations require that all payment and VAT amounts are indicated in the currency where your business is based. If you file your VAT reports in a currency different from shop's base currency, you can choose it here. <strong>Important:</strong> all VAT data will be calculated and stored with the orders as they are created. We strongly recommend to double check the currency you have selected, as changing it later could result in incorrect VAT reports being generated."
+msgstr "Законодателството на ЕС изисква всички плащания и суми на ДДС да бъдат указвани във валутата на държавата, в която оперира фирмата ви. Ако подавате отчетите си по ДДС във валута, различна от базовата валута на онлайн магазина ви, тогава можете да я изберете оттук. <strong>Важно:</strong> Всички данни за ДДС ще се изчисляват и съхраняват заедно с данните на поръчките при създаването им. Съветваме ви добре да проверите избраната от вас валута, тъй като по-късната й промяна може да доведе до генериране на неправилни отчети за ДДС."
+
+#: src/lib/classes/settings/settings-renderer.php:328
+#@ wc-aelia-eu-vat-assistant
+msgid "Tick this box to enable automatic updating of exchange rates."
+msgstr "Отбележете това поле, за да активирате автоматичното актуализиране на обменните курсове."
+
+#: src/lib/classes/settings/settings-renderer.php:337
+#@ wc-aelia-eu-vat-assistant
+msgid "Select how often you would like to update the exchange rates."
+msgstr "Изберете колко често да се актуализират обменните курсове."
+
+#: src/lib/classes/settings/settings-renderer.php:340
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "<p>Last update: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>Next update: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+msgstr "<p>Последна актуализация: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>Следваща актуализация: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+
+#: src/lib/classes/settings/settings-renderer.php:347
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange rates provider"
+msgstr "Източник на данни за обменните курсове"
+
+#: src/lib/classes/settings/settings-renderer.php:349
+#@ wc-aelia-eu-vat-assistant
+msgid "Select the Provider from which the exchange rates will be fetched."
+msgstr "Изберете източник, от който да се извличат данните за обменните курсове."
+
+#: src/lib/classes/settings/settings-renderer.php:357
+#@ wc-aelia-eu-vat-assistant
+msgid "Prevent sales to these countries"
+msgstr "Предотвратяване на продажби за следните държави"
+
+#: src/lib/classes/settings/settings-renderer.php:363
+#@ wc-aelia-eu-vat-assistant
+msgid "Here you can add a list of countries to which you do not want to sell. The countries in this list will not appear to the customer at any stage, thus preventing him from completing an order. Leave this field empty to allow sales to all countries configured in <strong>WooCommerce > Settings</strong> section."
+msgstr "Оттук можете да добавите списък с държави, на които не искате да продавате. Държавите в този списък няма да се показват на клиента на какъвто и да е етап, като по този начин не му позволявате да направи поръчка. Оставете това поле празно, ако искате да продавате на всички държави, конфигурирани в раздела <strong>WooCommerce > Настройки</strong>."
+
+#: src/lib/classes/settings/settings-renderer.php:368
+#@ wc-aelia-eu-vat-assistant
+msgid "Decimals for VAT rounding"
+msgstr "Десетичен знак за закръгляване на ДДС"
+
+#: src/lib/classes/settings/settings-renderer.php:373
+#@ wc-aelia-eu-vat-assistant
+msgid "The amount of decimals to use when rounding VAT. This setting applies when the VAT evidence is generated (for example during the conversion of VAT totals to the appropriate VAT currency). If you are not sure of how many decimals you should use, please contact your Revenue office."
+msgstr "До кой десетичен знак да се извършва закръгляването на стойността на ДДС. Тази настройка се прилага при генериране на доказателство за целите на ДДС (напр. при конвертиране на общата стойност на ДДС в съответната валута за ДДС). Ако не сте сигурни до кой знак да се извършва закръгляването, попитайте в ресорната ви данъчна служба."
+
+#: src/lib/classes/settings/settings-renderer.php:385
+#@ wc-aelia-eu-vat-assistant
+msgid "Enable debug mode."
+msgstr "Активиране на режима за проследяване на грешки."
+
+#: src/lib/classes/settings/settings-renderer.php:387
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "When debug mode is enabled, the plugin will log events to file <code>%s</code>."
+msgstr "Когато е активиран режимът за проследяване на грешки, разширението ще записва всички събития във файла <code>%s</code>."
+
+#: src/lib/classes/settings/settings-renderer.php:399
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT Assistant"
+msgstr "EU VAT Assistant"
+
+#: src/lib/classes/settings/settings-renderer.php:418
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT Assistant - Settings"
+msgstr "EU VAT Assistant – Настройки"
+
+#: src/lib/classes/settings/settings-renderer.php:429
+#@ wc-aelia-eu-vat-assistant
+msgid "In this page you can configure the settings for the EU VAT Assistant plugin."
+msgstr "На тази страница можете да конфигурирате настройките на разширението „EU VAT Assistant“."
+
+#: src/lib/classes/settings/settings-renderer.php:434
+#@ wc-aelia-eu-vat-assistant
+msgid "Here you can configure various parameters related to checkout."
+msgstr "Оттук можете да конфигурирате различни параметри, отнасящи се до страницата за плащане."
+
+#: src/lib/classes/settings/settings-renderer.php:438
+#@ wc-aelia-eu-vat-assistant
+msgid "This page requires JavaScript to work properly. Please enable JavaScript in your browser and refresh the page.</u>."
+msgstr "За да работи тази страница правилно, е необходим JavaScript. Активирайте използването на JavaScript в браузъра ви и обновете страницата.</u>."
+
+#: src/lib/classes/settings/settings-renderer.php:444
+#@ wc-aelia-eu-vat-assistant
+msgid "Here you can decide to display an additional self-certification field that customers can use to confirm their country of residence."
+msgstr "Оттук може да изберете дали да се показва допълнително поле за лична декларация, чрез която клиентите да потвърдят своето местожителство."
+
+#: src/lib/classes/settings/settings-renderer.php:463
+#@ wc-aelia-eu-vat-assistant
+msgid "These exchange rates will be used to convert the order amounts (totals, VAT, etc) in the currency you use to file your VAT returns. <strong>Important</strong>: you can enter the exchange rates manually, if you wish, but please make sure that they are in line with the values that your Revenue office would consider acceptable. The responsibility of ensuring that the rates are correct lies upon you. If you are in doubt, please contact your revenue office to determine which exchange rates they would consider acceptable. Most revenue offices have their own list of exchange rates, which you can enter here."
+msgstr "Тези обменни курсове ще се използват за конвертиране на сумите по поръчките (обща стойност, ДДС и др.) във валутата, която използвате за подаване на декларации по ДДС. <strong>Важно:</strong> Можете да въведете обменните курсове ръчно, ако желаете, но непременно се уверете дали отговарят на изискванията на вашата данъчна служба. Вие носите отговорността за точността на обменните курсове. Ако не сте сигурни, попитайте вашата данъчна служба кои обменните курсове са допустими. Повечето данъчни служби имат свой списък с обменни курсове, който можете да въведете тук."
+
+#: src/lib/classes/settings/settings-renderer.php:470
+#@ wc-aelia-eu-vat-assistant
+msgid "To set an exchange rate manually, tick the box next to the exchange rate field for the desired currency and enter the rate in the exchange rate field itself. The checkbox next to the \"<strong>Set manually</strong>\" label will select/deselect the checkboxes for all the currencies. <strong>Important</strong>: ensure that all exchange rates you flagged to be entered manually are filled. An empty exchange rate could lead to unpredictable results, as it's intepreted as zero."
+msgstr "За да зададете обменен курс ръчно, поставете отметка в полето за обменен курс на желаната валута и въведете стойността самото поле. С поставяне на отметка в полето „<strong>Ръчно задаване</strong>“ се избират или се премахва селекцията на полетата за всичките валути. <strong>Важно:</strong> Уверете се, че са попълнени всички обменни курсове, които сте отбелязали за ръчно въвеждане. При оставяне на празно поле за обменен курс резултатите са непредвидими, тъй като празната стойност се интерпретира като нула."
+
+#: src/lib/classes/settings/settings-renderer.php:478
+#@ wc-aelia-eu-vat-assistant
+msgid "Miscellaneous options."
+msgstr "Други опции."
+
+#: src/lib/classes/settings/settings-renderer.php:486
+#@ wc-aelia-eu-vat-assistant
+msgid "This section contains some convenient links to the sections of WooCommerce relevant to EU VAT compliance"
+msgstr "В този раздел са дадени някои удобни връзки към раздели на WooCommerce, свързани с покриване на изискванията за ДДС в ЕС."
+
+#: src/lib/classes/settings/settings-renderer.php:490
+#@ wc-aelia-eu-vat-assistant
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/lib/classes/settings/settings-renderer.php:495
+#@ wc-aelia-eu-vat-assistant
+msgid "Tax Settings"
+msgstr "Настройки за данъците"
+
+#: src/lib/classes/settings/settings-renderer.php:502
+#@ wc-aelia-eu-vat-assistant
+msgid "Reports"
+msgstr "Отчети"
+
+#: src/lib/classes/settings/settings-renderer.php:507
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT By Country"
+msgstr "ДДС в ЕС по държави"
+
+#: src/lib/classes/settings/settings-renderer.php:522
+#@ wc-aelia-eu-vat-assistant
+msgid "We designed this plugin to be robust and effective, as well as intuitive and easy to use. However, we are aware that, despite all best efforts, issues can arise and that there is always room for improvement."
+msgstr "Създадохме това разширение да работи стабилно и ефективно, но също така и да бъде интуитивно и лесно за използване. Въпреки това сме наясно, че въпреки всичките ни усилия може да възникнат проблеми и винаги ще има възможност за подобрения."
+
+#: src/lib/classes/settings/settings-renderer.php:526
+#@ wc-aelia-eu-vat-assistant
+msgid "Should you need assistance, or if you just would like to get in touch with us, please use one of the links below."
+msgstr "Ако се нуждаете от помощ или искате да се свържете с нас, използвайте някоя от връзките по-долу."
+
+#: src/lib/classes/settings/settings-renderer.php:533
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "<span class=\"label\">To request support</span>, please use our <a href=\"%s\">Support portal</a>. The portal also contains a Knowledge Base, where you can find the answers to the most common questions related to our products."
+msgstr "<span class=\"label\">Ако се нуждаете от помощ</span>, моля, използвайте нашия <a href=\"%s\">портал за поддръжка</a>. Порталът съдържа и статии с база знания, където можете да откриете отговор на най-честите въпроси, свързани с продуктите ни."
+
+#: src/lib/classes/settings/settings-renderer.php:536
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "<span class=\"label\">To send us general feedback</span>, suggestions, or enquiries, please use the <a href=\"%s\">contact form on our website.</a>"
+msgstr "<span class=\"label\">Ако искате да ни изпратите някакъв отзив от по-общ характер</span>, предложения или запитвания, моля, използвайте <a href=\"%s\">формуляра за връзка, намиращ се на уеб сайта ни.</a>"
+
+#: src/lib/classes/settings/settings-renderer.php:552
+#@ wc-aelia-eu-vat-assistant
+msgid "Save and update exchange rates"
+msgstr "Запази и актуализирай обменните курсове"
+
+#: src/lib/classes/settings/settings-renderer.php:607
+#@ wc-aelia-eu-vat-assistant
+msgid "Argument \"exchange_rates\" must be an array."
+msgstr "Аргументът „exchange_rates“ трябва да е масив."
+
+#: src/lib/classes/settings/settings-renderer.php:618
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange Rate"
+msgstr "Обменен курс"
+
+#: src/lib/classes/settings/settings-renderer.php:620
+#@ wc-aelia-eu-vat-assistant
+msgid "Set Manually"
+msgstr "Ръчно задаване"
+
+#: src/lib/classes/settings/settings.php:114
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT Number"
+msgstr "Европейски номер по ДДС"
+
+#: src/lib/classes/settings/settings.php:115
+#@ wc-aelia-eu-vat-assistant
+msgid "Enter your EU VAT Number (if any). Country prefix is not required."
+msgstr "Въведете европейски номер по ДДС (ако имате), без да посочвате префикса за държавата."
+
+#: src/lib/classes/settings/settings.php:126
+#@ wc-aelia-eu-vat-assistant
+msgid "I am established, have my permanent address, or usually reside within <strong>{billing_country}</strong>."
+msgstr "Декларирам, че постоянният ми адрес, обичайното ми местожителството или седалището на фирмата ми се намира в <strong>{billing_country}</strong>."
+
+#: src/lib/classes/settings/settings.php:259
+#@ wc-aelia-eu-vat-assistant
+msgid "Not Scheduled"
+msgstr "Не е планирано"
+
+#: src/lib/classes/settings/settings.php:270
+#@ wc-aelia-eu-vat-assistant
+msgid "Never updated"
+msgstr "Никога не са актуализирани"
+
+#: src/lib/classes/settings/settings.php:375
+#@ wc-aelia-eu-vat-assistant
+msgid "Not available"
+msgstr "Няма налични"
+
+#: src/lib/classes/settings/settings.php:438
+#@ wc-aelia-eu-vat-assistant
+msgid "Settings saved. Exchange rates have been updated."
+msgstr "Настройките са запазени. Обменните курсове са актуализирани."
+
+#: src/lib/classes/settings/settings.php:503
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Attempted to register class \"%s\" as an Exchange Rates model, but the class does not exist, or does not implement Aelia\\WC\\IExchangeRatesModel interface."
+msgstr "Извършен е опит за регистриране на клас „%s“ като модел за обменните курсове, но класът не съществува или не внедрява интерфейса Aelia\\WC\\IExchangeRatesModel."
+
+#: src/lib/classes/settings/settings.php:522
+#@ wc-aelia-eu-vat-assistant
+msgid "BitPay"
+msgstr "BitPay"
+
+#: src/lib/classes/settings/settings.php:523
+#@ wc-aelia-eu-vat-assistant
+msgid "ECB"
+msgstr "Европейската централна банка (ЕЦБ)"
+
+#: src/lib/classes/settings/settings.php:524
+#@ wc-aelia-eu-vat-assistant
+msgid "HMRC (UK)"
+msgstr "Британската агенция по приходите (HMRC)"
+
+#: src/lib/classes/settings/settings.php:525
+#@ wc-aelia-eu-vat-assistant
+msgid "Irish Revenue (HTML) - WARNING: experimental, may not always work!"
+msgstr "Ирландската агенция по приходите (HTML страница) – ВНИМАНИЕ: експериментална функция, може да не работи!"
+
+#: src/lib/classes/settings/settings.php:526
+#@ wc-aelia-eu-vat-assistant
+msgid "Danish National Bank"
+msgstr "Датската национална банка"
+
+#: src/lib/classes/settings/settings.php:620
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Some exchange rates entered manually are invalid. Please review the rates for the following currencies: %s."
+msgstr "Някои ръчно въведените обменни курсове може да са невалидни. Прегледайте ставките за следните валути: %s."
+
+#: src/lib/classes/tools/eu_vat_validation.php:164
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "An empty or invalid VAT number was passed for validation. The VAT number should contain several digits, without the country prefix. Received VAT number: \"%s\"."
+msgstr "Празен или невалиден номер по ДДС е изпратен за проверка. Номерът по ДДС трябва да съдържа няколко цифри, без префикс за държавата. Получен номер по ДДС: „%s“."
+
+#: src/lib/classes/tools/eu_vat_validation.php:171
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "A VAT prefix could not be found for the specified country. Received country code: \"%s\"."
+msgstr "Не е открит ДДС префикс за дадената държава. Получен държавен код: „%s“."
+
+#: src/lib/classes/tools/eu_vat_validation.php:235
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "An error occurred initialising SOAP client. Error message: \"%s\"."
+msgstr "Възникна грешка при инициализиране на SOAP клиента. Съобщение за грешка: „%s“."
+
+#: src/plugin-main.php:118
+#@ wc-aelia-eu-vat-assistant
+msgid "Standard rates"
+msgstr "Стандартни ставки"
+
+#: src/plugin-main.php:119
+#@ wc-aelia-eu-vat-assistant
+msgid "Reduced rates"
+msgstr "Намалени ставки"
+
+#: src/plugin-main.php:120
+#@ wc-aelia-eu-vat-assistant
+msgid "Reduced rates (alternative)"
+msgstr "Намалени ставки (алтернативни)"
+
+#: src/plugin-main.php:121
+#@ wc-aelia-eu-vat-assistant
+msgid "Super reduced rates"
+msgstr "Свръхнамалени ставки"
+
+#: src/plugin-main.php:122
+#@ wc-aelia-eu-vat-assistant
+msgid "Parking rates"
+msgstr "Паркинг ставки"
+
+#: src/plugin-main.php:188
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Could not fetch EU VAT rates from remote site. Error(s): \"%s\". Remote site: \"%s\"."
+msgstr "Не могат да се извлекат ставките на ДДС в ЕС от сайта. Грешка: „%s“. Сайт: „%s“."
+
+#: src/plugin-main.php:197
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Unexpected response returned by EU VAT rates site. Returned data: \"%s\". Remote site: \"%s\"."
+msgstr "Сайтът за ставките на ДДС в ЕС върна неочакван отговор. Върнати данни: „%s“. Сайт: „%s“."
+
+#: src/plugin-main.php:404
+#@ wc-aelia-eu-vat-assistant
+msgid "Add European Union countries"
+msgstr "Всички страни членки на ЕС"
+
+#: src/plugin-main.php:527
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Currency conversion - %s currency not valid or exchange rate not found for: \"%s\". Please make sure that the EU VAT assistant plugin is configured correctly and that an Exchange Rate has been specified for each of the available currencies."
+msgstr "Обмяна на валута – „%s“ е невалидна валута или не е открит обменен курс за „%s“. Уверете се, че „EU VAT Assistant“ е конфигуриран правилно и че е зададен обменен курс за всяка от наличните валути."
+
+#: src/plugin-main.php:531
+#@ wc-aelia-eu-vat-assistant
+msgid "Source"
+msgstr "Източник"
+
+#: src/plugin-main.php:542
+#@ wc-aelia-eu-vat-assistant
+msgid "Destination"
+msgstr "Дестинация"
+
+#: src/plugin-main.php:554
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Stack trace: %s"
+msgstr "Проследяване на стека: %s"
+
+#: src/plugin-main.php:748
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Setting customer VAT exemption. Customer country: \"%s\". Number: \"%s\"."
+msgstr "Задаване на освобождаване на клиента от ДДС. Държава на клиента: „%s“. Номер: „%s“."
+
+#: src/plugin-main.php:805
+#@ wc-aelia-eu-vat-assistant
+msgid "EU VAT Number field was hidden by plugin configuration. Customer cannot be made VAT exempt."
+msgstr "Полето за европейски номер по ДДС е скрито, според настройките на разширението. Клиентът не може да бъде освободен от ДДС."
+
+#: src/plugin-main.php:807
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT exemption check completed. Customer exemption: %d. Result: %d."
+msgstr "Завършена е проверката за освобождаване от ДДС. Освобождаване на клиента: %d. Резултат: %d."
+
+#: src/plugin-main.php:979
+#@ wc-aelia-eu-vat-assistant
+msgid "Unfortunately, we could not collect sufficient information to confirm your location. To proceed with the order, please tick the box below the billing details to confirm that you will be using the product(s) in country you selected."
+msgstr "За съжаление не можахме да съберем достатъчно данни за потвърждение на местоположението ви. За да продължите с поръчката си, отбележете полето под данните ви за фактуриране, за да потвърдите, че ще използвате продукта или продуктите в посочената държава."
+
+#: src/plugin-main.php:1022
+#@ wc-aelia-eu-vat-assistant
+msgid "You must enter a valid EU VAT number to complete the purchase."
+msgstr "Трябва да въведете валиден европейски номер по ДДС, за да осъществите покупката."
+
+#: src/plugin-main.php:1035
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT number \"%s\" is not valid for your country."
+msgstr "Номерът по ДДС „%s“ не е валиден за вашата държава."
+
+#: src/plugin-main.php:1066
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT information"
+msgstr "Информация за ДДС"
+
+#: src/plugin-main.php:1123
+#@ wc-aelia-eu-vat-assistant
+msgid "<strong>EU VAT Assistant</strong> is almost ready! Please go to <code>WooCommerce > EU VAT Assistant</code> settings page to complete the configuration and start collecting the information required for EU VAT compliance."
+msgstr "<strong>EU VAT Assistant</strong> е почти готов! Отидете на страницата за настройки <code>WooCommerce > EU VAT Assistant</code>, за да довършите конфигурирането и да започнете със събирането на данни, необходими за покривания на изискванията за ДДС в ЕС."
+
+#: src/plugin-main.php:1126
+#@ wc-aelia-eu-vat-assistant
+msgid "Go to EU VAT Assistant settings"
+msgstr "Към настройките на EU VAT Assistant"
+
+#: src/views/admin/order-vat-info-box.php:12
+#@ wc-aelia-eu-vat-assistant
+msgid "Items VAT"
+msgstr "ДДС за продуктите"
+
+#: src/views/admin/order-vat-info-box.php:13
+#: src/views/admin/order-vat-info-box.php:16
+#@ wc-aelia-eu-vat-assistant
+msgid "Shipping VAT "
+msgstr "ДДС за доставката "
+
+#: src/views/admin/order-vat-info-box.php:14
+#@ wc-aelia-eu-vat-assistant
+msgid "Items VAT refunded"
+msgstr "Върнат ДДС за продуктите"
+
+#: src/views/admin/order-vat-info-box.php:15
+#@ wc-aelia-eu-vat-assistant
+msgid "Shipping VAT refunded"
+msgstr "Върнат ДДС за доставката"
+
+#: src/views/admin/order-vat-info-box.php:17
+#: src/views/admin/order-vat-info-box.php:231
+#@ wc-aelia-eu-vat-assistant
+msgid "Total VAT"
+msgstr "Общо ДДС"
+
+#: src/views/admin/order-vat-info-box.php:25
+#@ wc-aelia-eu-vat-assistant
+msgid "Customer located in EU"
+msgstr "Клиент в ЕС"
+
+#: src/views/admin/order-vat-info-box.php:26
+#@ wc-aelia-eu-vat-assistant
+msgid "Billing country"
+msgstr "Държава на фактуриране"
+
+#: src/views/admin/order-vat-info-box.php:27
+#@ wc-aelia-eu-vat-assistant
+msgid "Shipping country"
+msgstr "Държава на доставка"
+
+#: src/views/admin/order-vat-info-box.php:28
+#@ wc-aelia-eu-vat-assistant
+msgid "Customer's IP address"
+msgstr "IP адрес на клиента"
+
+#: src/views/admin/order-vat-info-box.php:29
+#@ wc-aelia-eu-vat-assistant
+msgid "Country from IP address"
+msgstr "IP адрес на държавата"
+
+#: src/views/admin/order-vat-info-box.php:30
+#@ wc-aelia-eu-vat-assistant
+msgid "Customer self-certified location"
+msgstr "Местонахождение, декларирано от клиента"
+
+#: src/views/admin/order-vat-info-box.php:33
+#@ wc-aelia-eu-vat-assistant
+msgid "Customer's VAT number"
+msgstr "Номер по ДДС на клиента"
+
+#: src/views/admin/order-vat-info-box.php:34
+#@ wc-aelia-eu-vat-assistant
+msgid "Customer's VAT country"
+msgstr "Държава за ДДС на клиента"
+
+#: src/views/admin/order-vat-info-box.php:35
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT number validated"
+msgstr "Проверен номер по ДДС"
+
+#: src/views/admin/order-vat-info-box.php:188
+#@ wc-aelia-eu-vat-assistant
+msgid "No VAT was paid on this order."
+msgstr "По тази поръчка не е платен ДДС."
+
+#: src/views/admin/order-vat-info-box.php:193
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT Currency:"
+msgstr "Валута за ДДС:"
+
+#: src/views/admin/order-vat-info-box.php:200
+#, php-format
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange rate (%s to %s):"
+msgstr "Обменен курс (%s в %s):"
+
+#: src/views/admin/order-vat-info-box.php:209
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange rate retrieved on:"
+msgstr "Обменният курс се извлича от:"
+
+#: src/views/admin/order-vat-info-box.php:216
+#: src/views/admin/order-vat-info-box.php:225
+#@ wc-aelia-eu-vat-assistant
+msgid "Not recorded"
+msgstr "Няма запис"
+
+#: src/views/admin/order-vat-info-box.php:222
+#@ wc-aelia-eu-vat-assistant
+msgid "Exchange rate provider:"
+msgstr "Доставчик на данни за обменни курсове:"
+
+#: src/views/admin/order-vat-info-box.php:242
+#@ wc-aelia-eu-vat-assistant
+msgid "Totals by VAT rate"
+msgstr "Общо по ставка на ДДС"
+
+#: src/views/admin/order-vat-info-box.php:261
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT evidence"
+msgstr "Доказателство за ДДС"
+
+#: src/views/admin/order-vat-info-box.php:265
+#@ wc-aelia-eu-vat-assistant
+msgid "No VAT evidence was stored with this order."
+msgstr "За тази поръчка не е съхранено доказателство за ДДС."
+
+#: src/views/admin/order-vat-info-box.php:269
+#@ wc-aelia-eu-vat-assistant
+msgid "Location details"
+msgstr "Данни за местонахождението"
+
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+#@ wc-aelia-eu-vat-assistant
+msgid "yes"
+msgstr "да"
+
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+#@ wc-aelia-eu-vat-assistant
+msgid "no"
+msgstr "не"
+
+#: src/views/admin/order-vat-info-box.php:277
+#@ wc-aelia-eu-vat-assistant
+msgid "Exemption details"
+msgstr "Данни за данъчно освобождаване"
+
+#: src/views/admin/order-vat-info-box.php:287
+#@ wc-aelia-eu-vat-assistant
+msgid "N/A"
+msgstr "Няма данни"
+
+#: src/views/frontend/checkout-eu-vat-field.php:22
+#@ wc-aelia-eu-vat-assistant
+msgid "VAT Number"
+msgstr "ДДС номер"
+
+#: src/views/frontend/checkout-self-certification-field.php:13
+#@ wc-aelia-eu-vat-assistant
+msgid "Due to European regulations, we have to ask you to confirm your location."
+msgstr "Законодателството на Европейския съюз ни задължава да изискаме от вас да потвърдите местонахождението си."

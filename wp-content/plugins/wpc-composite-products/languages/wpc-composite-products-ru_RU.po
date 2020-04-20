@@ -1,0 +1,386 @@
+# Copyright (C) 2019 WPC Composite Products for WooCommerce
+# This file is distributed under the same license as the WPC Composite Products for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Composite Products for WooCommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wpc-composite-products/index.php:61, wpc-composite-products/index.php:550
+msgid "Select options"
+msgstr "Выбрать опции"
+
+#: wpc-composite-products/index.php:66, wpc-composite-products/index.php:556
+msgid "Read more"
+msgstr "Подробнее"
+
+#: wpc-composite-products/index.php:76, wpc-composite-products/index.php:567
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: wpc-composite-products/index.php:320
+msgid "remove"
+msgstr "удалить"
+
+#: wpc-composite-products/index.php:325
+msgid "Name"
+msgstr "Название"
+
+#: wpc-composite-products/index.php:334
+msgid "Description"
+msgstr "Описание"
+
+#: wpc-composite-products/index.php:343
+msgid "Source"
+msgstr "Источник"
+
+#: wpc-composite-products/index.php:348
+msgid "Select source"
+msgstr "Выбрать источник"
+
+#: wpc-composite-products/index.php:350
+msgid "Categories"
+msgstr "Категории"
+
+#: wpc-composite-products/index.php:353
+msgid "Products"
+msgstr "Товары"
+
+#: wpc-composite-products/index.php:375
+msgid "Optional"
+msgstr "Опционально"
+
+#: wpc-composite-products/index.php:380, wpc-composite-products/index.php:404,
+#: wpc-composite-products/index.php:530, wpc-composite-products/index.php:604,
+#: wpc-composite-products/index.php:623, wpc-composite-products/index.php:638,
+#: wpc-composite-products/index.php:1446
+msgid "No"
+msgstr "Нет"
+
+#: wpc-composite-products/index.php:383, wpc-composite-products/index.php:407,
+#: wpc-composite-products/index.php:526, wpc-composite-products/index.php:600,
+#: wpc-composite-products/index.php:634
+msgid "Yes"
+msgstr "Да"
+
+#: wpc-composite-products/index.php:390
+msgid "Quantity"
+msgstr "Количество"
+
+#: wpc-composite-products/index.php:399
+msgid "Custom quantity"
+msgstr "Настраиваемое количество"
+
+#: wpc-composite-products/index.php:414
+msgid "Min"
+msgstr "Мин."
+
+#: wpc-composite-products/index.php:423
+msgid "Max"
+msgstr "Макс."
+
+#: wpc-composite-products/index.php:437, wpc-composite-products/index.php:437
+msgid "Composite Products"
+msgstr "Составные товары"
+
+#: wpc-composite-products/index.php:447
+msgid "WPC Composite Products"
+msgstr "WPC Composite Products"
+
+#: wpc-composite-products/index.php:450
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"Спасибо за использование нашего плагина! Если вы удовлетворены, пожалуйста, "
+"вознаградите его рейтингом из пяти звёзд %s."
+
+#: wpc-composite-products/index.php:453
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: wpc-composite-products/index.php:455
+msgid "Changelog"
+msgstr "Список изменений"
+
+#: wpc-composite-products/index.php:457
+msgid "Discussion"
+msgstr "Обсуждения"
+
+#: wpc-composite-products/index.php:464
+msgid "How to use?"
+msgstr "Как использовать?"
+
+#: wpc-composite-products/index.php:468, wpc-composite-products/index.php:749
+msgid "Settings"
+msgstr "Настройки"
+
+#: wpc-composite-products/index.php:472, wpc-composite-products/index.php:750
+msgid "Premium Version"
+msgstr "Premium-версия"
+
+#: wpc-composite-products/index.php:480
+msgid ""
+"When creating the product, please choose product data is \"Composite product"
+"\" then you can see the search field to start search and add component "
+"products."
+msgstr ""
+"При создании товара выберите \"Составной товар\" и увидете поле для поиска и "
+"последующего добавления других доваров как компонентов составного товара."
+
+#: wpc-composite-products/index.php:492
+msgid "General"
+msgstr "Общие"
+
+#: wpc-composite-products/index.php:496
+msgid "Price format"
+msgstr "Формат цены"
+
+#: wpc-composite-products/index.php:499
+msgid "From regular price"
+msgstr "От базовой цены"
+
+#: wpc-composite-products/index.php:500
+msgid "From sale price"
+msgstr "От цены распродажи"
+
+#: wpc-composite-products/index.php:501
+msgid "Regular and sale price"
+msgstr "Базовая цена и цена распродажи"
+
+#: wpc-composite-products/index.php:504
+msgid "Choose the price format for composite on the shop page."
+msgstr "Выберите формат цены для составного товара на странице магазина"
+
+#: wpc-composite-products/index.php:510
+msgid "Composite products"
+msgstr "Составные товары"
+
+#: wpc-composite-products/index.php:514
+msgid "Total price text"
+msgstr "Текст для итоговой цены"
+
+#: wpc-composite-products/index.php:517
+msgid "Total price:"
+msgstr "Итого:"
+
+#: wpc-composite-products/index.php:521
+msgid "Product link"
+msgstr "Ссыллка на товар"
+
+#: wpc-composite-products/index.php:533
+msgid "Add the link to the selected product below the selection."
+msgstr "Добавить ссылку на выбранный товар под выделением"
+
+#: wpc-composite-products/index.php:539
+msgid "\"Add to Cart\" button labels"
+msgstr "Текст кнопки \"В корзину\""
+
+#: wpc-composite-products/index.php:542
+msgid "Leave blank if you want to use the default text and can be translated."
+msgstr ""
+"Оставьте пустым, если нужно использовать текст по-умолчанию (который может "
+"быть переведён)"
+
+#: wpc-composite-products/index.php:546
+msgid "Archive/shop page"
+msgstr "Архив/Магазин"
+
+#: wpc-composite-products/index.php:552
+msgid "For purchasable composite."
+msgstr "Для продаваемых составных товаров."
+
+#: wpc-composite-products/index.php:558
+msgid "For un-purchasable composite."
+msgstr "Для не продаваемых составных товаров."
+
+#: wpc-composite-products/index.php:563
+msgid "Single product page"
+msgstr "Отдельная страница товара"
+
+#: wpc-composite-products/index.php:572
+msgid "Cart & Checkout"
+msgstr "Корзина и оплата"
+
+#: wpc-composite-products/index.php:576
+msgid "Cart contents count"
+msgstr "Счётчик содержимого корзины"
+
+#: wpc-composite-products/index.php:581
+msgid "Composite only"
+msgstr "Только составные товары"
+
+#: wpc-composite-products/index.php:585
+msgid "Component products only"
+msgstr "Только товары-компоненты"
+
+#: wpc-composite-products/index.php:589
+msgid "Both composite and component products"
+msgstr "И составные товары, и товары-компоненты"
+
+#: wpc-composite-products/index.php:595
+msgid "Hide composite name before component products"
+msgstr "Скрыть название комплекта перед товарами-компонентами"
+
+#: wpc-composite-products/index.php:610
+msgid "Hide component products on cart & checkout page"
+msgstr "Скрыть составные товары на страницах корзины/оплаты"
+
+#: wpc-composite-products/index.php:615
+msgid "Yes, just show the composite"
+msgstr "Да, просто показать составной товар"
+
+#: wpc-composite-products/index.php:619
+msgid "Yes, but show component product names under the composite"
+msgstr "Да, и показать названия компонентов в составном товаре"
+
+#: wpc-composite-products/index.php:629
+msgid "Hide component products on mini-cart"
+msgstr "Скрыть товары-компоненты в мини-корзине"
+
+#: wpc-composite-products/index.php:642
+msgid "Hide component products, just show the main composite on mini-cart."
+msgstr ""
+"Скрыть товары-компоненты в мини-корзине, просто показать составной товар в "
+"мини-корзине"
+
+#: wpc-composite-products/index.php:648
+msgid "Advance"
+msgstr "Аванс"
+
+#: wpc-composite-products/index.php:652
+msgid "Method"
+msgstr "Способ"
+
+#: wpc-composite-products/index.php:657
+msgid "SESSION"
+msgstr "SESSION"
+
+#: wpc-composite-products/index.php:661
+msgid "COOKIE"
+msgstr "COOKIE"
+
+#: wpc-composite-products/index.php:664
+msgid ""
+"The method was used to save the data. Please only try to switch this option "
+"when the default does not work."
+msgstr ""
+"Метод для сохранения данных. Используйте эту опцию, если настройка по-"
+"умолчанию не работает."
+
+#: wpc-composite-products/index.php:670
+msgid "Update Options"
+msgstr "Сохранить настройки"
+
+#: wpc-composite-products/index.php:705
+msgid "Open product page"
+msgstr "Открыть страницу плагина"
+
+#: wpc-composite-products/index.php:710
+msgid "saved"
+msgstr "сохранено"
+
+#: wpc-composite-products/index.php:764
+msgid "Premium support"
+msgstr "Premium-поддержка"
+
+#: wpc-composite-products/index.php:948
+msgid "Have an error when adding this composite products to the cart."
+msgstr "Возникла ошибка при добавлении товара в корзину."
+
+#: wpc-composite-products/index.php:1067,
+#: wpc-composite-products/index.php:1090, wpc-composite-products/index.php:1213
+msgid "Components"
+msgstr "Компоненты"
+
+#: wpc-composite-products/index.php:1118
+msgid "(in %s)"
+msgstr "(в %s)"
+
+#: wpc-composite-products/index.php:1206
+msgid "Composite product"
+msgstr "Составной товар"
+
+#: wpc-composite-products/index.php:1244
+msgid "+ Add component"
+msgstr "+ Добавить товар-компонент"
+
+#: wpc-composite-products/index.php:1254
+msgid "Fixed price"
+msgstr "Фиксированная цена"
+
+#: wpc-composite-products/index.php:1257
+msgid ""
+"If yes, the composite will be sell with the price in General tab and don't "
+"change when selecting the component product"
+msgstr ""
+"Если да, то составной товар будет продан по цене на вкладке \"Общее\" и она "
+"не будет зависеть от товаров-компонентов"
+
+#: wpc-composite-products/index.php:1261
+msgid "Discount"
+msgstr "Скидка"
+
+#: wpc-composite-products/index.php:1271
+msgid "Shipping fee"
+msgstr "Доставка"
+
+#: wpc-composite-products/index.php:1274
+msgid "Apply to the whole composite"
+msgstr "Применить ко всему составному товару"
+
+#: wpc-composite-products/index.php:1275
+msgid "Apply to each component product"
+msgstr "Применить к каждому товару-компоненту"
+
+#: wpc-composite-products/index.php:1281
+msgid "Before text"
+msgstr "Текст перед"
+
+#: wpc-composite-products/index.php:1285
+msgid "The text before composite products"
+msgstr "Текст в начале составного товара"
+
+#: wpc-composite-products/index.php:1290
+msgid "After text"
+msgstr "Текст после"
+
+#: wpc-composite-products/index.php:1294
+msgid "The text after composite products"
+msgstr "Текст в конце составного товара"
+
+#: wpc-composite-products/index.php:1379, wpc-composite-products/index.php:1382
+msgid "From"
+msgstr "От"
+
+#: wpc-composite-products/index.php:1402
+msgid ""
+"The composite \"%s\" could not be added to your cart from order again "
+"button. Please buy it directly."
+msgstr ""
+"Составной товар \"%s\" не может быть добавлен в корзину кнопкой повторной "
+"покупки. Пожалуйста, купите товар заново."
+
+#: wpc-composite-products/index.php:1446
+msgid "Do not select products"
+msgstr "Не выбирать товары"
+
+#: wpc-composite-products/index.php:1465
+msgid "Qty:"
+msgstr "Кол-во:"

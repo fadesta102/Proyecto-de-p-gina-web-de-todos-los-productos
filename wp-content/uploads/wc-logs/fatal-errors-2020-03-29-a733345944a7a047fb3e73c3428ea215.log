@@ -1,0 +1,22 @@
+2020-03-29T09:08:03+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:08:04+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:08:05+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:08:05+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:23+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:26+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:26+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:39+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:41+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T09:09:41+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor/composer/autoload_classmap_package.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\consumibleslau\wp-content\plugins\jetpack\vendor\autoload_packages.php en la línea 184
+
+2020-03-29T10:09:39+00:00 CRITICAL Maximum execution time of 300 seconds exceeded en C:\xampp\htdocs\consumibleslau\wp-includes\Requests\Transport\cURL.php en la línea 463
+

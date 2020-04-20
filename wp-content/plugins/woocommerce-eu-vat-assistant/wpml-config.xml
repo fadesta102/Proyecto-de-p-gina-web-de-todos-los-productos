@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name="wc_aelia_eu_vat_assistant">
+      <key name="eu_vat_field_title" />
+      <key name="eu_vat_field_description" />
+      <key name="self_certification_field_title" />
+    </key>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,4 @@
+2020-04-13T06:35:21+00:00 CRITICAL Maximum execution time of 300 seconds exceeded en C:\xampp\htdocs\consumibleslau\wp-includes\Requests\Transport\cURL.php en la línea 463
+
+2020-04-13T10:44:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\consumibleslau\wp-content\plugins\mollie-payments-for-woocommerce\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php en la línea 41
+

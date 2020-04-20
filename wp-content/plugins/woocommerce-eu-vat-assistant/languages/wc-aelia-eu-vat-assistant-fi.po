@@ -1,0 +1,1683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce EU VAT Assistant v1.4.17.151109\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-09 21:30+0200\n"
+"Last-Translator: Arhi Paivarinta <info@swratkaisut.com>\n"
+"Language-Team: Arhi Paivarinta <info@swratkaisut.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: plugin header field 'Author'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "Aelia (Diego Zanella)"
+msgstr "Aelia (Diego Zanella)"
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "http://aelia.co"
+msgstr "http://aelia.co"
+
+#: src/lib/classes/settings/settings-renderer.php:248
+msgid "Show the EU VAT field when customer address is located in any European country, including your shop's base country. If this option is <strong>not</strong> selected, the EU VAT field will be hidden when the customer is from the same country specified as your shop's base country."
+msgstr "Näytä EU alv./VAT kenttä kun asiakkaan osoite on jossain Euroopan maassa, mukaan lukien kaupan sijaintimaa. Kun tätä <strong>ei ole</strong> valittuna niin EU alv./VAT kenttä piilotetaan kaupan maan asiakkailta."
+
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "https://aelia.co/shop/eu-vat-assistant-woocommerce/"
+msgstr "https://aelia.co/shop/eu-vat-assistant-woocommerce/"
+
+#. translators: plugin header field 'Version'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "1.4.16.151106"
+msgstr "1.4.16.151106"
+
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:319
+#: src/plugin-main.php:661
+#, php-format
+msgid "Order ID \"%s\". Invalid VAT Number parsed: \"%s\"."
+msgstr "Tilaustunnus/ID \"%s\". \"%s\" alv./VAT numero ei kelpaa."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:241
+#, php-format
+msgid "Plugin requires PHP %s or greater."
+msgstr "Lisäosa tarvitsee PHP-version %s tai uudemman."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:485
+msgid "Please review the missing requirements listed above, and ensure that all necessary plugins and PHP extensions are installed and loaded correctly. This plugin will work automatically as soon as all the requirements are met. If you need assistance on this matter, please <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+msgstr "Tarkasta yllä mainitut puutteet ja varmista, että kaikki tarvittavat lisäosat ja PHP laajennukset on asennettu ja käytössä. Tämä lisäosa toimii automaattisesti, kun kaikki edellytykset on täytetty. Jos tarvitset tukea tässä asiassa, ota yhteyttä <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">tukeen</a>."
+
+#: src/lib/classes/integration/admin/products_integration.php:60
+msgid "EU VAT"
+msgstr "EU alv./VAT"
+
+#: src/lib/classes/integration/admin/products_integration.php:123
+msgid "Bookable products can be rent or booked on a daily schedule"
+msgstr "Tilattavat tuotteet voidaan vuokrata tai tilata päivittäin"
+
+#: src/lib/classes/integration/frontend/frontend_integration.php:60
+msgctxt "placeholder"
+msgid "VAT Number"
+msgstr "Alv./VAT numero"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:99
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:124
+#, php-format
+msgid "Could not store row in table \"%s\" rates. Fields (JSON): \"%s\"."
+msgstr "Riviä ei voitu tallentaa tauluun \"%s\". Kentät (JSON): \"%s\"."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:124
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:158
+#, php-format
+msgid "VAT currency exchange rate not found for order id \"%s\". Fetching exchange rate from FX provider."
+msgstr "Alv./VAT valuuttakurssia ei löydetty tilaukselle jonka tunnus/ID on \"%s\". Valuuttakurssi noudetaan valuuttakurssien toimittajalta."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:226
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:277
+msgid "Could not prepare temporary table for the report. Please enable debug mode and tru again. If the issue persists, contact support and forward them the debug log produced by the plugin. For more information, please go to WooCommerce > EU VAT Assistant > Support."
+msgstr "Tilapäistä taulua ei kyetty valmistelemaan raporttia varten. Ota käyttöön testaustila ja yritä uudelleen. Jos virhe uusiutuu, ota yhteyttä tukeen ja liitä mukaan lisäosan tekemä testaus (debug) loki. Lisätietoja kohdassa WooCommerce > EU alv. avustaja > Tuki."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:277
+msgid "Year"
+msgstr "Vuosi"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:278
+msgid "Month"
+msgstr "Kuukausi"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:285
+msgid "No sales falling under INTRASTAT scheme have been found."
+msgstr "Ei löytynyt myyntejä jotka kuuluisivat INTRASTAT raportoinnin piiriin."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:309
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:361
+msgid "Total"
+msgstr "Yhteensä"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:340
+#, php-format
+msgid "%s-%s %d"
+msgstr "%s-%s %d"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:111
+#, php-format
+msgid "Creation of temporary table \"%s\" failed. Please check PHP error log for error messages related to the operation."
+msgstr "Tilapäisen taulun \"%s\" luonti epäonnistui. Tarkasta tapahtumaan liittyvät virheilmoitukset PHP virhelokissa."
+
+#: src/lib/classes/reporting/reports/base/base_report.php:126
+#, php-format
+msgid "Unexpected error occurred while creating temporary table \"%s\". Error message: \"%s\". Pleasecheck PHP error log for further details related to the operation."
+msgstr "Odottamaton virhe luotaessa tilapäistä taulua \"%s\". Virheilmoitus: \"%s\". Tarkasta PHP virheloki jossa on lisätietoja virheen laadusta."
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:323
+msgid "Order ID"
+msgstr "Tilauksen tunnus/ID"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:324
+msgid "Customer country"
+msgstr "Asiakkaan maa"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:325
+msgid "Customer VAT Number"
+msgstr "Asiakkaan alv./VAT numero"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:327
+msgid "Services"
+msgstr "Palvelut"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:328
+msgid "Triangulation"
+msgstr "3 osapuolta (<a href=\"http://www.revenue.ie/en/tax/vat/guide/intra-community-supplies.html#section9\" target=\"_blank\">Triangulation</a>)"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:334
+msgid "No sales falling under VIES scheme have been found."
+msgstr "Ei löytynyt myyntejä jotka kuuluisivat VIES raportoinnin piiriin."
+
+#: src/lib/classes/reporting/reports_manager.php:74
+#: src/lib/classes/settings/settings-renderer.php:577
+msgid "VIES"
+msgstr "Alv.-tietojen vaihtojärjestelmä (VIES)"
+
+#: src/lib/classes/reporting/reports_manager.php:82
+#: src/lib/classes/settings/settings-renderer.php:582
+msgid "INTRASTAT"
+msgstr "EU valtioiden välisen kaupan tilastointijärjestelmä (INTRASTAT)"
+
+#: src/plugin-main.php:755
+#, php-format
+msgid "EU VAT validation response (JSON): \"%s\"."
+msgstr "EU alv./VAT vahvistusvastaus (JSON): \"%s\"."
+
+#: src/views/admin/product_euva_section.php:8
+msgid "Click to toggle"
+msgstr "Vaihda tila painamalla"
+
+#: src/views/admin/product_euva_section.php:10
+msgid "VIES Settings"
+msgstr "VIES-asetukset"
+
+#: src/views/admin/product_euva_section.php:26
+msgid "This product is a service"
+msgstr "Tämä tuote on palvelu"
+
+#: src/views/admin/product_euva_section.php:28
+msgid "Tick this box if you want this product to be considered a service when generating the VIES report."
+msgstr "Valitse tämä ruutu jos haluat tämän tuotteen olevan palvelu VIES raportissa."
+
+#: src/views/admin/reports/eu-vat-report-header.php:178
+msgid "Choose how you would like to process refunds"
+msgstr "Valitse, kuinka hyvitykset käsitellään"
+
+#: src/views/admin/reports/eu-vat-report-header.php:182
+msgid "Here you can choose how you would like to process the refunds that could be included in the report."
+msgstr "Tässä voit valita kuinka raporttiin mahdollisesti sisällytettävät hyvitykset käsitellään."
+
+#: src/views/admin/reports/eu-vat-report-header.php:191
+msgid "Which refunds should I include in the report?"
+msgstr "Mitä hyvityksiä raporttiin pitäisi sisällyttää?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:196
+msgid "While this report was designed for VAT MOSS purposes, it can also be used for domestic VAT returns. You can find the data for your domestic VAT return in the \"Domestic\" section of the report (if applicable)."
+msgstr "Tämä raportti on suunniteltu alv./VAT MOSS ilmoituksia varten mutta sitä voi käyttää myös kotimaista alv./VAT ilmoitusta varten. Kotimaan tiedot löytyvät raportin \"Kotimaa\" (Domestic) osasta, jos niitä on."
+
+#: src/views/admin/reports/eu-vat-report-header.php:204
+msgid "EU VAT regulations indicate that refunds should be applied to the return related to the quarter in which the original order was placed. For example, if an order for 100 EUR is placed in March 2015, and a refund is granted in April 2015, the rule is that the original return for Q1 2015 should be amended."
+msgstr "EU:n alv./VAT säännösten mukaan hyvitykset pitää kohdistaa sen neljännesvuoden ilmoitukseen jolloin tilaus on tehty. Esimerkiksi, jos tilaus tehtiin maaliskuussa 2015 ja hyvitys tapahtui huhtikuussa 2015 niin säännösten mukaan on muutettava alkuperäistä - 1. vuosineljänneksen (Q1 2015) - ilmoitusta."
+
+#: src/views/admin/reports/eu-vat-report-header.php:210
+msgid "Domestic VAT returns, instead, are regulated by the country where the merchant resides. In many cases, domestic rules indicate that refunds should be applied to the VAT return for the period in which they occurred (i.e. the original return does not have to be modified."
+msgstr "Kotimaan alv./VAT ilmoituksia säätelee maa jossa kauppias toimii. Useissa tapauksissa, kotimaan säännösten mukaan hyvitykset tulee kohdistaa ilmoitukseen joka koskee hyvityksen tekohetkeä. Tämä tarkoittaa, että alkuperäistä ilmoitusta (edellisen kauden-) ei tarvitse muuttaa."
+
+#: src/views/admin/reports/eu-vat-report-header.php:218
+msgid "By selecting the appropriate setting, below, you can specify if the report should include the refunds <strong>granted in the selected period</strong>, or if it should include the refunds <strong>related to the orders that were placed in the selected period</strong>."
+msgstr "Alla voit valita millaisia hyvityksiä raporttiin sisällytetään. <strong>Hyvitykset tietyllä ajanjaksolla</strong> vai otetaanko siihen mukaan hyvitykset jotka <strong>liittyvät tilauksiin jotka tehtiin valitulla ajanjaksolla</strong>."
+
+#: src/views/admin/reports/eu-vat-report-header.php:236
+msgid "Include refunds applied to the orders placed in the selected period"
+msgstr "Ota mukaan hyvitykset tilauksista jotka on tehty valitulla ajanjaksolla"
+
+#: src/views/admin/reports/eu-vat-report-header.php:247
+msgid "Include refunds granted in the selected period"
+msgstr "Ota mukaan hyvitykset valitulta ajanjaksolta"
+
+#: src/views/admin/reports/eu-vat-report-header.php:257
+msgid "Include refunded orders?"
+msgstr "Sisällytetäänkö hyvitetyt tilaukset?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:261
+msgid "Here you can choose if you would like to include refunded orders in the data used for the report."
+msgstr "Tässä valitaan se, sisällytetäänkö hyvitettyjen tilausten tiedot niihin tietoihin joiden perusteella raportti laaditaan."
+
+#: src/views/admin/reports/eu-vat-report-header.php:270
+msgid "Should I include refunded orders?"
+msgstr "Pitäisikö hyvitetyt tilaukset sisällyttää?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:275
+msgid "By default, the report does not include refunded orders. Such orders are considered fully refunded, and all the revenue and the refunds related to them are ignored, as they should void each other."
+msgstr "Raporttiin ei oletuksena sisälly hyvitettyjä tilauksia. Nämä tilaukset katsotaan täysin hyvitetyksi ja kaikki niiden tulot ja hyvitykset jätetään huomioimatta koska ne kumoavat toisensa."
+
+#: src/views/admin/reports/eu-vat-report-header.php:279
+msgid "If you choose to include refunded orders, then their amounts will be added to the sales total, and any refund associated to them will be deducted from it. "
+msgstr "Jos päädyt ottamaan mukaan hyvitetyt tilaukset niin niiden [€] määrät lisätään myynnin määrään ja jos niihin liittyy hyvityksiä, niin hyvitykset vähennetään myynnin määrästä."
+
+#: src/views/admin/reports/eu-vat-report-header.php:288
+msgid "If you decide to include refunded orders, make sure that you have created the appropriate refunds associated to them, so that the amounts that you have returned to your customers can be deducted. If you are not sure of what this means, we recommend to <strong>exclude</strong> refunded orders from the report."
+msgstr "Jos päätät ottaa mukaan hyvitetyt tilaukset, varmista että olet tehnyt niitä koskevat hyvitykset jotta voit vähentää summat jotka olet palauttanut asiakkaille. Jos et tiedä mitä tämä tarkoittaa, suosittelemme että <strong>jätät raportista pois</strong> hyvitetyt tilaukset. "
+
+#: src/views/admin/reports/eu-vat-report-header.php:292
+msgid "For more information on refunds and on how to create them, please <a href=\"http://docs.woothemes.com/document/woocommerce-refunds/\"> refer to WooCommerce Refunds documentation</a>."
+msgstr "Lisätietoja hyvityksistä ja kuinka ne tehdään on <a href=\"http://docs.woothemes.com/document/woocommerce-refunds/\"> WooCommerce hyvitysten ohjeissa</a>."
+
+#: src/views/admin/reports/eu-vat-report-header.php:311
+msgid "Exclude refunded orders"
+msgstr "Ei sisällytetä"
+
+#: src/views/admin/reports/eu-vat-report-header.php:322
+msgid "Include refunded orders"
+msgstr "Kyllä sisällytetään"
+
+#. translators: plugin header field 'Name'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "WooCommerce EU VAT Assistant"
+msgstr "WooCommerce EU alv./VAT avustaja"
+
+#. translators: plugin header field 'Description'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "Assists with EU VAT compliance, for the new VAT regime beginning 1st January 2015."
+msgstr "Avustaa uusien EU alv./VAT säännösten noudattamisessa, jotka astuivat voimaan 1. tammikuuta 2015."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:147
+#, php-format
+msgid "An unexpected error occurred while fetching exchange rates from HMRC. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Odottamaton virhe kun valuuttakursseja noudettiin 'Englannista' (UK, HMRC). Yleisin syy virheelle on PHP:stä puuttuva CURL laajennus. Varmista, että PHP CURL on asennettu ja määritetty järjestelmässä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:254
+#, php-format
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by IrishRevenueHTML."
+msgstr "Valuuttakursseja ei voitu muuttaa suhteessa verotusvaluuttaan \"%s\". Valuuttaa ei löytynyt Irlannin toimittamista tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:140
+#, php-format
+msgid "Plugin requires \"%s\" PHP extension."
+msgstr "Lisäosa vaatii \"%s\" PHP laajennuksen."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:207
+#, php-format
+msgid "Plugin \"%s\" must be version \"%s\" or later."
+msgstr "\"%s\" -lisäosa on on oltava versio \"%s\" tai uudempi."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:470
+#, php-format
+msgid "Plugin \"%s\" could not be loaded due to missing requirements."
+msgstr "\"%s\" -lisäosaa ei voitu ladata koska jotakin puuttuu."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/pdf_invoices_packing_slips/eu_invoice_helper.php:171
+#: src/plugin-main.php:1288
+msgid "VAT #:"
+msgstr "Alv./VAT #:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:266
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:254
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:345
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:302
+msgid "Currency for VAT returns:"
+msgstr "Alv./VAT ilmoituksen valuutta:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:288
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:367
+msgid "Items"
+msgstr "Tuotteet"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:289
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:368
+msgid "Shipping"
+msgstr "Toimitus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:295
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:374
+msgid "Tax Rate"
+msgstr "Vero%"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:300
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:306
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:379
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:385
+msgid "VAT Charged"
+msgstr "Alv./VAT veloitettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:301
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:307
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:380
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:386
+msgid "VAT Refunded"
+msgstr "Alv./VAT hyvitetty"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:311
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:390
+msgid "Final VAT Total"
+msgstr "Yhteensä alv./VAT"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:317
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:396
+msgid "No VAT has been processed in this period"
+msgstr "Valitulla aikavälillä ei ole alv./VAT tapahtumia"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:407
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:486
+msgid "Totals"
+msgstr "Summat"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:261
+msgid "Export CSV"
+msgstr "Vie CSV tiedosto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:276
+#, php-format
+msgid "Q%d %d"
+msgstr "%d.Q %d"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports_manager.php:30
+#, php-format
+msgid "Reports could not be found for this WooCommerce version. Supported version are from %s to: %s."
+msgstr "Raportteja ei löytynyt tälle WooCommerce versiolle. Tuetut versiot ovat %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports_manager.php:55
+msgid "EU VAT by Country"
+msgstr "EU alv./VAT maan mukaan"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:55
+#, php-format
+msgid "Label not found for currency \"%s\""
+msgstr "\"%s\" valuutalle ei lötynyt otsaketta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:69
+msgid "Checkout"
+msgstr "Kassa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:77
+#: src/lib/classes/settings/settings-renderer.php:123
+#: src/lib/classes/settings/settings-renderer.php:696
+msgid "Currency"
+msgstr "Valuutta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:89
+#: src/lib/classes/settings/settings-renderer.php:161
+#: src/lib/classes/settings/settings-renderer.php:169
+#: src/views/admin/reports/eu-vat-report-header.php:13
+#: src/views/admin/reports/sales-report-header.php:13
+msgid "Options"
+msgstr "Asetuksia"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:97
+msgid "Support"
+msgstr "Tuki"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:73
+msgid "Self-certification"
+msgstr "Varmennus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:130
+msgid "Automatic update of exchange rates"
+msgstr "Automaattinen valuuttakurssien päivitys"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:137
+msgid "Exchange rates"
+msgstr "Valuuttakurssit"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:177
+msgid "Support Information"
+msgstr "Tuetoja tuesta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:185
+msgid "Debug"
+msgstr "Testaustila"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:231
+msgid "EU VAT field label"
+msgstr "EU alv./VAT kentän otsake"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:232
+msgid "The label that will be displayed above the EU VAT field at checkout."
+msgstr "Tämä otsake näkyy kassalla EU alv./VAT kentän yläpuolella."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:238
+msgid "EU VAT field description"
+msgstr "EU alv./VAT kentän kuvaus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:239
+msgid "A description that will be displayed above the EU VAT field at checkout."
+msgstr "Tämä kuvaus näkyy kassalla EU alv./VAT kentän yläpuolella."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:244
+msgid "Show EU VAT field when customer is located in base country"
+msgstr "Näytä alv./VAT kenttä vaikka asiakas on samassa maassa kuin kauppa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:253
+msgid "Deduct VAT if customer is located in base country"
+msgstr "Verovähennys kaupan maan asiakkaille"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:255
+msgid "Enable this option to deduct VAT from orders placed by customers who are located in your shop's base country, if they enter a valid EU VAT number."
+msgstr "Ota tämä käyttöön kun verovähennys annetaan kaupan sijaintimaan asiakkaille kun he kirjoittavat kelvollisen EU alv./VAT tunnuksen."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:260
+msgid "Store invalid VAT numbers"
+msgstr "Tallenna epäkelvot alv./VAT tunnukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:263
+msgid "Enable this option to store VAT numbers that don't pass validation. Note: when an invalid VAT number is detected, VAT will still be applied."
+msgstr "Ota tämä käyttöön kun haluat tallentaa alv./VAT tunnukset jotka eivät läpäise vahvistusta. Huom.: kun epäkelpo tunnus havaitaan, arvonlisävero veloitetaan asiakkaalta."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:268
+msgid "Accept VAT numbers that cannot be validated due to server busy"
+msgstr "Hyväksy alv./VAT tunnukset kun vahvistuspalvelin on varattu eikä vahvista"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:274
+msgid "VAT numbers are validates using EU VIES service. Occasionally, the VIES server may return a \"busy\" response, which means that the VAT number was not processed and its validity is unknown. If you enable this option, a VAT number that cannot be validated due to the VIES server being busy will be accepted, and the customer will be considered exempt from VAT."
+msgstr "Alv./VAT tunnukset tarkastetaan EU:n VIES palvelulla. Satunnaisesti VIES-palvelin voi vastata \"kiire, varattu\" joka tarkoittaa, että tunnusta ei käsitelty ja se jää vahvistamatta. Kun otat käyttöön tämän, niin tällaisessa \"kiire\"  tilanteessa vahvistamaton tunnus hyväksytään ja asiakas saa verovähennyksen."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:279
+msgid "No (never show it)"
+msgstr "Ei (Oma-vahvistus ei näytetä koskaan)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:280
+msgid "Yes (always show it)"
+msgstr "Kyllä (Oma-vahvistus näytetään aina)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:282
+msgid "Only when there is insufficient evidence about customer's location"
+msgstr "Näytetään vain kun todisteet asiakkaan sijainnista ovat riittämättömät"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:286
+msgid "Allow customers to self-certify their location of residence"
+msgstr "Sallitaanko asiakkaan vahvistaa sijaintinsa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:297
+msgid "Require self-certification when the evidence about location is insufficient"
+msgstr "Vaadi Oma-vahvistus kun todisteet sijainnista eivät riitä"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:305
+msgid "<a href=\"http://en.wikipedia.org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU regulations require at least two pieces of non-conflicting evidence</a> to prove a customer's location (e.g. billing address, shipping address, IP address). If you enable this option, the self-certification will become mandatory unless at least two of these information will match the same country. <strong>Important</strong>: this rule applies only when the self-certification field is visible to the customer (see visibility options, above)."
+msgstr "<a href=\"http://en.wikipedia.org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU säännökset vaativat vähintään kahta ristiriidatonta todistetta</a> joilla todistetaan asiakkaan sijainti (esim. laskutusosoite, toimitusosoite, asiakkaan IP numero). Kun tämä valinta on käytössä, asiakkaan on itse vahvistettava sijaintinsa Oma-vahvistuksella kun edellä mainitut muut todisteet ovat ristiriidassa keskenään. <strong>Tärkeää</strong>: tämä toimii vain silloin, kun Oma-vahvistus -kenttä on [yllä olevassa asetuksessa] valittu näyttämään ko. kenttä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:310
+msgid "Consider the shipping address as valid location evidence"
+msgstr "Tulkitse toimitusosoite riittäväksi todisteeksi sijainnista"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:319
+msgid "Tick this box if you would like to use the shipping address as evidence to validate customer's location. When this option is enabled, and the customer enters the same country in both billing and shipping address, the plugin will consider them two pieces of non contradictory evidence and it will no longer ask for self-certification. We would recommend that you discuss with your Revenue office the possibility of using the shipping address as evidence before enabling this option."
+msgstr "Ota tämä käyttöön, jos haluat hyväksyä toimitusosoitteen vahvistetuksi todisteeksi asiakkaan sijainnista. Tällöin lisäosa tulkitsee, että kun sekä laskutus- että toimitusosoitteet sijaitsevat samassa valtiossa, niin se täyttää EU:n vaatimuksen kahdesta ristiriidattomasta todisteesta asiakkaan sijaintia koskien - eikä lisäosa pyydä asiakkaalta Oma-vahvistusta sijainnista. Suositus: ennen kuin otat tämän käyttöön, varmista toimitusosoitteen hyväksyntä yritysverotoimistosta keskustelemalla heidän kanssaan."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:17
+#: src/views/admin/order-vat-info-box.php:231
+msgid "Total VAT"
+msgstr "Alv./VAT yhteensä"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:25
+msgid "Customer located in EU"
+msgstr "Asiakas on EU:ssa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:26
+msgid "Billing country"
+msgstr "Laskutusmaa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:27
+msgid "Shipping country"
+msgstr "Toimitusmaa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:28
+msgid "Customer's IP address"
+msgstr "Asiakkaan IP numero"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:29
+msgid "Country from IP address"
+msgstr "Valtio IP numeron perusteella"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:30
+msgid "Customer self-certified location"
+msgstr "Asiakkaan itse ilmoittama sijainti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:33
+msgid "Customer's VAT number"
+msgstr "Asiakkaan alv./VAT tunnus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:34
+msgid "Customer's VAT country"
+msgstr "Asiakkaan verotusmaa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:35
+msgid "VAT number validated"
+msgstr "Alv./VAT tunnus vahvistettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:188
+msgid "No VAT was paid on this order."
+msgstr "Tilaukseen ei sisälly arvonlisäveroa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:193
+msgid "VAT Currency:"
+msgstr "Alv./VAT valuutta:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:200
+#, php-format
+msgid "Exchange rate (%s to %s):"
+msgstr "Valuuttakurssi  (%s - %s):"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:242
+msgid "Totals by VAT rate"
+msgstr "Yhteensä/alv. vero%"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:261
+msgid "VAT evidence"
+msgstr "Alv./VAT todennus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:265
+msgid "No VAT evidence was stored with this order."
+msgstr "Tilaukseen ei tallennettu Alv./VAT todennusta."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:269
+msgid "Location details"
+msgstr "Sijainnin tiedot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+msgid "yes"
+msgstr "kyllä"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+msgid "no"
+msgstr "ei"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:277
+msgid "Exemption details"
+msgstr "Verovähennyksen tiedot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:287
+msgid "N/A"
+msgstr "Ei saatavilla/-tietoa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/frontend/frontend_integration.php:59
+#: src/views/frontend/checkout-eu-vat-field.php:24
+msgid "VAT Number"
+msgstr "Alv./VAT tunnus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/frontend/checkout-self-certification-field.php:15
+msgid "Due to European regulations, we have to ask you to confirm your location."
+msgstr "Euroopan Unionin (EU) säännöt edellyttävät, että meidän on pyydettävä sinua vahvistamaan sijaintisi."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:53
+#, php-format
+msgid "Error returned by BitPay. Error code: %s. Error message: %s - %s."
+msgstr "Virheellinen vastaus BitPay:stä. Virhekoodi: %s. Virheilmoitus:  %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:66
+#, php-format
+msgid "Exception occurred while retrieving the exchange rates from BitPay. Error message: %s."
+msgstr "Poikkeava tilanne kun valuuttakursseja noudettiin BitPay:stä. Virheilmoitus: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:104
+msgid "An unexpected error occurred while fetching exchange rates from BitPay. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Odottamaton virhe kun valuuttakursseja noudettiin BitPay:stä. Yleisin syy virheelle on PHP:stä puuttuva CURL laajennus. Varmista, että PHP CURL on asennettu ja määritetty järjestelmässä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:136
+#, php-format
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by BitPay."
+msgstr "Valuuttakursseja ei voitu muuttaa suhteessa verotusvaluuttaan \"%s\". Valuuttaa ei löytynyt BitPay:n toimittamista tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:72
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:56
+#, php-format
+msgid "Error returned by ECB. Error code: %s. Error message: %s - %s."
+msgstr "Virheellinen vastaus Euroopan keskuspankilta (EKP, ECB). Virhekoodi: %s. Virheilmoitus:  %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:85
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:69
+#, php-format
+msgid "Exception occurred while retrieving the exchange rates from ECB. Error message: %s."
+msgstr "Poikkeava tilanne kun valuuttakursseja noudettiin Euroopan keskuspankista (EKP, ECB). Virheilmoitus: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:242
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:110
+msgid "An unexpected error occurred while fetching exchange rates from ECB. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Odottamaton virhe kun valuuttakursseja noudettiin Euroopan keskuspankista (EKP, ECB). Yleisin syy virheelle on PHP:stä puuttuva CURL laajennus. Varmista, että PHP CURL on asennettu ja määritetty järjestelmässä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:281
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:144
+#, php-format
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by ECB."
+msgstr "Valuuttakursseja ei voitu muuttaa suhteessa verotusvaluuttaan \"%s\". Valuuttaa ei löytynyt Euroopan keskuspankin (EKP, ECB) toimittamista tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:181
+#, php-format
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by HMRC."
+msgstr "Valuuttakursseja ei voitu muuttaa suhteessa verotusvaluuttaan \"%s\". Valuuttaa ei löytynyt 'Englannin' (UK, HMRC) toimittamista tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:166
+#, php-format
+msgid "Error returned fetching Irish Revenue HTML page. Error code: %s. Error message: %s - %s."
+msgstr "Virheellinen vastaus kun yritettiin päästä Irlannin (Irish Revenue) valuuttakurssien sivulle. Virhekoodi: %s. Virheilmoitus:  %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:179
+#, php-format
+msgid "Exception occurred while retrieving the exchange rates from Irish Revenue HTML page. Error message: %s."
+msgstr "Poikkeava tilanne kun valuuttakursseja noudettiin Irlannista (Irish Revenue), valuuttakurssien HTML sivulta. Virheilmoitus: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:220
+msgid "An unexpected error occurred while fetching exchange rates from IrishRevenueHTML. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Odottamaton virhe kun valuuttakursseja noudettiin Irlannista (Irish Revenue). Yleisin syy virheelle on PHP:stä puuttuva CURL laajennus. Varmista, että PHP CURL on asennettu ja määritetty järjestelmässä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:292
+msgid "Choose if you would like to display a \"self-certification\" field at checkout. By ticking the self-certification box, customers will be allowed to certify that the country entered as part of the billing address is their country of residence. Such declaration will be recorded with the completed order as part of the EU VAT evidence."
+msgstr "Valitse: haluatko näyttää \"Oma-vahvistus\" kentän kassalla. Asiakkaalle esitetään kassalla valintaruutu, jonka valitsemalla hän itse vahvistaa että laskutusosoitteessa oleva valtio on samalla hänen asuinmaansa. Tämä asiakkaan itse antama vahvistus tallennetaan tilauksen tietoihin  ja on osa EU:n vaatimaa todistusaineistoa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:329
+msgid "Enable this option if you would like to hide the self-certification field at checkout even when the customer enters a valid VAT number. <strong>Important</strong>: when this option is enabled, if the customer will enter a valid VAT number the self-certification requirement above will be ignored."
+msgstr "Ota tämä käyttöön, kun haluat piilottaa Oma-vahvistus kentän asiakkaalta joka antaa kelvollisen EU alv./VAT tunnuksen. <strong>Tärkeää</strong>: kun tämä on käytössä, vaatimus oman sijainnin vahvistamisesta ohitetaan (kun on annettu kelvollinen EU alv./VAT tunnus)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:338
+msgid "The label that will be displayed above the self-certification field at checkout. You can use the <code>{billing_country}</code> placeholder to automatically show the billing country chosen by the customer."
+msgstr "Tämä otsake näkyy kassalla Oma-vahvistus -kentän yläpuolella. Otsakkeessa voi käyttää <code>{billing_country}</code> koodia, joka sijoittaa automaattisesti asiakkaan valitseman maan otsakkeeseen."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:344
+msgid "VAT Currency"
+msgstr "Alv./VAT maksujen valuutta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:353
+msgid "EU regulations require that all payment and VAT amounts are indicated in the currency where your business is based. If you file your VAT reports in a currency different from shop's base currency, you can choose it here. <strong>Important:</strong> all VAT data will be calculated and stored with the orders as they are created. We strongly recommend to double check the currency you have selected, as changing it later could result in incorrect VAT reports being generated."
+msgstr "EU säännökset edellyttävät, että arvonlisävero (alv./VAT) maksetaan ja ilmoitetaan kaupan sijaintimaan/verotusvaltion mukaisessa valuutassa. Jos veroilmoituksen valuutta poikkeaa valuutasta joka on kaupan [perus]valuutta, niin tässä voit valita verotusvaluutan. <strong>Tärkeää:</strong> kaikki arvonlisäveron tiedot lasketaan ja tallennetaan tilaushetkellä. Suositus: Tarkasta tässä valitsemasi valuutta, koska jos sitä muutetaan myöhemmin se voi aiheuttaa virheellisiä tietoja alv. laskelmiin."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:360
+msgid "Tick this box to enable automatic updating of exchange rates."
+msgstr "Ota käyttöön automaattinen valuuttakurssien päivitys valintaruutu."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:369
+msgid "Select how often you would like to update the exchange rates."
+msgstr "Valitse kuinka usein kurssit päivitetään"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:372
+#, php-format
+msgid "<p>Last update: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>Next update: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+msgstr "<p>Viimeisin päivitys: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>Seuraava päivitys: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:380
+msgid "Exchange rates provider"
+msgstr "Valuuttakurssien lähde"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:382
+msgid "Select the Provider from which the exchange rates will be fetched."
+msgstr "Valitse miltä toimittajalta valuuttakurssit noudetaan."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:426
+msgid "Decimals for VAT rounding"
+msgstr "Desimaalien määrä arvonlisäveron pyöristämisessä"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:431
+msgid "The amount of decimals to use when rounding VAT. This setting applies when the VAT evidence is generated (for example during the conversion of VAT totals to the appropriate VAT currency). If you are not sure of how many decimals you should use, please contact your Revenue office."
+msgstr "Kuinka monella desimaalilla arvonlisäverolaskelmat suoritetaan. Asetusta käytetään kun alv./VAT [todistus]aineisto luodaan. Esimerkiksi kun muunnetaan alv. summat verojen maksamisen valuuttaan. Jos et ole varma tarvittavasta desimaalien määrästä, kysy sitä yritysverovirastosta."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:444
+msgid "Enable debug mode."
+msgstr "Ota käyttöön testaustila."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:446
+#, php-format
+msgid "When debug mode is enabled, the plugin will log events to file <code>%s</code>."
+msgstr "Kun testaustila on käytössä, lisäosa tallentaa tapahtumat lokitiedostoon: <code>%s</code>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:458
+#: src/views/admin/product_euva_variation.php:24
+msgid "EU VAT Assistant"
+msgstr "EU alv. avustaja"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:477
+msgid "EU VAT Assistant - Settings"
+msgstr "EU alv./VAT avustaja - Asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:488
+msgid "In this page you can configure the settings for the EU VAT Assistant plugin."
+msgstr "Tällä sivulla voit muuttaa EU alv./VAT avustaja -lisäosan asetuksia."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:494
+msgid "Here you can configure various parameters related to checkout."
+msgstr "Tässä määritetään kassaan liittyviä asetuksia."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:498
+msgid "This page requires JavaScript to work properly. Please enable JavaScript in your browser and refresh the page.</u>."
+msgstr "Tämä sivu vaatii JavaScriptin toimiakseen oikein. Salli JavaScript selaimessasi ja päivitä sivu.</u>"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:505
+msgid "Here you can decide to display an additional self-certification field that customers can use to confirm their country of residence."
+msgstr "Tässä voit valita kuinka, milloin ja miten asiakkaan asuinpaikka/sijainti varmennetaan EU säännösten noudattamiseksi. "
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:524
+msgid "These exchange rates will be used to convert the order amounts (totals, VAT, etc) in the currency you use to file your VAT returns. <strong>Important</strong>: you can enter the exchange rates manually, if you wish, but please make sure that they are in line with the values that your Revenue office would consider acceptable. The responsibility of ensuring that the rates are correct lies upon you. If you are in doubt, please contact your revenue office to determine which exchange rates they would consider acceptable. Most revenue offices have their own list of exchange rates, which you can enter here."
+msgstr "Näitä valuuttakursseja käytetään kun tilausten summat (tuotteet yhteensä, arvonlisäverot, jne.) muunnetaan arvonlisäveroilmoituksen valuuttaan. <strong>Tärkeää</strong>: Voit kirjoittaa kurssit myös käsin, mutta varmista että käytät kursseja jotka yritysverovirasto hyväksyy. Vastuu oikeiden kurssien käyttämisestä on sinulla. Jos epäröit, ota yhteyttä yritysverotoimistoon jotta saat hyväksytyt valuuttakurssit. Monilla verottajilla on omat kurssit, jotka voit kirjoittaa tähän."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:531
+msgid "To set an exchange rate manually, tick the box next to the exchange rate field for the desired currency and enter the rate in the exchange rate field itself. The checkbox next to the \"<strong>Set manually</strong>\" label will select/deselect the checkboxes for all the currencies. <strong>Important</strong>: ensure that all exchange rates you flagged to be entered manually are filled. An empty exchange rate could lead to unpredictable results, as it's intepreted as zero."
+msgstr "Kun kirjoitat valuuttakurssin käsin, valitse haluamasi kurssin vieressä oleva valintaruutu ja kirjoita valuuttakurssin kenttään valuuttakurssi.  \"<strong>Aseta käsin</strong>\" kohdan vieressä oleva valintaruutu valitsee/poistaa valinnan  kaikista valuutoista. <strong>Tärkeää</strong>: Varmista, että kaikissa käsin syötettävissä valuutoissa on valuuttakurssi. Jos se puuttuu, se tulkitaan nollaksi (0) ja arvonlisäverolaskelmat eivät silloin tule oikein."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:543
+msgid "Miscellaneous options."
+msgstr "Sekalaisia asetuksia."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:597
+msgid "We designed this plugin to be robust and effective, as well as intuitive and easy to use. However, we are aware that, despite all best efforts, issues can arise and that there is always room for improvement."
+msgstr "Suunnittelimme lisäosan toimivaksi ja tehokkaaksi sekä intuitiivisen helpoksi käyttää. Ymmärrämme kuitenkin, että parhaasta yrittämisestä huolimatta ongelmia voi ilmetä ja että aina on mahdollista parantaa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:602
+msgid "Should you need assistance, or if you just would like to get in touch with us, please use one of the links below."
+msgstr "Jos tarvitset tukea, tai jos haluat ottaa yhteyttä meihin, käytä alla olevia linkkejä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:610
+#, php-format
+msgid "<span class=\"label\">To request support</span>, please use our <a href=\"%s\">Support portal</a>. The portal also contains a Knowledge Base, where you can find the answers to the most common questions related to our products."
+msgstr "<span class=\"label\">Kun pyydät tukea</span>, käytä <a href=\"%s\">Tukiportaalia</a>. Portaalissa on myös Tietämyskanta josta voit löytää vastauksia tavallisimpiin tuotteitamme koskeviin kysymyksiin."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:63
+#, php-format
+msgid "Error returned by DNB. Error code: %s. Error message: %s - %s."
+msgstr "Virheellinen vastaus Tanskan kansallispankilta (DNB). Virhekoodi: %s. Virheilmoitus:  %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:76
+#, php-format
+msgid "Exception occurred while retrieving the exchange rates from DNB. Error message: %s."
+msgstr "Poikkeava tilanne kun valuuttakursseja noudettiin Tanskan kansallispankista (DNB). Virheilmoitus: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:121
+msgid "An unexpected error occurred while fetching exchange rates from DNB. The most common cause of this issue is the absence of PHP CURL extension. Please make sure that PHP CURL is installed and configured in your system."
+msgstr "Odottamaton virhe kun valuuttakursseja noudettiin Tanskan kansallispankista (DNB). Yleisin syy virheelle on PHP:stä puuttuva CURL laajennus. Varmista, että PHP CURL on asennettu ja määritetty järjestelmässä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:155
+#, php-format
+msgid "Could not rebase rates against base currency \"%s\". Currency not found in data returned by DNB."
+msgstr "Valuuttakursseja ei voitu muuttaa suhteessa verotusvaluuttaan \"%s\". Valuuttaa ei löytynyt Tanskan kansallispankin (DNB) toimittamista tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:107
+msgid "Checkout settings"
+msgstr "Kassa asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:115
+msgid "Self-certification settings"
+msgstr "Varmennus asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:198
+msgid "Optional"
+msgstr "Valinnainen"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:199
+msgid "Always required"
+msgstr "Vaaditaan aina"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:201
+msgid "Required only for EU addresses"
+msgstr "Vaaditaan vain EU osoitteille"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:203
+msgid "Hidden"
+msgstr "Piilotettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:208
+msgid "EU VAT number field will be"
+msgstr "EU alv./VAT tunnuksen kenttä on"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:225
+msgid "Choose if you would like to display the EU VAT Number field, and how you would like to handle it.<ul class=\"description\"><li><strong>Optional</strong> - Customers can enter a EU VAT number to get VAT exemption.</li><li><strong>Always required</strong> - Customers must enter a valid EU VAT number to complete a purchase. This means that only B2B sales with EU businesses can be completed.</li><li><strong>Required only for EU addresses</strong> - Customers who select a billing country that is part of the EU must enter a valid EU VAT number to complete a purchase. Customer who select a non-EU country can proceed without entering the VAT number.</li><li><strong>Hidden</strong> - Customers will not be able to enter a EU VAT number. This option is useful if you do not plan to sell to EU businesses.</li></ul>"
+msgstr "Valitse: haluatko näyttää EU alv./VAT tunnus -kentän ja kuinka sen kanssa toimitaan. <ul class=\"description\"><li><strong>Valinnainen</strong> - Asiakkaat voivat kirjoittaa EU alv./VAT tunnuksen jotta saavat verovähennyksen.</li><li><strong>Vaaditaan aina</strong> - Asiakkaiden on pakko kirjoittaa kelvollinen EU alv./VAT tunnus jotta osto voidaan suorittaa. Tämä tarkoittaa, että vain yritykseltä-yritykselle (B2B) myyntiä voi harjoittaa.</li><li><strong>Vaaditaan vain EU osoitteille</strong> - Asiakkaat jotka kirjoittavat laskutusmaaksi jonkun EU valtion, on kirjoitettava kelvollinen EU alv./VAT tunnus jotta osto voidaan suorittaa. Asiakkaat jotka valitsevat EU:n ulkopuolisen maan voivat edetä kirjoittamatta EU:n alv./VAT tunnusta.</li><li><strong>Piilotettu</strong> - Asiakkaat eivät voi kirjoittaa EU alv./VAT tunnusta. Tämä asetus on sopiva kun kauppa ei myy EU:ssa toimiville yrityksille.</li></ul>"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:324
+msgid "Hide the self-certification field when a valid VAT number is entered"
+msgstr "Piilota Oma-vahvistus -kenttä kun kelvollinen alv./VAT tunnus on annettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:334
+msgid "Self-certification field label"
+msgstr "Oma-vahvistus kentän otsake"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:614
+#, php-format
+msgid "<span class=\"label\">To send us general feedback</span>, suggestions, or enquiries, please use the <a href=\"%s\">contact form on our website.</a>"
+msgstr "<span class=\"label\">Kun haluat lähettää meille palautetta</span>, ehdotuksia tai tiedusteluja käytä <a href=\"%s\">sivustolla olevaa yhteydenottolomaketta</a>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:631
+msgid "Save and update exchange rates"
+msgstr "Tallenna ja päivitä valuuttakurssit"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:686
+msgid "Argument \"exchange_rates\" must be an array."
+msgstr "\"Valuuttakurssit\" argumentti on oltava matriisi."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:697
+msgid "Exchange Rate"
+msgstr "Valuuttakurssi"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:699
+msgid "Set Manually"
+msgstr "Aseta käsin"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:119
+msgid "EU VAT Number"
+msgstr "EU alv./VAT tunnus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:120
+msgid "Enter your EU VAT Number (if any). Country prefix is not required."
+msgstr "Kirjoita EU alv./VAT tunnus (jos on). Maan etuliitettä ei tarvita."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:131
+msgid "I am established, have my permanent address, or usually reside within <strong>{billing_country}</strong>."
+msgstr "Minä toimin-, pysyvä osoitteeni on- tai useimmiten asun <strong>{billing_country}</strong> maassa. "
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:267
+msgid "Not Scheduled"
+msgstr "Ei asetettu aikaa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:278
+msgid "Never updated"
+msgstr "Ei koskaan päivitetty"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:383
+msgid "Not available"
+msgstr "Ei saatavilla"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:446
+msgid "Settings saved. Exchange rates have been updated."
+msgstr "Asetukset tallennettu. Valuuttakurssit on päivitetty."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:519
+#, php-format
+msgid "Attempted to register class \"%s\" as an Exchange Rates model, but the class does not exist, or does not implement Aelia\\WC\\IExchangeRatesModel interface."
+msgstr "Yritettiin rekisteröidä \"%s\"-luokka valuuttakurssien malliksi, mutta luokkaa ei ole tai se ei noudata Aelia\\WC\\IExchangeRatesModel rajapintaa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:538
+msgid "BitPay"
+msgstr "BitPay"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:539
+msgid "ECB"
+msgstr "Euroopan keskuspankki (EKP, ECB)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:540
+msgid "HMRC (UK)"
+msgstr "HM Revenue & Customs (UK, Yhdistynyt kuningaskunta, 'Englanti')"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:541
+msgid "Irish Revenue (HTML) - WARNING: experimental, may not always work!"
+msgstr "Irlanti (HTML) - Varoitus: kokeilussa, ei toimi luotettavasti!"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:542
+msgid "Danish National Bank"
+msgstr "Tanskan kansallispankki (Danish National Bank)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:639
+#, php-format
+msgid "Some exchange rates entered manually are invalid. Please review the rates for the following currencies: %s."
+msgstr "Jotkut käsin asetetut valuuttakurssit eivät kelpaa. Tarkasta seuraavien maiden valuuttakurssit: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:164
+#, php-format
+msgid "An empty or invalid VAT number was passed for validation. The VAT number should contain several digits, without the country prefix. Received VAT number: \"%s\"."
+msgstr "Tyhjä tai epäkelpo alv./VAT tunnus lähetettiin vahvistukseen. Tunnuksessa tulee olla useita numeroita, mutta ei maan etuliitettä, esim. FI. Annettu alv./VAT tunnus: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:172
+#, php-format
+msgid "A VAT prefix could not be found for the specified country. Received country code: \"%s\"."
+msgstr "Annetulle maalle ei löytynyt alv./VAT tunnuksen etuliitettä. Tuli maatunnus: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:76
+#, php-format
+msgid "Error returned by HMRC. Feed URLs used for retrieval: %s. Error code: %s. Error message: %s - %s."
+msgstr "Virheellinen vastaus tuli 'Englannista' (UK, HMRC). Käytettiin syötteen verkko-osoitetta (URL): %s. Virhekoodi: %s. Virheilmoitus: %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:92
+#, php-format
+msgid "Exception occurred while retrieving the exchange rates from HMRC. Feed URLs used for retrieval: %s. Error message: %s."
+msgstr "Poikkeava tilanne kun valuuttakursseja noudettiin 'Englannista' (UK, HMRC). Käytettiin syötteen verkko-osoitetta (URL): %s. Virheilmoitus: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:239
+#, php-format
+msgid "An error occurred initialising SOAP client. Error message: \"%s\"."
+msgstr "Virhe SOAP menetelmän käynnistämisessä. Virheilmoitus: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:139
+msgid "Standard rates"
+msgstr "Perusvero% (yleinen verokanta)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:140
+msgid "Reduced rates"
+msgstr "Alennettu veroprosentti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:141
+msgid "Reduced rates (alternative)"
+msgstr "Alennettu veroprosentti (2)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:142
+msgid "Super reduced rates"
+msgstr "Alin veroprosentti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:143
+msgid "Parking rates"
+msgstr "0 veroprosentti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:209
+#, php-format
+msgid "Could not fetch EU VAT rates from remote site. Error(s): \"%s\". Remote site: \"%s\"."
+msgstr "EU alv./VAT veroprosentteja ei voitu hakea verkosta. Virhe/virheet: \"%s\". Sivusto: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:218
+#, php-format
+msgid "Unexpected response returned by EU VAT rates site. Returned data: \"%s\". Remote site: \"%s\"."
+msgstr "Odottamaton vastaus tuli EU alv./VAT veroprosenttien sivulta. Vastaus: \"%s\". Sivusto: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:77
+msgid "Update EU VAT Rates"
+msgstr "Päivitä EU alv./VAT veroprosentit"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:78
+msgid "using"
+msgstr "jotka ovat"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:79
+msgid "VAT"
+msgstr "Alv./VAT"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:82
+msgid "VAT rates have been updated. Please review them, to ensure that they are correct, then click on \"Save changes\" to save the new rates."
+msgstr "Alv./VAT veroprosentit on päivitetty. Tarkasta ne jotta ne ovat oikein ja paina sen jälkeen \"Tallenna muutokset\" painiketta."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:85
+msgid "An error occurred retrieving the VAT rates, therefore this function cannot be used at the moment. Please try again by reloading the page later."
+msgstr "Alv./VAT veroprosenttien noutamisessa tapahtui virhe, joten tätä toimintoa ei voi nyt käyttää. Yritä myöhemmin uudelleen: päivitä tämä sivu."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:583
+#, php-format
+msgid "Currency conversion - %s currency not valid or exchange rate not found for: \"%s\". Please make sure that the EU VAT assistant plugin is configured correctly and that an Exchange Rate has been specified for each of the available currencies."
+msgstr "Valuuttamuunnos - %s valuutta ei kelpaa tai valuuttakurssia \"%s\" ei löytynyt. Varmista, että EU alv. avustaja -lisäosassa on oikeat asetukset ja että valuuttakurssi on asetettu jokaiselle käytössä olevalle valuutalle."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:588
+msgid "Source"
+msgstr "Lähde"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:599
+msgid "Destination"
+msgstr "Määränpää"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:611
+#, php-format
+msgid "Stack trace: %s"
+msgstr "Pinon jälki: %s"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:835
+#, php-format
+msgid "Setting customer VAT exemption. Customer country: \"%s\". Number: \"%s\"."
+msgstr "Asetetaan asiakkaalle alv./VAT verovähennys. Asiakkaan maa: \"%s\". Tunnus: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:906
+msgid "EU VAT Number field was hidden by plugin configuration. Customer cannot be made VAT exempt."
+msgstr "EU alv./VAT tunnuksen kenttä oli piilotettu asetuksissa. Asiakas ei saa alv. verovähennystä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:909
+#, php-format
+msgid "VAT exemption check completed. Customer exemption: %d. Result: %d."
+msgstr "Alv. verovähennyksen tarkastus tehty. Asiakkaan vähennys: %d. Tulos: %d."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1089
+msgid "Unfortunately, we could not collect sufficient information to confirm your location. To proceed with the order, please tick the box below the billing details to confirm that you will be using the product(s) in country you selected."
+msgstr "Valitettavasti emme saaneet tarvittavaa tietoa sijannistasi. Tilauksen jatkaminen edellyttää, että vahvistat laskutustietojen alla olevassa ruudussa, että käytät tuotetta/tuotteita valitsemassasi maassa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1152
+msgid "You must enter a valid EU VAT number to complete the purchase."
+msgstr "Kirjoita kelvollinen EU alv./VAT tunnus jotta osto voidaan suorittaa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1165
+#, php-format
+msgid "VAT number \"%s\" is not valid for your country."
+msgstr "Alv./VAT tunnus \"%s\" ei ole kelvollinen tälle maalle."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1196
+msgid "VAT information"
+msgstr "Alv./VAT tiedot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1253
+msgid "<strong>EU VAT Assistant</strong> is almost ready! Please go to <code>WooCommerce > EU VAT Assistant</code> settings page to complete the configuration and start collecting the information required for EU VAT compliance."
+msgstr "<strong>EU alv. avustaja (EU VAT Assistant)</strong> on melkein valmis! Siirry <code>WooCommerce > EU alv. avustaja</code> asetukset sivulle ja täydennä kokoonpano jotta voit alkaa kerätä tarvittavia tietoja EU alv./VAT säännösten noudattamista varten."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1256
+msgid "Go to EU VAT Assistant settings"
+msgstr "Siirry EU alv. avustaja asetuksiin"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:12
+msgid "Items VAT"
+msgstr "Tuotteiden alv."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:13
+#: src/views/admin/order-vat-info-box.php:16
+msgid "Shipping VAT "
+msgstr "Toimituksen alv."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:14
+msgid "Items VAT refunded"
+msgstr "Tuotteiden alv. hyvitetty"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:15
+msgid "Shipping VAT refunded"
+msgstr "Toimituksen alv. hyvitetty"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:209
+msgid "Exchange rate retrieved on:"
+msgstr "Valuuttakurssi noudettu:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:216
+#: src/views/admin/order-vat-info-box.php:225
+msgid "Not recorded"
+msgstr "Ei tallennettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:222
+msgid "Exchange rate provider:"
+msgstr "Valuttakurssien lähde:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:298
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:279
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:377
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:326
+#: src/lib/classes/settings/settings-renderer.php:81
+msgid "Sales"
+msgstr "Myynti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:145
+msgid "Sale restrictions"
+msgstr "Myynti rajoitukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:391
+msgid "Prevent sales to these countries"
+msgstr "Myynti estetään seuraaviin maihin"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:397
+msgid "Here you can add a list of countries to which you do not want to sell. The countries in this list will not appear to the customer at any stage, thus preventing him from completing an order. Leave this field empty to allow sales to all countries configured in <strong>WooCommerce > Settings</strong> section."
+msgstr "Tässä voit valita maat joihin et halua myydä. Tässä listassa olevat maat eivät koskaan näy asiakkaalle, joten ostoa ei voi suorittaa. Kun tyhjä, voidaan myydä kaikkiin maihin jotka on asetettu <strong>WooCommerce > Asetukset</strong> osassa. "
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:445
+msgid "Add European Union countries"
+msgstr "Lisää kaikki EU valtiot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:153
+#, php-format
+msgid "Could not store exchange rates. Provider: \"%s\". Base currency: \"%s\". Rates date: \"%s\". Rates (JSON): \"%s\"."
+msgstr "Valuuttakursseja ei voitu tallentaa. Lähde: \"%s\". Valuutta: \"%s\". Kurssin päiväys: \"%s\". Valuuttakurssit (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:331
+#, php-format
+msgid "Invalid \"last day of quarter\" argument received: \"%s\". The argument must be in YYYY-Q format, and the quarter number must be between 1 and 4."
+msgstr "Tuli epäkelpo \"vuosineljänneksen viimeinen päivä\" argumentti: \"%s\". Argumentin oikea muoto on YYYY-Q (vuosi-neljännes) jossa vuosineljännes on oltava luku 1-4."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:165
+#, php-format
+msgid "Creation of table \"%s\" failed. Please check PHP error log for error messages related to the operation."
+msgstr "\"%s\" taulukon teko epäonnistui. Etsi PHP virhelokista virheilmoitusta joka liittyy tehtävään."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:171
+#: src/lib/classes/reporting/reports/base/base_report.php:117
+#, php-format
+msgid "Table \"%s\" created successfullly."
+msgstr "\"%s\" taulukko tehty."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:87
+msgid "Tax payable to Country"
+msgstr "Maa johon vero maksetaan"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:90
+msgid "Specify to which country this tax should be paid. Leave empty to use the country to which the tax is applied (i.e. the one in the Country Code column)."
+msgstr "Määritä mihin maahan vero maksetaan. Kun tyhjä, vero maksetaan maahan johon se kohdistetaan (eli maahan joka on Maatunnus sarakkeessa)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:91
+msgid "Auto"
+msgstr "Auto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:272
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:261
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:351
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:308
+msgid "Exchange rates used:"
+msgstr "Käytetään valuuttakursseja:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:276
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:265
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:355
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:312
+msgid "Rates saved with each order"
+msgstr "Tilaukseen tallennettu valuuttakurssi"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:279
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:268
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:358
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:315
+msgid "ECB rates for each quarter"
+msgstr "Euroopan keskuspankin (EKP, ECB) valuuttakurssit"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:299
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:378
+msgid "Refunds"
+msgstr "Hyvitykset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:304
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:383
+msgid "Shipping charged"
+msgstr "Toimitusmaksut veloitus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:305
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:384
+msgid "Shipping refunded"
+msgstr "Toimitusmaksut hyvitys"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:310
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:389
+msgid "Total charged"
+msgstr "Yhteensä veloitettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:175
+#, php-format
+msgid "Invalid target date specified: \"%s\". The argument must be in YYYY-MM-DD format."
+msgstr "Päiväys \"%s\" ei kelpaa. Oikea muoto on VVVV-KK-PP (vuosi-kuukausi-päivä)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:85
+#: src/lib/classes/settings/settings-renderer.php:567
+msgid "Reports"
+msgstr "Raportit"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:93
+msgid "Shortcuts"
+msgstr "Oikotiet"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:153
+msgid "Reports settings"
+msgstr "Raportti asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:412
+msgid "The following tax classes should not be included in MOSS reports"
+msgstr "EU:n MOSS raportteihin ei sisällytetä seuraavia veroluokkia"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:419
+msgid "Here you can select one or more tax classes whose rates should be excluded from MOSS reports. The tax information for those rates will still be tracked, this setting will just be used to filter the data using the report filters in the <strong>Reports</strong> interface."
+msgstr "Tässä valitaan ne veroluokat, joiden veroprosentteja ei sisällytetä EU:n MOSS raportteihin. Näitä luokkia koskevat verotiedot kuitenkin kerätään. Tällä asetuksella suodatetaan tiedoista ne, jotka esitetään <strong>Raportit > Verot > 'EU alv./VAT maan mukaan'</strong> kohdassa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:551
+msgid "This section contains some convenient links to the sections of WooCommerce relevant to EU VAT compliance"
+msgstr "Tässä on joitakin linkkejä WooCommercen sivuille, jossa tehtävillä asetuksilla on vaikutusta EU alv./VAT säännösten noudattamisessa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:555
+msgid "Settings"
+msgstr "Asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:560
+msgid "Tax Settings"
+msgstr "Verojen asetukset"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:572
+msgid "EU VAT By Country"
+msgstr "EU alv./VAT maan mukaan"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:887
+#, php-format
+msgid "EU VAT Number could not be validated due to errors in the communication with the VIES service. Error details (JSON): \"%s\"."
+msgstr "EU alv./VAT tunnusta ei voitu vahvistaa. Yhteysvirhe VIES-tarkastuspalvelun kanssa. Virheen tiedot (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:17
+msgid "Show report for the following tax types"
+msgstr "Näytä seuraavien veroryhmien raportti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:23
+#: src/views/admin/reports/eu-vat-report-header.php:104
+#: src/views/admin/reports/eu-vat-report-header.php:184
+#: src/views/admin/reports/eu-vat-report-header.php:263
+msgid "[What is this?]"
+msgstr "[Selitys]"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:96
+msgid "Choose which exchange rates should be used"
+msgstr "Valitse: mitä valuuttakurssia käytetään"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:102
+msgid "Choose if you would like generate the report using the exchange rate saved with each order, or the official European Central Bank (ECB) rates that apply for the quarter. Click for more information."
+msgstr "Valitse: haluatko käyttää tilaukseen tallennettua valuuttakurssia vai Euroopan keskuspankin (EKP, ECB) valuuttakurssia jota sovelletaan ko. vuosineljänneksen myynteihin. Klikkaa lisätietoja."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:113
+msgid "The EU VAT Assistant saves the exchange rate to convert order amounts from the currency in which orders were placed to the currency to be used for VAT reports. Such exchange rate is saved together with the order as soon as it is placed, and can be used to prepare the EU VAT report."
+msgstr "EU VAT Assistant -lisäosa tallentaa tilauksen tekohetkellä voimassa olevan ja tilausta koskevan valuuttakurssin tilauksen tietoihin. Sitä voi käyttää EU alv./VAT raportin laatimisessa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:116
+msgid "EU VAT regulations, however, have specific requirements about the exchange rates to be used. As per <a href=\"http://www.revenue.ie/en/tax/vat/leaflets/mini-one-stop-shop.html\"title=\"Irish Revenue - The Mini One Stop Shop (MOSS)\" target=\"_blank\">official documentation</a>:"
+msgstr "EU alv./VAT säännöissä on tarkka määräys siitä, mitä valuuttakurssia on käytettävä. Esimerkiksi Irlanti <a href=\"http://www.revenue.ie/en/tax/vat/leaflets/mini-one-stop-shop.html\"title=\"Irish Revenue - The Mini One Stop Shop (MOSS)\" target=\"_blank\">virallinen asiakirja</a>:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:121
+msgid "The Mini One Stop Shop (MOSS) - What currency should I use for the MOSS VAT return?"
+msgstr "Mini One Stop Shop (MOSS) - Mitä valuuttaa on käytettävä MOSS alv./VAT ilmoituksessa?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:127
+msgid "The exchange rate that must be used is the European Central Bank (ECB) rate applicable on the last day of the calendar quarter to which the return relates."
+msgstr "Euroopan keskuspankin (EKP, ECB) valuuttakurssia on käytettävä. Valuuttakurssi on sen neljänneksen viimeisen päivän kurssi jota arvonlisäveroilmoitus koskee."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:130
+msgid "Which exchange rates should I use?"
+msgstr "Mitä valuuttakurssia tulisi käyttää?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:135
+msgid "If you are preparing the report for your own use (for example, to get a rough idea of how much VAT you have collected), or if the quarter has not ended yet, you can use the exchange rates saved with the orders."
+msgstr "Kun valmistelet raporttia omaan käyttöön (esim. jotta saat käsityksen kuinka paljon arvonlisäveroa on kerätty) tai kun vuosineljännes ei ole vielä päättynyt, voit käyttää tilauksiin tallennettua valuuttakurssia."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:140
+msgid "If you are preparing the report to file the official VAT MOSS return, we recommend that you use the ECB exchange rates for the last day of the selected quarter."
+msgstr "Suositus: Kun valmistelet virallista alv./VAT MOSS raporttia, käytä Euroopan keskuspankin (EKP, ECB) valuuttakursseja valitulle vuosineljännekselle."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:58
+#: src/views/admin/reports/eu-vat-report-header.php:144
+#: src/views/admin/reports/eu-vat-report-header.php:221
+#: src/views/admin/reports/eu-vat-report-header.php:296
+msgid "[Close]"
+msgstr "[Sulje]"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:157
+msgid "Use the exchange rates saved with each order"
+msgstr "Käytetään tilaukseen tallennettua valuuttakurssia."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:166
+msgid "Use the European Central Bank (ECB) rates for the last day of the selected quarter"
+msgstr "Euroopan keskuspankin (EKP, ECB) valuuttakursseja sovelletaan valitulla vuosineljänneksellä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:405
+msgid "Install plugin"
+msgstr "Asenna lisäosa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:414
+msgid "Activate plugin"
+msgstr "Ota lisäosa käyttöön"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:220
+#, php-format
+msgid "Plugin \"<strong>%s</strong>\" must be installed and activated."
+msgstr "\"<strong>%s</strong>\" -lisäosa on asennettava ja otettava käyttöön."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:356
+#, php-format
+msgid "%s - Plugin not found: \"%s\". This could be due by an incorrect name specified in class \"%s\". Please report the issue to support."
+msgstr "%s - Lisäosaa ei löytynyt: \"%s\". Tämä voi johtua väärin asetetusta nimestä \"%s\" luokassa. Ilmoita asiasta tukeen, ole hyvä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:510
+msgid "This will install and activate the plugin automatically. Would you like to proceed?"
+msgstr "Tämä asentaa ja ottaa lisäosan käyttöön automaattisesti. Haluatko jatkaa?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:511
+msgid "This will activate the plugin. Would you like to proceed?"
+msgstr "Tämä ottaa lisäosan käyttöön. Haluatko jatkaa?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:543
+#, php-format
+msgid "Installing plugin \"%s\"..."
+msgstr "Asennetaan lisäosaa \"%s\"..."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:548
+msgid "Plugin is already installed."
+msgstr "Lisäosa on jo asennettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:563
+msgid "Plugin installation failed. See errors below."
+msgstr "Lisäosan asennus epäonnistui. Tutustu virheisiin alla."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:566
+#, php-format
+msgid "Please try installing the plugin manually. You can download it from %s."
+msgstr "Yritä asentaa lisäosa käsin. Voit ladata sen tästä %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:586
+#, php-format
+msgid "Activating plugin \"%s\"..."
+msgstr "Lisäosa otetaan käyttöön \"%s\"..."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:591
+msgid "Plugin is not installed."
+msgstr "Lisäosa ei ole asennettu"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:597
+msgid "Plugin already active."
+msgstr "Lisäosa on jo käytössä."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:605
+msgid "Activation failed."
+msgstr "Lisäosan käyttöönotto epäonnistui."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:611
+msgid "Plugin activated successfully. Please refresh this page to hide the requirement notices and this message."
+msgstr "Lisäosa otettu käyttöön. Päivitä tämä sivu, jotta ilmoitukset ja tämä viesti poistuvat."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:671
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:717
+#, php-format
+msgid "Invalid plugin specified: \"%s\"."
+msgstr "Annettu lisäosa ei kelpaa: \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:678
+msgid "Plugin does not have a URL from which it can be downloaded automatically."
+msgstr "Lisäosalla ei ole verkko-osoitetta (URL) josta sen voisi ladata automaattisesti."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:293
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:372
+msgid "Customer Country"
+msgstr "Asiakkaan maa"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:294
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:373
+msgid "Country Code"
+msgstr "Maatunnus"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:444
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:523
+msgid "MOSS VAT Details"
+msgstr "MOSS alv./VAT tiedot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:445
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:524
+msgid "This section shows the data to be used to file the VAT MOSS return."
+msgstr "Tässä osassa on tiedot joita käytetään alv./VAT MOSS ilmoituksessa."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:448
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:527
+msgid "Domestic/non-MOSS VAT Details"
+msgstr "Kotimaan eli ei alv./VAT MOSS tiedot"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:449
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:528
+msgid "This section shows the data for the domestic VAT return."
+msgstr "Tässä osassa on tiedot kotimaan alv. ilmoitusta varten."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1041
+#, php-format
+msgid "Unexpected condition occurred: no customer country was posted to \"checkout update order review\" event. Full posted data (JSON): \"%s\"."
+msgstr "Odottamaton tilanne: asiakkaan maata/asuinpaikkaa ei tallennettu \"kassan päivitys, tilauksen tarkastus\" -tapahtumassa. Tässä tallennetut tiedot (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1131
+msgid "Billing country on Customer object is empty. Retrieving it from posted data."
+msgstr "Laskutusmaa on asiakkaan kohdalla tyhjä. Maa noudetaan tiedoista."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1138
+#, php-format
+msgid "Unexpected condition occurred: no customer country was posted  during checkout. VAT exemption cannot be applied correctly. Full posted data (JSON): \"%s\"."
+msgstr "Odottamaton tilanne: asiakkaan maata/asuinpaikkaa ei tallennettu kassalla. Alv./VAT verovähennystä ei voi soveltaa oikein. Tässä tallennetut tiedot (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:22
+msgid "Choose if you would like the report to only display taxes falling under the EU VAT MOSS regime, only taxes falling outside of it, or both. Click for more information."
+msgstr "Valitse: haluatko raportin jossa näkyy vain EU alv./VAT MOSS verot, vain verot jotka eivät kuulu edelliseen ryhmään vai kummatkin. Klikkaa listietoja."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:33
+msgid "The EU VAT Assistant collects information about all taxes associated with each order. Some of these taxes may fall under the VAT MOSS scheme, while others may not. For example, the VAT applied to a downloadable software would be part of VAT MOSS, while the VAT applies to a custom service would not."
+msgstr "EU VAT avustaja -lisäosa kerää tiedot kaikista tilauksen veroista. Jotkut veroista kuuluvat alv./VAT MOSS menettelyyn ja jotkut eivät kuulu. Esimerkiksi ladattavan tietokoneohjelman tai -apsin vero kuuluu alv./VAT menettelyyn mutta henkilön antaman tukipalvelun arvonlisävero ei kuulu."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:37
+msgid "Additionally, all VAT applied to sales to customers in your own country are not part of the MOSS scheme, and should be filed as part of your standard domestic VAT report."
+msgstr "Lisäksi, kaikki myynti kotimaahan ei kuulu EU:n alv./VAT MOSS menettelyn piiriin. Kotimaan myynti ilmoitetaan tavallisella arvonlisäveroilmoituksella."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:44
+msgid "By selecting the appropriate option, you can generate a report containing only the data required for the VAT MOSS return, only the data for your domestic VAT return, or both. If you choose to show all data, it will be separated in two groups (MOSS and domestic VAT)."
+msgstr "Valitse tarvittava vaihtoehto, jotta saat raportin jossa on ainoastaan alv./VAT MOSS verot, tai vain kotimaan arvonlisäverot tai kummatkin. Jos valitset kummatkin, se erotellaan kahteen ryhmään (EU alv./VAT ja kotimaan alv.)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:47
+msgid "How does the EU VAT Assistant know which taxes are part of MOSS?"
+msgstr "Kuinka EU VAT avustaja -lisäosa tietää, mitkä verot kuuluvat alv./VAT MOSS menettelyyn?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:52
+#, php-format
+msgid "By default, the EU VAT Assistant assumes that all taxes are part of the MOSS scheme. You can exclude some of them by adding the related tax class to the VAT MOSS exclusion list in <a href=\"%s\">EU VAT Assistant > Reports Settings</a>."
+msgstr "EU VAT avustajan oletus on, että kaikki verot kuuluvat EU:n alv./VAT MOSS verotuksen piiriin. Voit lisätä alv./VAT MOSS ohituslistaan ne veroluokat, jotka eivät kuulu menetettelyn piiriin. Ohituslista: <a href=\"%s\">EU VAT avustaja > Raportit</a>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:71
+msgid "Show only data for VAT MOSS return"
+msgstr "Näytä tiedot vain alv./VAT MOSS ilmoituksesta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:80
+msgid "Show only data for domestic (Non-MOSS) VAT return"
+msgstr "Näytä tiedot vain kotimaan alv. ilmoituksesta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:89
+msgid "Show all data"
+msgstr "Näytä kaikki tiedot"
+
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#~ msgid "1.4.11.150810"
+#~ msgstr "1.4.11.150910"
+
+# @ wc-aelia-eu-vat-assistant
+#~ msgid "Show the EU VAT field when customer address is located in any European country, including your shop's base country."
+#~ msgstr "Näytä EU alv./VAT kenttä kun asiakkaan osoite on jossain Euroopan maassa, mukaanlukien kaupan sijaintimaa."
+
+# @ wc-aelia-eu-vat-assistant
+#~ msgid "Plugin requires PHP 5.3 or greater."
+#~ msgstr "Lisäosa vaatii vähintään PHP 5.3 version."
+
+# @ wc-aelia-eu-vat-assistant
+#~ msgid "Please review the missing requirements listed above, and ensure that all necessary plugins and PHP extensions are installed and loaded correctly. This plugin will work automatically as soon as all the requirements are met. If you need assistance, on this matter, please <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+#~ msgstr "Tarkasta yllä mainitut puutteet ja varmista, että kaikki tarvittavat lisäosat ja PHP laajennukset on asennettu ja käytössä. Tämä lisäosa toimii automaattisesti, kun kaikki edellytykset on täytetty. Jos tarvitset tukea tässä asiassa, ota yhteyttä <a href=\"https://aelia.freshdesk.com/helpdesk/tickets/new\">tukeen</a>."

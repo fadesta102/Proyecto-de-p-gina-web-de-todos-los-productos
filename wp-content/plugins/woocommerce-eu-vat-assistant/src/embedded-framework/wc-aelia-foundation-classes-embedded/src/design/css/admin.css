@@ -1,0 +1,171 @@
+/* CSS Styles for Admin pages */
+
+.wc_aelia .message_header {
+	margin: 1em 0 0 0;
+}
+
+.wc_aelia .message_header .message_id {
+	font-weight: normal;
+}
+
+.aelia.message_actions,
+.wc_aelia .message_actions {
+	float: right;
+}
+
+.aelia.message_actions .message_action {
+	font-weight: normal;
+}
+
+.wc_aelia.message.updated.warning {
+	border-left: 4px solid #ffba00;
+}
+
+.settings-page.ui-widget-content {
+	border: none;
+	background: transparent;
+}
+
+.settings-page .ui-tabs-panel.ui-widget-content {
+	background: white;
+	border: 1px solid #aaa;
+	border-top: none;
+}
+
+.settings-page .ui-state-default,
+.settings-page .ui-widget-content .settings-page .ui-state-default,
+.settings-page .ui-widget-header .ui-state-default {
+	background: #e4e4e4;
+}
+
+.settings-page .ui-state-active,
+.settings-page .ui-widget-content .ui-state-active,
+.settings-page .ui-widget-header .ui-state-active {
+	background: white;
+}
+
+.settings-page.ui-corner-all,
+.settings-page.ui-corner-top,
+.settings-page.ui-corner-bottom,
+.settings-page.ui-corner-right,
+.settings-page.ui-corner-left,
+.settings-page.ui-corner-tr,
+.settings-page .ui-corner-all,
+.settings-page .ui-corner-top,
+.settings-page .ui-corner-bottom,
+.settings-page .ui-corner-right,
+.settings-page .ui-corner-left,
+.settings-page .ui-corner-tr {
+	border-radius: 0;
+}
+
+.settings-page .ui-widget-header {
+	background: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+.settings-page .aelia.settings-tab {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.settings-page .aelia.settings-section h3 {
+	margin: 0 0 8px 0;
+}
+
+.settings-page .aelia.settings-section .form-table th,
+.settings-page .aelia.settings-section .form-table td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+.aelia-premium-plugin-updater.section_description .help_title {
+	margin: 10px 0 0 0;
+	font-size: 110%;
+}
+
+.aelia-premium-plugin-updater.section_description p {
+	margin: 0 0 16px 0;
+}
+
+.aelia-premium-plugin-updater.license {
+	background: white;
+	padding: 10px 8px 4px;
+	margin-bottom: 8px;
+}
+
+.aelia-premium-plugin-updater.license .license_key_section,
+.aelia-premium-plugin-updater.license .license_status_section {
+	margin: 10px 0;
+}
+
+.aelia-premium-plugin-updater.license .plugin_name .title {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.aelia-premium-plugin-updater.license .license_key {
+}
+
+.aelia-premium-plugin-updater.license .license_key_wrapper,
+.aelia-premium-plugin-updater.license .actions {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aelia-premium-plugin-updater.license .actions {
+	margin-top: -1px;
+}
+
+.aelia-premium-plugin-updater.license .license_status,
+.aelia-premium-plugin-updater.license .label {
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+.aelia-premium-plugin-updater.license .license_error_message {
+	font-weight: bold;
+	margin-left: 16px;
+}
+
+.aelia-premium-plugin-updater.license .license_error_message .error_message {
+	color: red;
+}
+
+.aelia-premium-plugin-updater.license .label:first-child {
+	margin-left: 0;
+}
+
+.aelia-premium-plugin-updater.license .label {
+	margin-left: 20px;
+}
+
+.aelia-premium-plugin-updater.license.active .license_status {
+	color: green;
+}
+
+.aelia-premium-plugin-updater.license.inactive .license_status {
+	color: red;
+}
+
+.aelia-premium-plugin-updater.license.inactive .actions .deactivate,
+.aelia-premium-plugin-updater.license.active .actions .activate {
+	display: none;
+}
+
+.aelia-premium-plugin td.plugin-update .update-message {
+	background-color: #fcf3ef !important;
+	margin: 0 1px 1px 1px;
+	padding: 4px 6px;
+}
+
+.aelia-premium-plugin td.plugin-update .error-message {
+	color: #a00;
+}
+
+.aelia-premium-plugin-updater .license_key_replace_actions_wrapper {
+	display: inline-block;
+}

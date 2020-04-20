@@ -1,0 +1,24 @@
+2020-04-17T07:26:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 247
+2020-04-17T07:27:35+00:00 NOTICE product_submit.success :: addStoreProduct :: #247
+2020-04-17T07:40:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 161
+2020-04-17T07:40:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 247
+2020-04-17T07:41:51+00:00 NOTICE product_submit.success :: updateStoreProduct :: #161
+2020-04-17T07:41:52+00:00 NOTICE product_submit.success :: updateStoreProduct :: #247
+2020-04-17T07:45:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 247
+2020-04-17T07:45:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 250
+2020-04-17T07:45:50+00:00 NOTICE product_submit.success :: updateStoreProduct :: #247
+2020-04-17T07:46:53+00:00 NOTICE product_submit.success :: addStoreProduct :: #250
+2020-04-17T07:47:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 250
+2020-04-17T07:48:50+00:00 NOTICE product_submit.success :: updateStoreProduct :: #250
+2020-04-17T07:54:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 250
+2020-04-17T08:08:56+00:00 NOTICE product_submit.error :: addStoreProduct :: #250 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-17T08:12:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 250
+2020-04-17T08:19:38+00:00 NOTICE product_submit.error :: addStoreProduct :: #250 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-17T08:52:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-17T08:52:55+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-17T09:27:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 253
+2020-04-17T09:28:17+00:00 NOTICE product_submit.success :: addStoreProduct :: #253
+2020-04-17T09:28:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 253
+2020-04-17T09:29:42+00:00 NOTICE product_submit.success :: updateStoreProduct :: #253
+2020-04-17T09:30:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 253
+2020-04-17T09:30:49+00:00 NOTICE product_submit.success :: updateStoreProduct :: #253

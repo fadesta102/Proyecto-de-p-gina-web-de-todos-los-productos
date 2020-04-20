@@ -1,0 +1,2655 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce EU VAT Assistant v1.13.2.200319\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-11 16:19+0000\n"
+"PO-Revision-Date: 2020-03-19 16:23+0000\n"
+"Last-Translator: Aelia Support <support@aelia.co>\n"
+"Language-Team: English (UK)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_GB\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:286
+msgid "EU"
+msgstr "EU"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:288
+msgid "Tax rate"
+msgstr "Tax rate"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:289
+msgid "Total Sales (ex. tax)"
+msgstr "Total Sales (ex. tax)"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:290
+msgid "Total Tax"
+msgstr "Total Tax"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:291
+msgid "Total Sales (inc. tax)"
+msgstr "Total Sales (inc. tax)"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:297
+msgid "No sales have been found for the selected period."
+msgstr "No sales have been found for the selected period."
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "https://aelia.co"
+msgstr "https://aelia.co"
+
+#: src/lib/classes/integration/admin/orders_integration.php:51
+msgid ""
+"This operation will analyse the order, collect the VAT information "
+"associated to it and make it available to the EU VAT Assistant."
+msgstr ""
+"This operation will analyse the order, collect the VAT information "
+"associated to it and make it available to the EU VAT Assistant."
+
+#: src/lib/classes/integration/admin/orders_integration.php:55
+msgid ""
+"If you already performed this operation before, on this order, the VAT "
+"information collected will replace the existing one."
+msgstr ""
+"If you already performed this operation before, on this order, the VAT "
+"information collected will replace the existing one."
+
+#: src/lib/classes/integration/admin/orders_integration.php:57
+msgid "Would you like to continue?"
+msgstr "Would you like to continue?"
+
+#: src/lib/classes/integration/admin/orders_integration.php:127
+msgid "VAT number"
+msgstr "VAT number"
+
+#: src/lib/classes/integration/admin/orders_integration.php:129
+msgid "Customer's VAT number, if any"
+msgstr "Customer's VAT number, if any"
+
+#: src/lib/classes/integration/admin/orders_integration.php:131
+msgid "This number will be stored as is, without validation."
+msgstr "This number will be stored as is, without validation."
+
+#: src/lib/classes/integration/admin/orders_integration.php:133
+#: src/lib/classes/settings/settings-renderer.php:501
+#: src/lib/classes/settings/settings-renderer.php:542
+#: src/lib/classes/settings/settings-renderer.php:589
+#: src/lib/classes/settings/settings-renderer.php:715 src/plugin-main.php:384
+#: src/views/admin/reports/eu-vat-report-header.php:282
+#: src/views/admin/reports/sales-summary-report-header.php:207
+msgid "Important"
+msgstr "Important"
+
+#: src/lib/classes/integration/admin/orders_integration.php:137
+msgid ""
+"Changing this number will not apply a tax exemption, and it will not affect "
+"the VAT data that has already been collected by the EU VAT Assistant (see "
+"<strong>VAT Information</strong> box)."
+msgstr ""
+"Changing this number will not apply a tax exemption, and it will not affect "
+"the VAT data that has already been collected by the EU VAT Assistant (see "
+"<strong>VAT Information</strong> box)."
+
+#: src/lib/classes/settings/settings-renderer.php:493
+msgid "Collect VAT data for orders entered or modified manually"
+msgstr "Collect VAT data for orders entered or modified manually"
+
+#: src/lib/classes/settings/settings-renderer.php:498
+msgid ""
+"When this option is selected, the EU VAT Assistant will collect VAT data for "
+"orders that are added or modified manually by going to <em>WooCommerce > "
+"Orders > Add new order</em>. The data will be collected automatically, when "
+"the \"Calculate Totals\" or \"Recalculate\" button is clicked."
+msgstr ""
+"When this option is selected, the EU VAT Assistant will collect VAT data for "
+"orders that are added or modified manually by going to <em>WooCommerce > "
+"Orders > Add new order</em>. The data will be collected automatically, when "
+"the \"Calculate Totals\" or \"Recalculate\" button is clicked."
+
+#: src/lib/classes/settings/settings-renderer.php:504
+msgid ""
+"The VAT data collected from orders created or modified manually will be the "
+"same collected from orders placed by customers and it will appear on the tax "
+"reports."
+msgstr ""
+"The VAT data collected from orders created or modified manually will be the "
+"same collected from orders placed by customers and it will appear on the tax "
+"reports."
+
+#: src/lib/classes/settings/settings-renderer.php:508
+msgid ""
+"Since the VAT MOSS scheme explicitly covers sales that do not require manual "
+"intervention, orders entered manually should fall outside the scope of such "
+"scheme."
+msgstr ""
+"Since the VAT MOSS scheme explicitly covers sales that do not require manual "
+"intervention, orders entered manually should fall outside the scope of such "
+"scheme."
+
+#: src/lib/classes/settings/settings-renderer.php:512
+msgid ""
+"For this reason, this option is disabled by default. We recommend that you "
+"consult your accountant before enabling this option."
+msgstr ""
+"For this reason, this option is disabled by default. We recommend that you "
+"consult your accountant before enabling this option."
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:376
+msgid "EU Sales"
+msgstr "EU Sales"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:377
+msgid "This section shows sales made to EU countries."
+msgstr "This section shows sales made to EU countries."
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:380
+msgid "Non-EU Sales"
+msgstr "Non-EU Sales"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:381
+msgid "This section shows sales made to countries outside the EU."
+msgstr "This section shows sales made to countries outside the EU."
+
+#: src/lib/classes/reporting/reports_manager.php:93
+#: src/lib/classes/settings/settings-renderer.php:772
+msgid "Sales Summary (VAT RTD)"
+msgstr "Sales Summary (VAT RTD)"
+
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "https://aelia.co/shop/eu-vat-assistant-woocommerce/"
+msgstr "https://aelia.co/shop/eu-vat-assistant-woocommerce/"
+
+#: src/lib/classes/settings/settings-renderer.php:894
+msgid ""
+"Tick the box next to a currency if you would like to enter its exchange rate "
+"manually. By doing that, the rate you enter for that currency will not "
+"change, even if you have enabled the automatic update of exchange rates, "
+"below"
+msgstr ""
+"Tick the box next to a currency if you would like to enter its exchange rate "
+"manually. By doing that, the rate you enter for that currency will not "
+"change, even if you have enabled the automatic update of exchange rates, "
+"below"
+
+#: src/lib/classes/settings/settings-renderer.php:898
+msgid "Select"
+msgstr "Select"
+
+#: src/lib/classes/settings/settings-renderer.php:900
+msgid "Deselect"
+msgstr "Deselect"
+
+#: src/lib/classes/settings/settings-renderer.php:901
+msgid "all"
+msgstr "all"
+
+#: src/lib/classes/settings/settings-renderer.php:234
+msgid "Required if customer enters a company name"
+msgstr "Required if customer enters a company name"
+
+#: src/lib/classes/settings/settings-renderer.php:236
+msgid "Required if customer enters a company name (EU addresses only)"
+msgstr "Required if customer enters a company name (EU addresses only)"
+
+#: src/lib/classes/settings/settings-renderer.php:297
+msgid ""
+"Show the EU VAT field when customer address is located in any European "
+"country, including your shop's base country. If this option is <strong>"
+"not</strong> selected, the EU VAT field will be hidden when the customer is "
+"from the same country specified as your shop's base country."
+msgstr ""
+"Show the EU VAT field when customer address is located in any European "
+"country, including your shop's base country. If this option is <strong>"
+"not</strong> selected, the EU VAT field will be hidden when the customer is "
+"from the same country specified as your shop's base country."
+
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:320
+#, php-format
+msgid "Order ID \"%s\". Invalid VAT Number parsed: \"%s\"."
+msgstr "Order ID \"%s\". Invalid VAT Number parsed: \"%s\"."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:510
+msgid ""
+"Please review the missing requirements listed above, and ensure that all "
+"necessary plugins and PHP extensions are installed and loaded correctly. "
+"This plugin will work automatically as soon as all the requirements are met. "
+"If you need assistance on this matter, please <a href=\"https://aelia."
+"freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+msgstr ""
+"Please review the missing requirements listed above, and ensure that all "
+"necessary plugins and PHP extensions are installed and loaded correctly. "
+"This plugin will work automatically as soon as all the requirements are met. "
+"If you need assistance on this matter, please <a href=\"https://aelia."
+"freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+
+#: src/lib/classes/integration/admin/products_integration.php:63
+msgid "EU VAT"
+msgstr "EU VAT"
+
+#: src/lib/classes/integration/admin/products_integration.php:126
+msgid "Bookable products can be rent or booked on a daily schedule"
+msgstr "Bookable products can be rent or booked on a daily schedule"
+
+#: src/lib/classes/integration/frontend/frontend_integration.php:60
+msgctxt "placeholder"
+msgid "VAT Number"
+msgstr "VAT Number"
+
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:119
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:339
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:160
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:158
+#, php-format
+msgid ""
+"VAT currency exchange rate not found for order id \"%s\". Fetching exchange "
+"rate from FX provider."
+msgstr ""
+"VAT currency exchange rate not found for order id \"%s\". Fetching exchange "
+"rate from FX provider."
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:239
+msgid ""
+"Could not prepare temporary table for the report. Please enable debug mode "
+"and tru again. If the issue persists, contact support and forward them the "
+"debug log produced by the plugin. For more information, please go to "
+"WooCommerce > EU VAT Assistant > Support."
+msgstr ""
+"Could not prepare temporary table for the report. Please enable debug mode "
+"and tru again. If the issue persists, contact support and forward them the "
+"debug log produced by the plugin. For more information, please go to "
+"WooCommerce > EU VAT Assistant > Support."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:335
+msgid "Year"
+msgstr "Year"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:336
+msgid "Month"
+msgstr "Month"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:343
+msgid "No sales falling under INTRASTAT scheme have been found."
+msgstr "No sales falling under INTRASTAT scheme have been found."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:367
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:371
+msgid "Total"
+msgstr "Total"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:398
+#, php-format
+msgid "%s-%s %d"
+msgstr "%s-%s %d"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:323
+msgid "Order ID"
+msgstr "Order ID"
+
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:287
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:324
+msgid "Customer country"
+msgstr "Customer country"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:325
+msgid "Customer VAT Number"
+msgstr "Customer VAT Number"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:327
+msgid "Services"
+msgstr "Services"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:328
+msgid "Triangulation"
+msgstr "Triangulation"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:334
+msgid "No sales falling under VIES scheme have been found."
+msgstr "No sales falling under VIES scheme have been found."
+
+#: src/lib/classes/reporting/reports_manager.php:66
+#: src/lib/classes/settings/settings-renderer.php:762
+msgid "VIES"
+msgstr "VIES"
+
+#: src/lib/classes/reporting/reports_manager.php:74
+#: src/lib/classes/settings/settings-renderer.php:767
+msgid "INTRASTAT"
+msgstr "INTRASTAT"
+
+#: src/views/admin/product_euva_section.php:8
+msgid "Click to toggle"
+msgstr "Click to toggle"
+
+#: src/views/admin/product_euva_section.php:10
+msgid "VIES Settings"
+msgstr "VIES Settings"
+
+#: src/views/admin/product_euva_section.php:26
+msgid "This product is a service"
+msgstr "This product is a service"
+
+#: src/views/admin/product_euva_section.php:28
+msgid ""
+"Tick this box if you want this product to be considered a service when "
+"generating the VIES report."
+msgstr ""
+"Tick this box if you want this product to be considered a service when "
+"generating the VIES report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:178
+#: src/views/admin/reports/sales-summary-report-header.php:103
+msgid "Choose how you would like to process refunds"
+msgstr "Choose how you would like to process refunds"
+
+#: src/views/admin/reports/eu-vat-report-header.php:182
+#: src/views/admin/reports/sales-summary-report-header.php:107
+msgid ""
+"Here you can choose how you would like to process the refunds that could be "
+"included in the report."
+msgstr ""
+"Here you can choose how you would like to process the refunds that could be "
+"included in the report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:191
+#: src/views/admin/reports/sales-summary-report-header.php:116
+msgid "Which refunds should I include in the report?"
+msgstr "Which refunds should I include in the report?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:196
+#: src/views/admin/reports/sales-summary-report-header.php:121
+msgid ""
+"While this report was designed for VAT MOSS purposes, it can also be used "
+"for domestic VAT returns. You can find the data for your domestic VAT return "
+"in the \"Domestic\" section of the report (if applicable)."
+msgstr ""
+"While this report was designed for VAT MOSS purposes, it can also be used "
+"for domestic VAT returns. You can find the data for your domestic VAT return "
+"in the \"Domestic\" section of the report (if applicable)."
+
+#: src/views/admin/reports/eu-vat-report-header.php:204
+#: src/views/admin/reports/sales-summary-report-header.php:129
+msgid ""
+"EU VAT regulations indicate that refunds should be applied to the return "
+"related to the quarter in which the original order was placed. For example, "
+"if an order for 100 EUR is placed in March 2015, and a refund is granted in "
+"April 2015, the rule is that the original return for Q1 2015 should be "
+"amended."
+msgstr ""
+"EU VAT regulations indicate that refunds should be applied to the return "
+"related to the quarter in which the original order was placed. For example, "
+"if an order for 100 EUR is placed in March 2015, and a refund is granted in "
+"April 2015, the rule is that the original return for Q1 2015 should be "
+"amended."
+
+#: src/views/admin/reports/eu-vat-report-header.php:210
+#: src/views/admin/reports/sales-summary-report-header.php:135
+msgid ""
+"Domestic VAT returns, instead, are regulated by the country where the "
+"merchant resides. In many cases, domestic rules indicate that refunds should "
+"be applied to the VAT return for the period in which they occurred (i.e. the "
+"original return does not have to be modified."
+msgstr ""
+"Domestic VAT returns, instead, are regulated by the country where the "
+"merchant resides. In many cases, domestic rules indicate that refunds should "
+"be applied to the VAT return for the period in which they occurred (i.e. the "
+"original return does not have to be modified."
+
+#: src/views/admin/reports/eu-vat-report-header.php:218
+#: src/views/admin/reports/sales-summary-report-header.php:143
+msgid ""
+"By selecting the appropriate setting, below, you can specify if the report "
+"should include the refunds <strong>granted in the selected period</strong>, "
+"or if it should include the refunds <strong>related to the orders that were "
+"placed in the selected period</strong>."
+msgstr ""
+"By selecting the appropriate setting, below, you can specify if the report "
+"should include the refunds <strong>granted in the selected period</strong>, "
+"or if it should include the refunds <strong>related to the orders that were "
+"placed in the selected period</strong>."
+
+#: src/views/admin/reports/eu-vat-report-header.php:236
+#: src/views/admin/reports/sales-summary-report-header.php:161
+msgid "Include refunds applied to the orders placed in the selected period"
+msgstr "Include refunds applied to the orders placed in the selected period"
+
+#: src/views/admin/reports/eu-vat-report-header.php:247
+#: src/views/admin/reports/sales-summary-report-header.php:172
+msgid "Include refunds granted in the selected period"
+msgstr "Include refunds granted in the selected period"
+
+#: src/views/admin/reports/eu-vat-report-header.php:257
+#: src/views/admin/reports/sales-summary-report-header.php:182
+msgid "Include refunded orders?"
+msgstr "Include refunded orders?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:261
+#: src/views/admin/reports/sales-summary-report-header.php:186
+msgid ""
+"Here you can choose if you would like to include refunded orders in the data "
+"used for the report."
+msgstr ""
+"Here you can choose if you would like to include refunded orders in the data "
+"used for the report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:270
+#: src/views/admin/reports/sales-summary-report-header.php:195
+msgid "Should I include refunded orders?"
+msgstr "Should I include refunded orders?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:275
+#: src/views/admin/reports/sales-summary-report-header.php:200
+msgid ""
+"By default, the report does not include refunded orders. Such orders are "
+"considered fully refunded, and all the revenue and the refunds related to "
+"them are ignored, as they should void each other."
+msgstr ""
+"By default, the report does not include refunded orders. Such orders are "
+"considered fully refunded, and all the revenue and the refunds related to "
+"them are ignored, as they should void each other."
+
+#: src/views/admin/reports/eu-vat-report-header.php:279
+#: src/views/admin/reports/sales-summary-report-header.php:204
+msgid ""
+"If you choose to include refunded orders, then their amounts will be added "
+"to the sales total, and any refund associated to them will be deducted from "
+"it. "
+msgstr ""
+"If you choose to include refunded orders, then their amounts will be added "
+"to the sales total, and any refund associated to them will be deducted from "
+"it. "
+
+#: src/views/admin/reports/eu-vat-report-header.php:288
+#: src/views/admin/reports/sales-summary-report-header.php:213
+msgid ""
+"If you decide to include refunded orders, make sure that you have created "
+"the appropriate refunds associated to them, so that the amounts that you "
+"have returned to your customers can be deducted. If you are not sure of what "
+"this means, we recommend to <strong>exclude</strong> refunded orders from "
+"the report."
+msgstr ""
+"If you decide to include refunded orders, make sure that you have created "
+"the appropriate refunds associated to them, so that the amounts that you "
+"have returned to your customers can be deducted. If you are not sure of what "
+"this means, we recommend to <strong>exclude</strong> refunded orders from "
+"the report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:292
+#: src/views/admin/reports/sales-summary-report-header.php:217
+msgid ""
+"For more information on refunds and on how to create them, please <a "
+"href=\"http://docs.woothemes.com/document/woocommerce-refunds/\"> refer to "
+"WooCommerce Refunds documentation</a>."
+msgstr ""
+"For more information on refunds and on how to create them, please <a "
+"href=\"http://docs.woothemes.com/document/woocommerce-refunds/\"> refer to "
+"WooCommerce Refunds documentation</a>."
+
+#: src/views/admin/reports/eu-vat-report-header.php:311
+#: src/views/admin/reports/sales-summary-report-header.php:236
+msgid "Exclude refunded orders"
+msgstr "Exclude refunded orders"
+
+#: src/views/admin/reports/eu-vat-report-header.php:322
+#: src/views/admin/reports/sales-summary-report-header.php:247
+msgid "Include refunded orders"
+msgstr "Include refunded orders"
+
+#. translators: plugin header field 'Name'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "WooCommerce EU VAT Assistant"
+msgstr "WooCommerce EU VAT Assistant"
+
+#. translators: plugin header field 'Description'
+#: woocommerce-eu-vat-assistant.php:0
+msgid ""
+"Assists with EU VAT compliance, for the new VAT regime beginning 1st January "
+"2015."
+msgstr ""
+"Assists with EU VAT compliance, for the new VAT regime beginning 1st January "
+"2015."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:147
+#, php-format
+msgid ""
+"An unexpected error occurred while fetching exchange rates from HMRC. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"An unexpected error occurred while fetching exchange rates from HMRC. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:254
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by IrishRevenueHTML."
+msgstr ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by IrishRevenueHTML."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:149
+#, php-format
+msgid "Plugin requires \"%s\" PHP extension."
+msgstr "Plugin requires \"%s\" PHP extension."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:216
+#, php-format
+msgid "Plugin \"%s\" must be version \"%s\" or later."
+msgstr "Plugin \"%s\" must be version \"%s\" or later."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:488
+#, php-format
+msgid "Plugin \"%s\" could not be loaded due to missing requirements."
+msgstr "Plugin \"%s\" could not be loaded due to missing requirements."
+
+#: src/lib/classes/integration/pdf_invoices_packing_slips/eu_invoice_helper.php:171
+#: src/plugin-main.php:1751
+msgid "VAT #:"
+msgstr "VAT #:"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:299
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:312
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:352
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:265
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:302
+msgid "Currency for VAT returns:"
+msgstr "Currency for VAT returns:"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:321
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:374
+msgid "Items"
+msgstr "Items"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:322
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:375
+msgid "Shipping"
+msgstr "Shipping"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:328
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:381
+msgid "Tax Rate"
+msgstr "Tax Rate"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:333
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:339
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:386
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:392
+msgid "VAT Charged"
+msgstr "VAT Charged"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:334
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:340
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:387
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:393
+msgid "VAT Refunded"
+msgstr "VAT Refunded"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:344
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:397
+msgid "Final VAT Total"
+msgstr "Final VAT Total"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:350
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:403
+msgid "No VAT has been processed in this period"
+msgstr "No VAT has been processed in this period"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:461
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:498
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:339
+msgid "Totals"
+msgstr "Totals"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:265
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:280
+#, php-format
+msgid "Q%d %d"
+msgstr "Q%d %d"
+
+#: src/lib/classes/reporting/reports_manager.php:33
+#, php-format
+msgid ""
+"Reports could not be found for this WooCommerce version. Supported version "
+"are from %s to: %s."
+msgstr ""
+"Reports could not be found for this WooCommerce version. Supported version "
+"are from %s to: %s."
+
+#: src/lib/classes/reporting/reports_manager.php:58
+msgid "EU VAT by Country"
+msgstr "EU VAT by Country"
+
+#: src/lib/classes/settings/settings-renderer.php:63
+#, php-format
+msgid "Label not found for currency \"%s\""
+msgstr "Label not found for currency \"%s\""
+
+#: src/lib/classes/settings/settings-renderer.php:77
+msgid "Checkout"
+msgstr "Checkout"
+
+#: src/lib/classes/settings/settings-renderer.php:90
+#: src/lib/classes/settings/settings-renderer.php:136
+#: src/lib/classes/settings/settings-renderer.php:886
+msgid "Currency"
+msgstr "Currency"
+
+#: src/lib/classes/settings/settings-renderer.php:102
+#: src/lib/classes/settings/settings-renderer.php:192
+#: src/views/admin/reports/eu-vat-report-header.php:13
+#: src/views/admin/reports/sales-report-header.php:13
+#: src/views/admin/reports/sales-summary-report-header.php:17
+msgid "Options"
+msgstr "Options"
+
+#: src/lib/classes/settings/settings-renderer.php:110
+msgid "Support"
+msgstr "Support"
+
+#: src/lib/classes/settings/settings-renderer.php:86
+msgid "Self-certification"
+msgstr "Self-certification"
+
+#: src/lib/classes/settings/settings-renderer.php:143
+msgid "Automatic update of exchange rates"
+msgstr "Automatic update of exchange rates"
+
+#: src/lib/classes/settings/settings-renderer.php:150
+msgid "Exchange rates"
+msgstr "Exchange rates"
+
+#: src/lib/classes/settings/settings-renderer.php:208
+msgid "Support Information"
+msgstr "Support Information"
+
+#: src/lib/classes/settings/settings-renderer.php:216
+msgid "Debug"
+msgstr "Debug"
+
+#: src/lib/classes/settings/settings-renderer.php:266
+msgid "EU VAT field label"
+msgstr "EU VAT field label"
+
+#: src/lib/classes/settings/settings-renderer.php:267
+msgid "The label that will be displayed above the EU VAT field at checkout."
+msgstr "The label that will be displayed above the EU VAT field at checkout."
+
+#: src/lib/classes/settings/settings-renderer.php:273
+msgid "EU VAT field description"
+msgstr "EU VAT field description"
+
+#: src/lib/classes/settings/settings-renderer.php:274
+msgid ""
+"A description that will be displayed above the EU VAT field at checkout."
+msgstr ""
+"A description that will be displayed above the EU VAT field at checkout."
+
+#: src/lib/classes/settings/settings-renderer.php:293
+msgid "Show EU VAT field when customer is located in base country"
+msgstr "Show EU VAT field when customer is located in base country"
+
+#: src/lib/classes/settings/settings-renderer.php:302
+msgid "Deduct VAT if customer is located in base country"
+msgstr "Deduct VAT if customer is located in base country"
+
+#: src/lib/classes/settings/settings-renderer.php:304
+msgid ""
+"Enable this option to deduct VAT from orders placed by customers who are "
+"located in your shop's base country, if they enter a valid EU VAT number."
+msgstr ""
+"Enable this option to deduct VAT from orders placed by customers who are "
+"located in your shop's base country, if they enter a valid EU VAT number."
+
+#: src/lib/classes/settings/settings-renderer.php:309
+msgid "Store invalid VAT numbers"
+msgstr "Store invalid VAT numbers"
+
+#: src/lib/classes/settings/settings-renderer.php:312
+msgid ""
+"Enable this option to store VAT numbers that don't pass validation. Note: "
+"when an invalid VAT number is detected, VAT will still be applied."
+msgstr ""
+"Enable this option to store VAT numbers that don't pass validation. Note: "
+"when an invalid VAT number is detected, VAT will still be applied."
+
+#: src/lib/classes/settings/settings-renderer.php:318
+msgid "No (never show it)"
+msgstr "No (never show it)"
+
+#: src/lib/classes/settings/settings-renderer.php:319
+msgid "Yes (always show it)"
+msgstr "Yes (always show it)"
+
+#: src/lib/classes/settings/settings-renderer.php:321
+msgid "Only when there is insufficient evidence about customer's location"
+msgstr "Only when there is insufficient evidence about customer's location"
+
+#: src/lib/classes/settings/settings-renderer.php:325
+msgid "Allow customers to self-certify their location of residence"
+msgstr "Allow customers to self-certify their location of residence"
+
+#: src/lib/classes/settings/settings-renderer.php:348
+msgid ""
+"Require self-certification when the evidence about location is insufficient"
+msgstr ""
+"Require self-certification when the evidence about location is insufficient"
+
+#: src/lib/classes/settings/settings-renderer.php:356
+msgid ""
+"<a href=\"http://en.wikipedia."
+"org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU regulations require "
+"at least two pieces of non-conflicting evidence</a> to prove a customer's "
+"location (e.g. billing address, shipping address, IP address). If you enable "
+"this option, the self-certification will become mandatory unless at least "
+"two of these information will match the same country. <strong>"
+"Important</strong>: this rule applies only when the self-certification field "
+"is visible to the customer (see visibility options, above)."
+msgstr ""
+"<a href=\"http://en.wikipedia."
+"org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU regulations require "
+"at least two pieces of non-conflicting evidence</a> to prove a customer's "
+"location (e.g. billing address, shipping address, IP address). If you enable "
+"this option, the self-certification will become mandatory unless at least "
+"two of these information will match the same country. <strong>"
+"Important</strong>: this rule applies only when the self-certification field "
+"is visible to the customer (see visibility options, above)."
+
+#: src/lib/classes/settings/settings-renderer.php:361
+msgid "Consider the shipping address as valid location evidence"
+msgstr "Consider the shipping address as valid location evidence"
+
+#: src/lib/classes/settings/settings-renderer.php:370
+msgid ""
+"Tick this box if you would like to use the shipping address as evidence to "
+"validate customer's location. When this option is enabled, and the customer "
+"enters the same country in both billing and shipping address, the plugin "
+"will consider them two pieces of non contradictory evidence and it will no "
+"longer ask for self-certification. We would recommend that you discuss with "
+"your Revenue office the possibility of using the shipping address as "
+"evidence before enabling this option."
+msgstr ""
+"Tick this box if you would like to use the shipping address as evidence to "
+"validate customer's location. When this option is enabled, and the customer "
+"enters the same country in both billing and shipping address, the plugin "
+"will consider them two pieces of non contradictory evidence and it will no "
+"longer ask for self-certification. We would recommend that you discuss with "
+"your Revenue office the possibility of using the shipping address as "
+"evidence before enabling this option."
+
+#: src/views/admin/order-vat-info-box.php:18
+#: src/views/admin/order-vat-info-box.php:241
+msgid "Total VAT"
+msgstr "Total VAT"
+
+#: src/views/admin/order-vat-info-box.php:26
+msgid "Customer located in EU"
+msgstr "Customer located in EU"
+
+#: src/views/admin/order-vat-info-box.php:27
+msgid "Billing country"
+msgstr "Billing country"
+
+#: src/views/admin/order-vat-info-box.php:28
+msgid "Shipping country"
+msgstr "Shipping country"
+
+#: src/views/admin/order-vat-info-box.php:29
+msgid "Customer's IP address"
+msgstr "Customer's IP address"
+
+#: src/views/admin/order-vat-info-box.php:30
+msgid "Country from IP address"
+msgstr "Country from IP address"
+
+#: src/views/admin/order-vat-info-box.php:31
+msgid "Customer self-certified location"
+msgstr "Customer self-certified location"
+
+#: src/views/admin/order-vat-info-box.php:34
+msgid "Customer's VAT number"
+msgstr "Customer's VAT number"
+
+#: src/views/admin/order-vat-info-box.php:35
+msgid "Customer's VAT country"
+msgstr "Customer's VAT country"
+
+#: src/views/admin/order-vat-info-box.php:36
+msgid "VAT number validated"
+msgstr "VAT number validated"
+
+#: src/views/admin/order-vat-info-box.php:198
+msgid "No VAT was paid on this order."
+msgstr "No VAT was paid on this order."
+
+#: src/views/admin/order-vat-info-box.php:203
+msgid "VAT Currency:"
+msgstr "VAT Currency:"
+
+#: src/views/admin/order-vat-info-box.php:210
+#, php-format
+msgid "Exchange rate (%s to %s):"
+msgstr "Exchange rate (%s to %s):"
+
+#: src/views/admin/order-vat-info-box.php:252
+msgid "Totals by VAT rate"
+msgstr "Totals by VAT rate"
+
+#: src/views/admin/order-vat-info-box.php:271
+msgid "VAT evidence"
+msgstr "VAT evidence"
+
+#: src/views/admin/order-vat-info-box.php:276
+msgid "No VAT evidence was stored with this order."
+msgstr "No VAT evidence was stored with this order."
+
+#: src/views/admin/order-vat-info-box.php:280
+msgid "Location details"
+msgstr "Location details"
+
+#: src/views/admin/order-vat-info-box.php:283
+#: src/views/admin/order-vat-info-box.php:293
+msgid "yes"
+msgstr "yes"
+
+#: src/views/admin/order-vat-info-box.php:283
+#: src/views/admin/order-vat-info-box.php:293
+msgid "no"
+msgstr "no"
+
+#: src/views/admin/order-vat-info-box.php:288
+msgid "Exemption details"
+msgstr "Exemption details"
+
+#: src/views/admin/order-vat-info-box.php:298
+msgid "N/A"
+msgstr "N/A"
+
+#: src/lib/classes/integration/frontend/frontend_integration.php:59
+#: src/plugin-main.php:1782 src/views/frontend/checkout-eu-vat-field.php:24
+msgid "VAT Number"
+msgstr "VAT Number"
+
+#: src/plugin-main.php:1311
+#: src/views/frontend/checkout-self-certification-field.php:15
+msgid ""
+"Due to European regulations, we have to ask you to confirm your location."
+msgstr ""
+"Due to European regulations, we have to ask you to confirm your location."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:53
+#, php-format
+msgid "Error returned by BitPay. Error code: %s. Error message: %s - %s."
+msgstr "Error returned by BitPay. Error code: %s. Error message: %s - %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:66
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from BitPay. Error "
+"message: %s."
+msgstr ""
+"Exception occurred while retrieving the exchange rates from BitPay. Error "
+"message: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:104
+msgid ""
+"An unexpected error occurred while fetching exchange rates from BitPay. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"An unexpected error occurred while fetching exchange rates from BitPay. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:136
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by BitPay."
+msgstr ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by BitPay."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:94
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:56
+#, php-format
+msgid "Error returned by ECB. Error code: %s. Error message: %s - %s."
+msgstr "Error returned by ECB. Error code: %s. Error message: %s - %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:107
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:69
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from ECB. Error "
+"message: %s."
+msgstr ""
+"Exception occurred while retrieving the exchange rates from ECB. Error "
+"message: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:264
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:110
+msgid ""
+"An unexpected error occurred while fetching exchange rates from ECB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"An unexpected error occurred while fetching exchange rates from ECB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:303
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:144
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by ECB."
+msgstr ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by ECB."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:181
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by HMRC."
+msgstr ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by HMRC."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:166
+#, php-format
+msgid ""
+"Error returned fetching Irish Revenue HTML page. Error code: %s. Error "
+"message: %s - %s."
+msgstr ""
+"Error returned fetching Irish Revenue HTML page. Error code: %s. Error "
+"message: %s - %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:179
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from Irish Revenue "
+"HTML page. Error message: %s."
+msgstr ""
+"Exception occurred while retrieving the exchange rates from Irish Revenue "
+"HTML page. Error message: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:220
+msgid ""
+"An unexpected error occurred while fetching exchange rates from "
+"IrishRevenueHTML. The most common cause of this issue is the absence of PHP "
+"CURL extension. Please make sure that PHP CURL is installed and configured "
+"in your system."
+msgstr ""
+"An unexpected error occurred while fetching exchange rates from "
+"IrishRevenueHTML. The most common cause of this issue is the absence of PHP "
+"CURL extension. Please make sure that PHP CURL is installed and configured "
+"in your system."
+
+#: src/lib/classes/settings/settings-renderer.php:331
+msgid ""
+"Choose if you would like to display a \"self-certification\" field at "
+"checkout. By ticking the self-certification box, customers will be allowed "
+"to certify that the country entered as part of the billing address is their "
+"country of residence. Such declaration will be recorded with the completed "
+"order as part of the EU VAT evidence."
+msgstr ""
+"Choose if you would like to display a \"self-certification\" field at "
+"checkout. By ticking the self-certification box, customers will be allowed "
+"to certify that the country entered as part of the billing address is their "
+"country of residence. Such declaration will be recorded with the completed "
+"order as part of the EU VAT evidence."
+
+#: src/lib/classes/settings/settings-renderer.php:380
+msgid ""
+"Enable this option if you would like to hide the self-certification field at "
+"checkout even when the customer enters a valid VAT number. <strong>"
+"Important</strong>: when this option is enabled, if the customer will enter "
+"a valid VAT number the self-certification requirement above will be ignored."
+msgstr "Self-certification field label"
+
+#: src/lib/classes/settings/settings-renderer.php:389
+msgid ""
+"The label that will be displayed above the self-certification field at "
+"checkout. You can use the <code>{billing_country}</code> placeholder to "
+"automatically show the billing country chosen by the customer."
+msgstr ""
+"The label that will be displayed above the self-certification field at "
+"checkout. You can use the <code>{billing_country}</code> placeholder to "
+"automatically show the billing country chosen by the customer."
+
+#: src/lib/classes/settings/settings-renderer.php:395
+msgid "VAT Currency"
+msgstr "VAT Currency"
+
+#: src/lib/classes/settings/settings-renderer.php:404
+msgid ""
+"EU regulations require that all payment and VAT amounts are indicated in the "
+"currency where your business is based. If you file your VAT reports in a "
+"currency different from shop's base currency, you can choose it here. "
+"<strong>Important:</strong> all VAT data will be calculated and stored with "
+"the orders as they are created. We strongly recommend to double check the "
+"currency you have selected, as changing it later could result in incorrect "
+"VAT reports being generated."
+msgstr ""
+"EU regulations require that all payment and VAT amounts are indicated in the "
+"currency where your business is based. If you file your VAT reports in a "
+"currency different from shop's base currency, you can choose it here. "
+"<strong>Important:</strong> all VAT data will be calculated and stored with "
+"the orders as they are created. We strongly recommend to double check the "
+"currency you have selected, as changing it later could result in incorrect "
+"VAT reports being generated."
+
+#: src/lib/classes/settings/settings-renderer.php:411
+msgid "Tick this box to enable automatic updating of exchange rates."
+msgstr "Tick this box to enable automatic updating of exchange rates."
+
+#: src/lib/classes/settings/settings-renderer.php:420
+msgid "Select how often you would like to update the exchange rates."
+msgstr "Select how often you would like to update the exchange rates."
+
+#: src/lib/classes/settings/settings-renderer.php:423
+#, php-format
+msgid ""
+"<p>Last update: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>"
+"Next update: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+msgstr ""
+"<p>Last update: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>"
+"Next update: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+
+#: src/lib/classes/settings/settings-renderer.php:431
+msgid "Exchange rates provider"
+msgstr "Exchange rates provider"
+
+#: src/lib/classes/settings/settings-renderer.php:433
+msgid "Select the Provider from which the exchange rates will be fetched."
+msgstr "Select the Provider from which the exchange rates will be fetched."
+
+#: src/lib/classes/settings/settings-renderer.php:483
+msgid "Decimals for VAT rounding"
+msgstr "Decimals for VAT rounding"
+
+#: src/lib/classes/settings/settings-renderer.php:488
+msgid ""
+"The amount of decimals to use when rounding VAT. This setting applies when "
+"the VAT evidence is generated (for example during the conversion of VAT "
+"totals to the appropriate VAT currency). If you are not sure of how many "
+"decimals you should use, please contact your Revenue office."
+msgstr ""
+"The amount of decimals to use when rounding VAT. This setting applies when "
+"the VAT evidence is generated (for example during the conversion of VAT "
+"totals to the appropriate VAT currency). If you are not sure of how many "
+"decimals you should use, please contact your Revenue office."
+
+#: src/lib/classes/settings/settings-renderer.php:601
+msgid "Enable debug mode."
+msgstr "Enable debug mode."
+
+#: src/lib/classes/settings/settings-renderer.php:603
+#, php-format
+msgid ""
+"When debug mode is enabled, the plugin will log events to file <code>"
+"%s</code>."
+msgstr ""
+"When debug mode is enabled, the plugin will log events to file <code>"
+"%s</code>."
+
+#: src/lib/classes/settings/settings-renderer.php:615
+#: src/views/admin/product_euva_variation.php:24
+msgid "EU VAT Assistant"
+msgstr "EU VAT Assistant"
+
+#: src/lib/classes/settings/settings-renderer.php:634
+msgid "EU VAT Assistant - Settings"
+msgstr "EU VAT Assistant - Settings"
+
+#: src/lib/classes/settings/settings-renderer.php:645
+msgid ""
+"In this page you can configure the settings for the EU VAT Assistant plugin."
+msgstr ""
+"In this page you can configure the settings for the EU VAT Assistant plugin."
+
+#: src/lib/classes/settings/settings-renderer.php:651
+msgid "Here you can configure various parameters related to checkout."
+msgstr "Here you can configure various parameters related to checkout."
+
+#: src/lib/classes/settings/settings-renderer.php:655
+msgid ""
+"This page requires JavaScript to work properly. Please enable JavaScript in "
+"your browser and refresh the page.</u>."
+msgstr ""
+"This page requires JavaScript to work properly. Please enable JavaScript in "
+"your browser and refresh the page.</u>."
+
+#: src/lib/classes/settings/settings-renderer.php:662
+msgid ""
+"Here you can decide to display an additional self-certification field that "
+"customers can use to confirm their country of residence."
+msgstr ""
+"Here you can decide to display an additional self-certification field that "
+"customers can use to confirm their country of residence."
+
+#: src/lib/classes/settings/settings-renderer.php:681
+msgid ""
+"These exchange rates will be used to convert the order amounts (totals, VAT, "
+"etc) in the currency you use to file your VAT returns. <strong>"
+"Important</strong>: you can enter the exchange rates manually, if you wish, "
+"but please make sure that they are in line with the values that your Revenue "
+"office would consider acceptable. The responsibility of ensuring that the "
+"rates are correct lies upon you. If you are in doubt, please contact your "
+"revenue office to determine which exchange rates they would consider "
+"acceptable. Most revenue offices have their own list of exchange rates, "
+"which you can enter here."
+msgstr ""
+"These exchange rates will be used to convert the order amounts (totals, VAT, "
+"etc) in the currency you use to file your VAT returns. <strong>"
+"Important</strong>: you can enter the exchange rates manually, if you wish, "
+"but please make sure that they are in line with the values that your Revenue "
+"office would consider acceptable. The responsibility of ensuring that the "
+"rates are correct lies upon you. If you are in doubt, please contact your "
+"revenue office to determine which exchange rates they would consider "
+"acceptable. Most revenue offices have their own list of exchange rates, "
+"which you can enter here."
+
+#: src/lib/classes/settings/settings-renderer.php:688
+msgid ""
+"To set an exchange rate manually, tick the box next to the exchange rate "
+"field for the desired currency and enter the rate in the exchange rate field "
+"itself. The checkbox next to the \"<strong>Set manually</strong>\" label "
+"will select/deselect the checkboxes for all the currencies. <strong>"
+"Important</strong>: ensure that all exchange rates you flagged to be entered "
+"manually are filled. An empty exchange rate could lead to unpredictable "
+"results, as it's intepreted as zero."
+msgstr ""
+"To set an exchange rate manually, tick the box next to the exchange rate "
+"field for the desired currency and enter the rate in the exchange rate field "
+"itself. The checkbox next to the \"<strong>Set manually</strong>\" label "
+"will select/deselect the checkboxes for all the currencies. <strong>"
+"Important</strong>: ensure that all exchange rates you flagged to be entered "
+"manually are filled. An empty exchange rate could lead to unpredictable "
+"results, as it's intepreted as zero."
+
+#: src/lib/classes/settings/settings-renderer.php:728
+msgid "Miscellaneous options."
+msgstr "Miscellaneous options."
+
+#: src/lib/classes/settings/settings-renderer.php:787
+msgid ""
+"We designed this plugin to be robust and effective, as well as intuitive and "
+"easy to use. However, we are aware that, despite all best efforts, issues "
+"can arise and that there is always room for improvement."
+msgstr ""
+"We designed this plugin to be robust and effective, as well as intuitive and "
+"easy to use. However, we are aware that, despite all best efforts, issues "
+"can arise and that there is always room for improvement."
+
+#: src/lib/classes/settings/settings-renderer.php:792
+msgid ""
+"Should you need assistance, or if you just would like to get in touch with "
+"us, please use one of the links below."
+msgstr ""
+"Should you need assistance, or if you just would like to get in touch with "
+"us, please use one of the links below."
+
+#: src/lib/classes/settings/settings-renderer.php:800
+#, php-format
+msgid ""
+"<span class=\"label\">To request support</span>, please use our <a "
+"href=\"%s\">Support portal</a>. The portal also contains a Knowledge Base, "
+"where you can find the answers to the most common questions related to our "
+"products."
+msgstr ""
+"<span class=\"label\">To request support</span>, please use our <a "
+"href=\"%s\">Support portal</a>. The portal also contains a Knowledge Base, "
+"where you can find the answers to the most common questions related to our "
+"products."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:63
+#, php-format
+msgid "Error returned by DNB. Error code: %s. Error message: %s - %s."
+msgstr "Error returned by DNB. Error code: %s. Error message: %s - %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:76
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from DNB. Error "
+"message: %s."
+msgstr ""
+"Exception occurred while retrieving the exchange rates from DNB. Error "
+"message: %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:121
+msgid ""
+"An unexpected error occurred while fetching exchange rates from DNB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"An unexpected error occurred while fetching exchange rates from DNB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:155
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by DNB."
+msgstr ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by DNB."
+
+#: src/lib/classes/settings/settings-renderer.php:120
+msgid "Checkout settings"
+msgstr "Checkout settings"
+
+#: src/lib/classes/settings/settings-renderer.php:128
+msgid "Self-certification settings"
+msgstr "Self-certification settings"
+
+#: src/lib/classes/settings/settings-renderer.php:229
+msgid "Optional"
+msgstr "Optional"
+
+#: src/lib/classes/settings/settings-renderer.php:230
+msgid "Always required"
+msgstr "Always required"
+
+#: src/lib/classes/settings/settings-renderer.php:232
+msgid "Required only for EU addresses"
+msgstr "Required only for EU addresses"
+
+#: src/lib/classes/settings/settings-renderer.php:238
+msgid "Hidden"
+msgstr "Hidden"
+
+#: src/lib/classes/settings/settings-renderer.php:243
+msgid "EU VAT number field will be"
+msgstr "EU VAT number field will be"
+
+#: src/lib/classes/settings/settings-renderer.php:260
+msgid ""
+"Choose if you would like to display the EU VAT Number field, and how you "
+"would like to handle it.<ul class=\"description\"><li><strong>"
+"Optional</strong> - Customers can enter a EU VAT number to get VAT exemption."
+"</li><li><strong>Always required</strong> - Customers must enter a valid EU "
+"VAT number to complete a purchase. This means that only B2B sales with EU "
+"businesses can be completed.</li><li><strong>Required only for EU "
+"addresses</strong> - Customers who select a billing country that is part of "
+"the EU must enter a valid EU VAT number to complete a purchase. Customer who "
+"select a non-EU country can proceed without entering the VAT number.</li><li>"
+"<strong>Hidden</strong> - Customers will not be able to enter a EU VAT "
+"number. This option is useful if you do not plan to sell to EU businesses."
+"</li></ul>"
+msgstr ""
+"Choose if you would like to display the EU VAT Number field, and how you "
+"would like to handle it.<ul class=\"description\"><li><strong>"
+"Optional</strong> - Customers can enter a EU VAT number to get VAT exemption."
+"</li><li><strong>Always required</strong> - Customers must enter a valid EU "
+"VAT number to complete a purchase. This means that only B2B sales with EU "
+"businesses can be completed.</li><li><strong>Required only for EU "
+"addresses</strong> - Customers who select a billing country that is part of "
+"the EU must enter a valid EU VAT number to complete a purchase. Customer who "
+"select a non-EU country can proceed without entering the VAT number.</li><li>"
+"<strong>Hidden</strong> - Customers will not be able to enter a EU VAT "
+"number. This option is useful if you do not plan to sell to EU businesses."
+"</li></ul>"
+
+#: src/lib/classes/settings/settings-renderer.php:375
+msgid "Hide the self-certification field when a valid VAT number is entered"
+msgstr "Hide the self-certification field when a valid VAT number is entered"
+
+#: src/lib/classes/settings/settings-renderer.php:385
+msgid "Self-certification field label"
+msgstr "Self-certification field label"
+
+#: src/lib/classes/settings/settings-renderer.php:804
+#, php-format
+msgid ""
+"<span class=\"label\">To send us general feedback</span>, suggestions, or "
+"enquiries, please use the <a href=\"%s\">contact form on our website.</a>"
+msgstr ""
+"<span class=\"label\">To send us general feedback</span>, suggestions, or "
+"enquiries, please use the <a href=\"%s\">contact form on our website.</a>"
+
+#: src/lib/classes/settings/settings-renderer.php:821
+msgid "Save and update exchange rates"
+msgstr "Save and update exchange rates"
+
+#: src/lib/classes/settings/settings-renderer.php:876
+msgid "Argument \"exchange_rates\" must be an array."
+msgstr "Argument \"exchange_rates\" must be an array."
+
+#: src/lib/classes/settings/settings-renderer.php:887
+msgid "Exchange Rate"
+msgstr "Exchange Rate"
+
+#: src/lib/classes/settings/settings-renderer.php:889
+msgid "Set Manually"
+msgstr "Set Manually"
+
+#: src/lib/classes/settings/settings.php:146
+msgid "EU VAT Number"
+msgstr "EU VAT Number"
+
+#: src/lib/classes/settings/settings.php:147
+msgid "Enter your EU VAT Number (if any). Country prefix is not required."
+msgstr "Enter your EU VAT Number (if any). Country prefix is not required."
+
+#: src/lib/classes/settings/settings.php:167
+msgid ""
+"I am established, have my permanent address, or usually reside within "
+"<strong>{billing_country}</strong>."
+msgstr ""
+"I am established, have my permanent address, or usually reside within "
+"<strong>{billing_country}</strong>."
+
+#: src/lib/classes/settings/settings.php:310
+msgid "Not Scheduled"
+msgstr "Not Scheduled"
+
+#: src/lib/classes/settings/settings.php:321
+msgid "Never updated"
+msgstr "Never updated"
+
+#: src/lib/classes/settings/settings.php:426
+msgid "Not available"
+msgstr "Not available"
+
+#: src/lib/classes/settings/settings.php:524
+msgid "Settings saved. Exchange rates have been updated."
+msgstr "Settings saved. Exchange rates have been updated."
+
+#: src/lib/classes/settings/settings.php:595
+#, php-format
+msgid ""
+"Attempted to register class \"%s\" as an Exchange Rates model, but the class "
+"does not exist, or does not implement Aelia\\WC\\IExchangeRatesModel "
+"interface."
+msgstr ""
+"Attempted to register class \"%s\" as an Exchange Rates model, but the class "
+"does not exist, or does not implement Aelia\\WC\\IExchangeRatesModel "
+"interface."
+
+#: src/lib/classes/settings/settings.php:614
+msgid "BitPay"
+msgstr "BitPay"
+
+#: src/lib/classes/settings/settings.php:615
+msgid "ECB"
+msgstr "ECB"
+
+#: src/lib/classes/settings/settings.php:616
+msgid "HMRC (UK)"
+msgstr "HMRC (UK)"
+
+#: src/lib/classes/settings/settings.php:617
+msgid "Irish Revenue (HTML) - WARNING: experimental, may not always work!"
+msgstr "Irish Revenue (HTML) - WARNING: experimental, may not always work!"
+
+#: src/lib/classes/settings/settings.php:618
+msgid "Danish National Bank"
+msgstr "Danish National Bank"
+
+#: src/lib/classes/settings/settings.php:719
+#, php-format
+msgid ""
+"Some exchange rates entered manually are invalid. Please review the rates "
+"for the following currencies: %s."
+msgstr ""
+"Some exchange rates entered manually are invalid. Please review the rates "
+"for the following currencies: %s."
+
+#: src/lib/classes/tools/eu_vat_validation.php:261
+#, php-format
+msgid ""
+"A VAT prefix could not be found for the specified country. Received country "
+"code: \"%s\"."
+msgstr ""
+"A VAT prefix could not be found for the specified country. Received country "
+"code: \"%s\"."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:76
+#, php-format
+msgid ""
+"Error returned by HMRC. Feed URLs used for retrieval: %s. Error code: %s. "
+"Error message: %s - %s."
+msgstr ""
+"Error returned by HMRC. Feed URLs used for retrieval: %s. Error code: %s. "
+"Error message: %s - %s."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:92
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from HMRC. Feed URLs "
+"used for retrieval: %s. Error message: %s."
+msgstr ""
+"Exception occurred while retrieving the exchange rates from HMRC. Feed URLs "
+"used for retrieval: %s. Error message: %s."
+
+#: src/plugin-main.php:147
+msgid "Standard rates"
+msgstr "Standard rates"
+
+#: src/plugin-main.php:148
+msgid "Reduced rates"
+msgstr "Reduced rates"
+
+#: src/plugin-main.php:149
+msgid "Reduced rates (alternative)"
+msgstr "Reduced rates (alternative)"
+
+#: src/plugin-main.php:150
+msgid "Super reduced rates"
+msgstr "Super reduced rates"
+
+#: src/plugin-main.php:151
+msgid "Parking rates"
+msgstr "Parking rates"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:77
+msgid "Update EU VAT Rates"
+msgstr "Update EU VAT Rates"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:78
+msgid "using"
+msgstr "using"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:79
+msgid "VAT"
+msgstr "VAT"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:82
+msgid ""
+"VAT rates have been updated. Please review them, to ensure that they are "
+"correct, then click on \"Save changes\" to save the new rates."
+msgstr ""
+"VAT rates have been updated. Please review them, to ensure that they are "
+"correct, then click on \"Save changes\" to save the new rates."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:85
+msgid ""
+"An error occurred retrieving the VAT rates, therefore this function cannot "
+"be used at the moment. Please try again by reloading the page later."
+msgstr ""
+"An error occurred retrieving the VAT rates, therefore this function cannot "
+"be used at the moment. Please try again by reloading the page later."
+
+#: src/plugin-main.php:732
+#, php-format
+msgid ""
+"Currency conversion - %s currency not valid or exchange rate not found for: "
+"\"%s\". Please make sure that the EU VAT assistant plugin is configured "
+"correctly and that an Exchange Rate has been specified for each of the "
+"available currencies."
+msgstr ""
+"Currency conversion - %s currency not valid or exchange rate not found for: "
+"\"%s\". Please make sure that the EU VAT assistant plugin is configured "
+"correctly and that an Exchange Rate has been specified for each of the "
+"available currencies."
+
+#: src/plugin-main.php:737
+msgid "Source"
+msgstr "Source"
+
+#: src/plugin-main.php:748
+msgid "Destination"
+msgstr "Destination"
+
+#: src/plugin-main.php:760
+#, php-format
+msgid "Stack trace: %s"
+msgstr "Stack trace: %s"
+
+#: src/plugin-main.php:1172
+msgid ""
+"EU VAT Number field was hidden by plugin configuration. Customer cannot be "
+"made VAT exempt."
+msgstr ""
+"EU VAT Number field was hidden by plugin configuration. Customer cannot be "
+"made VAT exempt."
+
+#: src/plugin-main.php:1454
+msgid ""
+"Unfortunately, we could not collect sufficient information to confirm your "
+"location. To proceed with the order, please tick the box below the billing "
+"details to confirm that you will be using the product(s) in country you "
+"selected."
+msgstr ""
+"Unfortunately, we could not collect sufficient information to confirm your "
+"location. To proceed with the order, please tick the box below the billing "
+"details to confirm that you will be using the product(s) in country you "
+"selected."
+
+#: src/plugin-main.php:1546
+msgid "You must enter a valid EU VAT number to complete the purchase."
+msgstr "You must enter a valid EU VAT number to complete the purchase."
+
+#: src/plugin-main.php:1559
+#, php-format
+msgid "VAT number \"%s\" is not valid for your country."
+msgstr "VAT number \"%s\" is not valid for your country."
+
+#: src/plugin-main.php:1590
+msgid "VAT information"
+msgstr "VAT information"
+
+#: src/plugin-main.php:1716
+msgid ""
+"<strong>EU VAT Assistant</strong> is almost ready! Please go to <code>"
+"WooCommerce > EU VAT Assistant</code> settings page to complete the "
+"configuration and start collecting the information required for EU VAT "
+"compliance."
+msgstr ""
+"<strong>EU VAT Assistant</strong> is almost ready! Please go to <code>"
+"WooCommerce > EU VAT Assistant</code> settings page to complete the "
+"configuration and start collecting the information required for EU VAT "
+"compliance."
+
+#: src/plugin-main.php:1719
+msgid "Go to EU VAT Assistant settings"
+msgstr "Go to EU VAT Assistant settings"
+
+#: src/views/admin/order-vat-info-box.php:13
+msgid "Items VAT"
+msgstr "Items VAT"
+
+#: src/views/admin/order-vat-info-box.php:14
+#: src/views/admin/order-vat-info-box.php:17
+msgid "Shipping VAT "
+msgstr "Shipping VAT "
+
+#: src/views/admin/order-vat-info-box.php:15
+msgid "Items VAT refunded"
+msgstr "Items VAT refunded"
+
+#: src/views/admin/order-vat-info-box.php:16
+msgid "Shipping VAT refunded"
+msgstr "Shipping VAT refunded"
+
+#: src/views/admin/order-vat-info-box.php:219
+msgid "Exchange rate retrieved on:"
+msgstr "Exchange rate retrieved on:"
+
+#: src/views/admin/order-vat-info-box.php:226
+#: src/views/admin/order-vat-info-box.php:235
+msgid "Not recorded"
+msgstr "Not recorded"
+
+#: src/views/admin/order-vat-info-box.php:232
+msgid "Exchange rate provider:"
+msgstr "Exchange rate provider:"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:331
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:337
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:384
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:326
+#: src/lib/classes/settings/settings-renderer.php:94
+msgid "Sales"
+msgstr "Sales"
+
+#: src/lib/classes/settings/settings-renderer.php:158
+msgid "Sale restrictions"
+msgstr "Sale restrictions"
+
+#: src/lib/classes/settings/settings-renderer.php:442
+msgid "Prevent sales to these countries"
+msgstr "Prevent sales to these countries"
+
+#: src/lib/classes/settings/settings-renderer.php:448
+msgid ""
+"Here you can add a list of countries to which you do not want to sell. The "
+"countries in this list will not appear to the customer at any stage, thus "
+"preventing him from completing an order. Leave this field empty to allow "
+"sales to all countries configured in <strong>WooCommerce > Settings</strong> "
+"section."
+msgstr ""
+"Here you can add a list of countries to which you do not want to sell. The "
+"countries in this list will not appear to the customer at any stage, thus "
+"preventing him from completing an order. Leave this field empty to allow "
+"sales to all countries configured in <strong>WooCommerce > Settings</strong> "
+"section."
+
+#: src/plugin-main.php:578
+msgid "Add European Union countries"
+msgstr "Add European Union countries"
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:175
+#, php-format
+msgid ""
+"Could not store exchange rates. Provider: \"%s\". Base currency: \"%s\". "
+"Rates date: \"%s\". Rates (JSON): \"%s\"."
+msgstr ""
+"Could not store exchange rates. Provider: \"%s\". Base currency: \"%s\". "
+"Rates date: \"%s\". Rates (JSON): \"%s\"."
+
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:353
+#, php-format
+msgid ""
+"Invalid \"last day of quarter\" argument received: \"%s\". The argument must "
+"be in YYYY-Q format, and the quarter number must be between 1 and 4."
+msgstr ""
+"Invalid \"last day of quarter\" argument received: \"%s\". The argument must "
+"be in YYYY-Q format, and the quarter number must be between 1 and 4."
+
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:166
+#, php-format
+msgid ""
+"Creation of table \"%s\" failed. Please check PHP error log for error "
+"messages related to the operation."
+msgstr ""
+"Creation of table \"%s\" failed. Please check PHP error log for error "
+"messages related to the operation."
+
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:172
+#, php-format
+msgid "Table \"%s\" created successfullly."
+msgstr "Table \"%s\" created successfullly."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:87
+msgid "Tax payable to Country"
+msgstr "Tax payable to Country"
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:90
+msgid ""
+"Specify to which country this tax should be paid. Leave empty to use the "
+"country to which the tax is applied (i.e. the one in the Country Code column)"
+"."
+msgstr ""
+"Specify to which country this tax should be paid. Leave empty to use the "
+"country to which the tax is applied (i.e. the one in the Country Code column)"
+"."
+
+#: src/lib/classes/integration/admin/tax_settings_integration.php:91
+msgid "Auto"
+msgstr "Auto"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:305
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:319
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:358
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:271
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:308
+msgid "Exchange rates used:"
+msgstr "Exchange rates used:"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:309
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:323
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:362
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:275
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:312
+msgid "Rates saved with each order"
+msgstr "Rates saved with each order"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:312
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:326
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:365
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:278
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:315
+msgid "ECB rates for each quarter"
+msgstr "ECB rates for each quarter"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:332
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:385
+msgid "Refunds"
+msgstr "Refunds"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:337
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:390
+msgid "Shipping charged"
+msgstr "Shipping charged"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:338
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:391
+msgid "Shipping refunded"
+msgstr "Shipping refunded"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:343
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:396
+msgid "Total charged"
+msgstr "Total charged"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:177
+#, php-format
+msgid ""
+"Invalid target date specified: \"%s\". The argument must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"Invalid target date specified: \"%s\". The argument must be in YYYY-MM-DD "
+"format."
+
+#: src/lib/classes/settings/settings-renderer.php:98
+#: src/lib/classes/settings/settings-renderer.php:752
+msgid "Reports"
+msgstr "Reports"
+
+#: src/lib/classes/settings/settings-renderer.php:200
+msgid "Shortcuts"
+msgstr "Shortcuts"
+
+#: src/lib/classes/settings/settings-renderer.php:166
+msgid "Reports settings"
+msgstr "Reports settings"
+
+#: src/lib/classes/settings/settings-renderer.php:469
+msgid "The following tax classes should not be included in MOSS reports"
+msgstr "The following tax classes should not be included in MOSS reports"
+
+#: src/lib/classes/settings/settings-renderer.php:476
+msgid ""
+"Here you can select one or more tax classes whose rates should be excluded "
+"from MOSS reports. The tax information for those rates will still be tracked,"
+" this setting will just be used to filter the data using the report filters "
+"in the <strong>Reports</strong> interface."
+msgstr ""
+"Here you can select one or more tax classes whose rates should be excluded "
+"from MOSS reports. The tax information for those rates will still be tracked,"
+" this setting will just be used to filter the data using the report filters "
+"in the <strong>Reports</strong> interface."
+
+#: src/lib/classes/settings/settings-renderer.php:736
+msgid ""
+"This section contains some convenient links to the sections of WooCommerce "
+"relevant to EU VAT compliance"
+msgstr ""
+"This section contains some convenient links to the sections of WooCommerce "
+"relevant to EU VAT compliance"
+
+#: src/lib/classes/settings/settings-renderer.php:740
+msgid "Settings"
+msgstr "Settings"
+
+#: src/lib/classes/settings/settings-renderer.php:745
+msgid "Tax Settings"
+msgstr "Tax Settings"
+
+#: src/lib/classes/settings/settings-renderer.php:757
+msgid "EU VAT By Country"
+msgstr "EU VAT By Country"
+
+#: src/views/admin/reports/eu-vat-report-header.php:17
+msgid "Show report for the following tax types"
+msgstr "Show report for the following tax types"
+
+#: src/views/admin/reports/eu-vat-report-header.php:23
+#: src/views/admin/reports/eu-vat-report-header.php:104
+#: src/views/admin/reports/eu-vat-report-header.php:184
+#: src/views/admin/reports/eu-vat-report-header.php:263
+#: src/views/admin/reports/sales-summary-report-header.php:29
+#: src/views/admin/reports/sales-summary-report-header.php:109
+#: src/views/admin/reports/sales-summary-report-header.php:188
+msgid "[What is this?]"
+msgstr "[What is this?]"
+
+#: src/views/admin/reports/eu-vat-report-header.php:96
+#: src/views/admin/reports/sales-summary-report-header.php:21
+msgid "Choose which exchange rates should be used"
+msgstr "Choose which exchange rates should be used"
+
+#: src/views/admin/reports/eu-vat-report-header.php:102
+#: src/views/admin/reports/sales-summary-report-header.php:27
+msgid ""
+"Choose if you would like generate the report using the exchange rate saved "
+"with each order, or the official European Central Bank (ECB) rates that "
+"apply for the quarter. Click for more information."
+msgstr ""
+"Choose if you would like generate the report using the exchange rate saved "
+"with each order, or the official European Central Bank (ECB) rates that "
+"apply for the quarter. Click for more information."
+
+#: src/views/admin/reports/eu-vat-report-header.php:113
+#: src/views/admin/reports/sales-summary-report-header.php:38
+msgid ""
+"The EU VAT Assistant saves the exchange rate to convert order amounts from "
+"the currency in which orders were placed to the currency to be used for VAT "
+"reports. Such exchange rate is saved together with the order as soon as it "
+"is placed, and can be used to prepare the EU VAT report."
+msgstr ""
+"The EU VAT Assistant saves the exchange rate to convert order amounts from "
+"the currency in which orders were placed to the currency to be used for VAT "
+"reports. Such exchange rate is saved together with the order as soon as it "
+"is placed, and can be used to prepare the EU VAT report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:116
+#: src/views/admin/reports/sales-summary-report-header.php:41
+msgid ""
+"EU VAT regulations, however, have specific requirements about the exchange "
+"rates to be used. As per <a href=\"http://www.revenue."
+"ie/en/tax/vat/leaflets/mini-one-stop-shop.html\"title=\"Irish Revenue - The "
+"Mini One Stop Shop (MOSS)\" target=\"_blank\">official documentation</a>:"
+msgstr ""
+"EU VAT regulations, however, have specific requirements about the exchange "
+"rates to be used. As per <a href=\"http://www.revenue."
+"ie/en/tax/vat/leaflets/mini-one-stop-shop.html\"title=\"Irish Revenue - The "
+"Mini One Stop Shop (MOSS)\" target=\"_blank\">official documentation</a>:"
+
+#: src/views/admin/reports/eu-vat-report-header.php:121
+#: src/views/admin/reports/sales-summary-report-header.php:46
+msgid ""
+"The Mini One Stop Shop (MOSS) - What currency should I use for the MOSS VAT "
+"return?"
+msgstr ""
+"The Mini One Stop Shop (MOSS) - What currency should I use for the MOSS VAT "
+"return?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:127
+#: src/views/admin/reports/sales-summary-report-header.php:52
+msgid ""
+"The exchange rate that must be used is the European Central Bank (ECB) rate "
+"applicable on the last day of the calendar quarter to which the return "
+"relates."
+msgstr ""
+"The exchange rate that must be used is the European Central Bank (ECB) rate "
+"applicable on the last day of the calendar quarter to which the return "
+"relates."
+
+#: src/views/admin/reports/eu-vat-report-header.php:130
+#: src/views/admin/reports/sales-summary-report-header.php:55
+msgid "Which exchange rates should I use?"
+msgstr "Which exchange rates should I use?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:135
+#: src/views/admin/reports/sales-summary-report-header.php:60
+msgid ""
+"If you are preparing the report for your own use (for example, to get a "
+"rough idea of how much VAT you have collected), or if the quarter has not "
+"ended yet, you can use the exchange rates saved with the orders."
+msgstr ""
+"If you are preparing the report for your own use (for example, to get a "
+"rough idea of how much VAT you have collected), or if the quarter has not "
+"ended yet, you can use the exchange rates saved with the orders."
+
+#: src/views/admin/reports/eu-vat-report-header.php:140
+#: src/views/admin/reports/sales-summary-report-header.php:65
+msgid ""
+"If you are preparing the report to file the official VAT MOSS return, we "
+"recommend that you use the ECB exchange rates for the last day of the "
+"selected quarter."
+msgstr ""
+"If you are preparing the report to file the official VAT MOSS return, we "
+"recommend that you use the ECB exchange rates for the last day of the "
+"selected quarter."
+
+#: src/views/admin/reports/eu-vat-report-header.php:58
+#: src/views/admin/reports/eu-vat-report-header.php:144
+#: src/views/admin/reports/eu-vat-report-header.php:221
+#: src/views/admin/reports/eu-vat-report-header.php:296
+#: src/views/admin/reports/sales-summary-report-header.php:69
+#: src/views/admin/reports/sales-summary-report-header.php:146
+#: src/views/admin/reports/sales-summary-report-header.php:221
+msgid "[Close]"
+msgstr "[Close]"
+
+#: src/views/admin/reports/eu-vat-report-header.php:157
+#: src/views/admin/reports/sales-summary-report-header.php:82
+msgid "Use the exchange rates saved with each order"
+msgstr "Use the exchange rates saved with each order"
+
+#: src/views/admin/reports/eu-vat-report-header.php:166
+#: src/views/admin/reports/sales-summary-report-header.php:91
+msgid ""
+"Use the European Central Bank (ECB) rates for the last day of the selected "
+"quarter"
+msgstr ""
+"Use the European Central Bank (ECB) rates for the last day of the selected "
+"quarter"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:414
+msgid "Install plugin"
+msgstr "Install plugin"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:423
+msgid "Activate plugin"
+msgstr "Activate plugin"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:229
+#, php-format
+msgid "Plugin \"<strong>%s</strong>\" must be installed and activated."
+msgstr "Plugin \"<strong>%s</strong>\" must be installed and activated."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:365
+#, php-format
+msgid ""
+"%s - Plugin not found: \"%s\". This could be due by an incorrect name "
+"specified in class \"%s\". Please report the issue to support."
+msgstr ""
+"%s - Plugin not found: \"%s\". This could be due by an incorrect name "
+"specified in class \"%s\". Please report the issue to support."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:535
+msgid ""
+"This will install and activate the plugin automatically. Would you like to "
+"proceed?"
+msgstr ""
+"This will install and activate the plugin automatically. Would you like to "
+"proceed?"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:536
+msgid "This will activate the plugin. Would you like to proceed?"
+msgstr "This will activate the plugin. Would you like to proceed?"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:568
+#, php-format
+msgid "Installing plugin \"%s\"..."
+msgstr "Installing plugin \"%s\"..."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:573
+msgid "Plugin is already installed."
+msgstr "Plugin is already installed."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:588
+msgid "Plugin installation failed. See errors below."
+msgstr "Plugin installation failed. See errors below."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:591
+#, php-format
+msgid "Please try installing the plugin manually. You can download it from %s."
+msgstr ""
+"Please try installing the plugin manually. You can download it from %s."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:611
+#, php-format
+msgid "Activating plugin \"%s\"..."
+msgstr "Activating plugin \"%s\"..."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:616
+msgid "Plugin is not installed."
+msgstr "Plugin is not installed."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:622
+msgid "Plugin already active."
+msgstr "Plugin already active."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:630
+msgid "Activation failed."
+msgstr "Activation failed."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:636
+msgid ""
+"Plugin activated successfully. Please refresh this page to hide the "
+"requirement notices and this message."
+msgstr ""
+"Plugin activated successfully. Please refresh this page to hide the "
+"requirement notices and this message."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:696
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:742
+#, php-format
+msgid "Invalid plugin specified: \"%s\"."
+msgstr "Invalid plugin specified: \"%s\"."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:703
+msgid ""
+"Plugin does not have a URL from which it can be downloaded automatically."
+msgstr ""
+"Plugin does not have a URL from which it can be downloaded automatically."
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:326
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:379
+msgid "Customer Country"
+msgstr "Customer Country"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:327
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:380
+msgid "Country Code"
+msgstr "Country Code"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:498
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:535
+msgid "MOSS VAT Details"
+msgstr "MOSS VAT Details"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:499
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:536
+msgid "This section shows the data to be used to file the VAT MOSS return."
+msgstr "This section shows the data to be used to file the VAT MOSS return."
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:502
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:539
+msgid "Domestic/non-MOSS VAT Details"
+msgstr "Domestic/non-MOSS VAT Details"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:503
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:540
+msgid "This section shows the data for the domestic VAT return."
+msgstr "This section shows the data for the domestic VAT return."
+
+#: src/plugin-main.php:1526
+msgid ""
+"Billing country on Customer object is empty. Retrieving it from posted data."
+msgstr ""
+"Billing country on Customer object is empty. Retrieving it from posted data."
+
+#: src/views/admin/reports/eu-vat-report-header.php:22
+msgid ""
+"Choose if you would like the report to only display taxes falling under the "
+"EU VAT MOSS regime, only taxes falling outside of it, or both. Click for "
+"more information."
+msgstr ""
+"Choose if you would like the report to only display taxes falling under the "
+"EU VAT MOSS regime, only taxes falling outside of it, or both. Click for "
+"more information."
+
+#: src/views/admin/reports/eu-vat-report-header.php:33
+msgid ""
+"The EU VAT Assistant collects information about all taxes associated with "
+"each order. Some of these taxes may fall under the VAT MOSS scheme, while "
+"others may not. For example, the VAT applied to a downloadable software "
+"would be part of VAT MOSS, while the VAT applies to a custom service would "
+"not."
+msgstr ""
+"The EU VAT Assistant collects information about all taxes associated with "
+"each order. Some of these taxes may fall under the VAT MOSS scheme, while "
+"others may not. For example, the VAT applied to a downloadable software "
+"would be part of VAT MOSS, while the VAT applies to a custom service would "
+"not."
+
+#: src/views/admin/reports/eu-vat-report-header.php:37
+msgid ""
+"Additionally, all VAT applied to sales to customers in your own country are "
+"not part of the MOSS scheme, and should be filed as part of your standard "
+"domestic VAT report."
+msgstr ""
+"Additionally, all VAT applied to sales to customers in your own country are "
+"not part of the MOSS scheme, and should be filed as part of your standard "
+"domestic VAT report."
+
+#: src/views/admin/reports/eu-vat-report-header.php:44
+msgid ""
+"By selecting the appropriate option, you can generate a report containing "
+"only the data required for the VAT MOSS return, only the data for your "
+"domestic VAT return, or both. If you choose to show all data, it will be "
+"separated in two groups (MOSS and domestic VAT)."
+msgstr ""
+"By selecting the appropriate option, you can generate a report containing "
+"only the data required for the VAT MOSS return, only the data for your "
+"domestic VAT return, or both. If you choose to show all data, it will be "
+"separated in two groups (MOSS and domestic VAT)."
+
+#: src/views/admin/reports/eu-vat-report-header.php:47
+msgid "How does the EU VAT Assistant know which taxes are part of MOSS?"
+msgstr "How does the EU VAT Assistant know which taxes are part of MOSS?"
+
+#: src/views/admin/reports/eu-vat-report-header.php:52
+#, php-format
+msgid ""
+"By default, the EU VAT Assistant assumes that all taxes are part of the MOSS "
+"scheme. You can exclude some of them by adding the related tax class to the "
+"VAT MOSS exclusion list in <a href=\"%s\">EU VAT Assistant > Reports "
+"Settings</a>."
+msgstr ""
+"By default, the EU VAT Assistant assumes that all taxes are part of the MOSS "
+"scheme. You can exclude some of them by adding the related tax class to the "
+"VAT MOSS exclusion list in <a href=\"%s\">EU VAT Assistant > Reports "
+"Settings</a>."
+
+#: src/views/admin/reports/eu-vat-report-header.php:71
+msgid "Show only data for VAT MOSS return"
+msgstr "Show only data for VAT MOSS return"
+
+#: src/views/admin/reports/eu-vat-report-header.php:80
+msgid "Show only data for domestic (Non-MOSS) VAT return"
+msgstr "Show only data for domestic (Non-MOSS) VAT return"
+
+#: src/views/admin/reports/eu-vat-report-header.php:89
+msgid "Show all data"
+msgstr "Show all data"
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:250
+#, php-format
+msgid "Plugin requires PHP %s or newer."
+msgstr "Plugin requires PHP %s or newer."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:495
+msgid "How do I solve this?"
+msgstr "How do I solve this?"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:143
+msgid "Tax record is missing country or tax rate class. Skipping."
+msgstr "Tax record is missing country or tax rate class. Skipping."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:135
+#: src/lib/classes/reporting/reports/base/base_sales_summary_report.php:117
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:124
+msgid "Could not store row in temporary table."
+msgstr "Could not store row in temporary table."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:284
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:277
+msgid ""
+"Could not prepare temporary table for the report. Please enable debug mode "
+"and try again. If the issue persists, contact support and forward them the "
+"debug log produced by the plugin. For more information, please go to "
+"WooCommerce > EU VAT Assistant > Support."
+msgstr ""
+"Could not prepare temporary table for the report. Please enable debug mode "
+"and try again. If the issue persists, contact support and forward them the "
+"debug log produced by the plugin. For more information, please go to "
+"WooCommerce > EU VAT Assistant > Support."
+
+#: src/lib/classes/reporting/reports/base/base_report.php:112
+msgid ""
+"Creation of temporary table failed. Please check PHP error log for error "
+"messages related to the operation."
+msgstr ""
+"Creation of temporary table failed. Please check PHP error log for error "
+"messages related to the operation."
+
+#: src/lib/classes/reporting/reports/base/base_report.php:118
+msgid "Table created successfullly."
+msgstr "Table created successfullly."
+
+#: src/lib/classes/reporting/reports/base/base_report.php:127
+msgid ""
+"Exception occurred while creating temporary table. Please check the PHP "
+"error log for further details related to the operation."
+msgstr ""
+"Exception occurred while creating temporary table. Please check the PHP "
+"error log for further details related to the operation."
+
+#: src/lib/classes/settings/settings-renderer.php:82
+msgid "VAT Number Validation"
+msgstr "VAT Number Validation"
+
+#: src/lib/classes/settings/settings-renderer.php:175
+msgid "VIES Validation"
+msgstr "VIES Validation"
+
+#: src/lib/classes/settings/settings-renderer.php:184
+msgid "Validation options"
+msgstr "Validation options"
+
+#: src/lib/classes/settings/settings-renderer.php:281
+msgid "EU VAT field position (index)"
+msgstr "EU VAT field position (index)"
+
+#: src/lib/classes/settings/settings-renderer.php:283
+#: src/lib/classes/settings/settings-renderer.php:340
+msgid ""
+"This numeric value will determine where the VAT number field will be "
+"displayed on the checkout page."
+msgstr ""
+"This numeric value will determine where the VAT number field will be "
+"displayed on the checkout page."
+
+#: src/lib/classes/settings/settings-renderer.php:284
+#: src/lib/classes/settings/settings-renderer.php:341
+msgid "The higher the number, the lower the field will appear on the page."
+msgstr "The higher the number, the lower the field will appear on the page."
+
+#: src/lib/classes/settings/settings-renderer.php:286
+msgid ""
+"For example, if you wish to show it just below the Company Name field, you "
+"will have to enter a value higher than the index for that field (try with "
+"\"35\")."
+msgstr ""
+"For example, if you wish to show it just below the Company Name field, you "
+"will have to enter a value higher than the index for that field (try with "
+"\"35\")."
+
+#: src/lib/classes/settings/settings-renderer.php:338
+msgid "Self-certification field position (index)"
+msgstr "Self-certification field position (index)"
+
+#: src/lib/classes/settings/settings-renderer.php:519
+msgid "Requester country code for the VAT validation service"
+msgstr "Requester country code for the VAT validation service"
+
+#: src/lib/classes/settings/settings-renderer.php:530
+msgid "Requester VAT number for the VAT validation service"
+msgstr "Requester VAT number for the VAT validation service"
+
+#: src/lib/classes/settings/settings-renderer.php:532
+msgid ""
+"If you enter a valid VAT number, it will be passed to the VIES service with "
+"each VAT number validation request."
+msgstr ""
+"If you enter a valid VAT number, it will be passed to the VIES service with "
+"each VAT number validation request."
+
+#: src/lib/classes/settings/settings-renderer.php:538
+msgid ""
+"With this information, the VIES service will return a a \"consultation "
+"number\", which can be used as proof of the validity of a VAT number, should "
+"your revenue office ask for one."
+msgstr ""
+"With this information, the VIES service will return a a \"consultation "
+"number\", which can be used as proof of the validity of a VAT number, should "
+"your revenue office ask for one."
+
+#: src/lib/classes/settings/settings-renderer.php:546
+msgid ""
+"Please make sure that you enter you VAT number without the country code "
+"prefix. The country code will be added automatically, by the EU VAT "
+"Assistant, using the country you selected above."
+msgstr ""
+"Please make sure that you enter you VAT number without the country code "
+"prefix. The country code will be added automatically, by the EU VAT "
+"Assistant, using the country you selected above."
+
+#: src/lib/classes/settings/settings-renderer.php:554
+msgid ""
+"Retry the validation of a VAT number when it fails due to the requested VAT "
+"number being invalid"
+msgstr ""
+"Retry the validation of a VAT number when it fails due to the requested VAT "
+"number being invalid"
+
+#: src/lib/classes/settings/settings-renderer.php:556
+msgid ""
+"The remote VIES service may return an \"invalid requester\" response when it "
+"cannot validate the requester VAT number sent with a validation request."
+msgstr ""
+"The remote VIES service may return an \"invalid requester\" response when it "
+"cannot validate the requester VAT number sent with a validation request."
+
+#: src/lib/classes/settings/settings-renderer.php:557
+msgid ""
+"When you enable this option, the EU VAT Assistant will try to validate the "
+"VAT number from the customer again, without sending the requester details."
+msgstr ""
+"When you enable this option, the EU VAT Assistant will try to validate the "
+"VAT number from the customer again, without sending the requester details."
+
+#: src/lib/classes/settings/settings-renderer.php:558
+msgid ""
+"In this second case, the VIES service will not return a consultation number "
+"upon a successful validation."
+msgstr ""
+"In this second case, the VIES service will not return a consultation number "
+"upon a successful validation."
+
+#: src/lib/classes/settings/settings-renderer.php:559
+#, php-format
+msgid ""
+"For more information about the purpose of the consultation number, <a "
+"href=\"%1$s\">please refer to the documentation of the VIES service</a>."
+msgstr ""
+"For more information about the purpose of the consultation number, <a "
+"href=\"%1$s\">please refer to the documentation of the VIES service</a>."
+
+#: src/lib/classes/settings/settings-renderer.php:565
+msgid "Accept VAT numbers as valid when the remote service is busy"
+msgstr "Accept VAT numbers as valid when the remote service is busy"
+
+#: src/lib/classes/settings/settings-renderer.php:567
+msgid ""
+"The remote VIES service may return a \"busy\" response when it cannot "
+"process a validation request."
+msgstr ""
+"The remote VIES service may return a \"busy\" response when it cannot "
+"process a validation request."
+
+#: src/lib/classes/settings/settings-renderer.php:568
+#: src/lib/classes/settings/settings-renderer.php:577
+#: src/lib/classes/settings/settings-renderer.php:586
+msgid ""
+"In such case, the VAT number validation request was not processed and its "
+"validity is unknown."
+msgstr ""
+"In such case, the VAT number validation request was not processed and its "
+"validity is unknown."
+
+#: src/lib/classes/settings/settings-renderer.php:569
+#: src/lib/classes/settings/settings-renderer.php:578
+#: src/lib/classes/settings/settings-renderer.php:587
+msgid ""
+"If you enable this option, the VAT number will be considered valid anyway, "
+"and a VAT exemption will be applied at checkout."
+msgstr ""
+"If you enable this option, the VAT number will be considered valid anyway, "
+"and a VAT exemption will be applied at checkout."
+
+#: src/lib/classes/settings/settings-renderer.php:574
+msgid "Accept VAT numbers as valid when the remote service is unavailable"
+msgstr "Accept VAT numbers as valid when the remote service is unavailable"
+
+#: src/lib/classes/settings/settings-renderer.php:576
+msgid ""
+"The remote VIES service may return an \"unavailable\" response when the main "
+"service, or the service from a specific member state, is unavailable."
+msgstr ""
+"The remote VIES service may return an \"unavailable\" response when the main "
+"service, or the service from a specific member state, is unavailable."
+
+#: src/lib/classes/settings/settings-renderer.php:583
+msgid ""
+"Accept VAT numbers as valid when the remote service is handling too many "
+"requests"
+msgstr ""
+"Accept VAT numbers as valid when the remote service is handling too many "
+"requests"
+
+#: src/lib/classes/settings/settings-renderer.php:585
+msgid ""
+"The remote VIES service may return a \"too many requests\" response, when "
+"the main service, or a member state, is overloaded."
+msgstr ""
+"The remote VIES service may return a \"too many requests\" response, when "
+"the main service, or a member state, is overloaded."
+
+#: src/lib/classes/settings/settings-renderer.php:590
+msgid ""
+"A \"too many requests\" error does NOT indicate that your site is making too "
+"many calls."
+msgstr ""
+"A \"too many requests\" error does NOT indicate that your site is making too "
+"many calls."
+
+#: src/lib/classes/settings/settings-renderer.php:591
+msgid ""
+"That error refers to the global amount of requests received by the VIES "
+"service, or member state, not just from your site."
+msgstr ""
+"That error refers to the global amount of requests received by the VIES "
+"service, or member state, not just from your site."
+
+#: src/lib/classes/settings/settings-renderer.php:706
+msgid ""
+"Here you can specify the parameters that will be used to communicate with "
+"the VIES service, used to validate EU VAT numbers."
+msgstr ""
+"Here you can specify the parameters that will be used to communicate with "
+"the VIES service, used to validate EU VAT numbers."
+
+#: src/lib/classes/settings/settings-renderer.php:718
+msgid ""
+"We strongly recommend to consult your tax advisor before enabling any of the "
+"options that allow to accept VAT numbers that could not be validated due to "
+"a VIES service error."
+msgstr ""
+"We strongly recommend to consult your tax advisor before enabling any of the "
+"options that allow to accept VAT numbers that could not be validated due to "
+"a VIES service error."
+
+#: src/lib/classes/settings/settings-renderer.php:721
+msgid ""
+"While accepting potentially invalid VAT number can help customers to "
+"complete orders when the validation service is not working, it also exposes "
+"you to the possibility of granting a VAT exmemption to customers who are not "
+"entitled to it."
+msgstr ""
+"While accepting potentially invalid VAT number can help customers to "
+"complete orders when the validation service is not working, it also exposes "
+"you to the possibility of granting a VAT exmemption to customers who are not "
+"entitled to it."
+
+#: src/lib/classes/settings/settings-renderer.php:723
+msgid ""
+"The responsibility of applying a VAT exemption only when needed, providing "
+"evidence in relation to such exemption to the Revenue Office, and rectify "
+"exemptions granted when not due, remains exclusively yours."
+msgstr ""
+"The responsibility of applying a VAT exemption only when needed, providing "
+"evidence in relation to such exemption to the Revenue Office, and rectify "
+"exemptions granted when not due, remains exclusively yours."
+
+#: src/lib/classes/settings/settings.php:766
+msgid ""
+"Invalid requester VAT number entered in section <em>Options > VIES "
+"Validation</em>."
+msgstr ""
+"Invalid requester VAT number entered in section <em>Options > VIES "
+"Validation</em>."
+
+#: src/lib/classes/settings/settings.php:767
+msgid ""
+"The new requester VAT number has NOT been saved, because it would cause the "
+"VAT validation to fail at checkout."
+msgstr ""
+"The new requester VAT number has NOT been saved, because it would cause the "
+"VAT validation to fail at checkout."
+
+#: src/lib/classes/settings/settings.php:770
+#, php-format
+msgid "Entered VAT Number: \"%1$s\"."
+msgstr "Entered VAT Number: \"%1$s\"."
+
+#: src/lib/classes/settings/settings.php:771
+#, php-format
+msgid "Raw validation response (JSON): %s"
+msgstr "Raw validation response (JSON): %s"
+
+#: src/lib/classes/tools/eu_vat_validation.php:230
+msgid "An empty or invalid VAT number was passed for validation."
+msgstr "An empty or invalid VAT number was passed for validation."
+
+#: src/lib/classes/tools/eu_vat_validation.php:231
+#, php-format
+msgid "Received VAT number: \"%1$s\"."
+msgstr "Received VAT number: \"%1$s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:290
+#, php-format
+msgid "Requester VAT number: \"%1$s\"."
+msgstr "Requester VAT number: \"%1$s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:303
+msgid "A VAT prefix could not be found for the requester country."
+msgstr "A VAT prefix could not be found for the requester country."
+
+#: src/lib/classes/tools/eu_vat_validation.php:304
+#, php-format
+msgid "Requester country code: \"%1$s\"."
+msgstr "Requester country code: \"%1$s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:409
+#: src/lib/classes/tools/eu_vat_validation.php:414
+msgid "An error occurred initialising SOAP client."
+msgstr "An error occurred initialising SOAP client."
+
+#: src/lib/classes/tools/eu_vat_validation.php:411
+#, php-format
+msgid "Error message: \"%s\"."
+msgstr "Error message: \"%s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:435
+msgid "VAT number validation request."
+msgstr "VAT number validation request."
+
+#: src/lib/classes/tools/eu_vat_validation.php:442
+msgid "VAT number validation complete."
+msgstr "VAT number validation complete."
+
+#: src/plugin-main.php:235
+msgid "Unexpected response returned by EU VAT rates site."
+msgstr "Unexpected response returned by EU VAT rates site."
+
+#: src/plugin-main.php:252
+msgid "Could not fetch EU VAT rates from remote site."
+msgstr "Could not fetch EU VAT rates from remote site."
+
+#: src/plugin-main.php:825
+msgid "Not returned"
+msgstr "Not returned"
+
+#: src/plugin-main.php:838
+msgid "Invalid VAT number specified for order."
+msgstr "Invalid VAT number specified for order."
+
+#: src/plugin-main.php:933
+msgid ""
+"Remote VIES service returned an \"invalid requester\" error. Retrying "
+"validation without requester information."
+msgstr ""
+"Remote VIES service returned an \"invalid requester\" error. Retrying "
+"validation without requester information."
+
+#: src/plugin-main.php:960 src/plugin-main.php:984 src/plugin-main.php:1008
+msgid ""
+"VAT Number considered valid, despite the server returning an error, due to "
+"plugin settings."
+msgstr ""
+"VAT Number considered valid, despite the server returning an error, due to "
+"plugin settings."
+
+#: src/plugin-main.php:1099
+msgid "Setting customer VAT exemption."
+msgstr "Setting customer VAT exemption."
+
+#: src/plugin-main.php:1153 src/plugin-main.php:1674
+msgid ""
+"EU VAT Number could not be validated due to errors in the communication with "
+"the remote service."
+msgstr ""
+"EU VAT Number could not be validated due to errors in the communication with "
+"the remote service."
+
+#: src/plugin-main.php:1174
+msgid "VAT exemption check completed."
+msgstr "VAT exemption check completed."
+
+#: src/plugin-main.php:1394
+msgid ""
+"Unexpected condition occurred: no customer country was posted to \"checkout "
+"update order review\" event."
+msgstr ""
+"Unexpected condition occurred: no customer country was posted to \"checkout "
+"update order review\" event."
+
+#: src/plugin-main.php:1531
+msgid ""
+"Unexpected condition occurred: no customer country was posted during "
+"checkout. VAT exemption cannot be applied correctly."
+msgstr ""
+"Unexpected condition occurred: no customer country was posted during "
+"checkout. VAT exemption cannot be applied correctly."
+
+#: src/plugin-main.php:1690
+msgid ""
+"VAT number validation failed. Either the country or the VAT number is empty."
+msgstr ""
+"VAT number validation failed. Either the country or the VAT number is empty."
+
+#: src/views/admin/order-vat-info-box.php:40
+msgid "VIES Consultation Number"
+msgstr "VIES Consultation Number"
+
+#. translators: plugin header field 'Author'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "Aelia"
+msgstr ""
+
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:151
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:207
+msgid "Sales Summary Report"
+msgstr "Sales Summary Report"
+
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:152
+msgid "Line tax data \"totals\" are not present for order item."
+msgstr "Line tax data \"totals\" are not present for order item."
+
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:153
+msgid "The report might not be accurate."
+msgstr "The report might not be accurate."
+
+#: src/lib/classes/reporting/reports/WC30/sales_summary_report.php:208
+msgid "Found entry with a zero tax rate, but a non-zero tax amount."
+msgstr "Found entry with a zero tax rate, but a non-zero tax amount."
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:401
+msgid "Tax rate contains an in invalid country code"
+msgstr "Tax rate contains an in invalid country code"
+
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:407
+msgid "Invalid country, check error log."
+msgstr "Invalid country, check error log."
+
+#: src/lib/classes/settings/settings.php:769
+#, php-format
+msgid "Selected VAT Country: \"%1$s\"."
+msgstr "Selected VAT Country: \"%1$s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:250
+#, php-format
+msgid ""
+"An invalid VAT number was passed for validation. A VAT number for country "
+"\"%1$s\" should contain a minimum of %2$d digits, excluding the country "
+"prefix. Received VAT number: \"%3$s\"."
+msgstr ""
+"An invalid VAT number was passed for validation. A VAT number for country "
+"\"%1$s\" should contain a minimum of %2$d digits, excluding the country "
+"prefix. Received VAT number: \"%3$s\"."
+
+#: src/lib/classes/tools/eu_vat_validation.php:288
+msgid ""
+"The requester VAT number configured in the VAT Number Validation settings is "
+"too short."
+msgstr ""
+"The requester VAT number configured in the VAT Number Validation settings is "
+"too short."
+
+#: src/lib/classes/tools/eu_vat_validation.php:289
+#, php-format
+msgid ""
+"A VAT number for country \"%1$s\" should contain a minimum of %2$d digits, "
+"excluding the country prefix."
+msgstr ""
+"A VAT number for country \"%1$s\" should contain a minimum of %2$d digits, "
+"excluding the country prefix."
+
+#: src/lib/classes/tools/eu_vat_validation.php:318
+msgid "Requester VAT number is not valid. Performing validation without it."
+msgstr "Requester VAT number is not valid. Performing validation without it."
+
+#: src/plugin-main.php:366
+msgid ""
+"The Sales Summary (VAT RTD) report has been rewritten, to improve "
+"performance and accuracy."
+msgstr ""
+"The Sales Summary (VAT RTD) report has been rewritten, to improve "
+"performance and accuracy."
+
+#: src/plugin-main.php:367
+msgid ""
+"We tested the new report on as many different environments as we could, to "
+"ensure that the results are consistent with other EU VAT Assistant reports."
+msgstr ""
+"We tested the new report on as many different environments as we could, to "
+"ensure that the results are consistent with other EU VAT Assistant reports."
+
+#: src/plugin-main.php:368
+msgid ""
+"If you come across any glitch, or a case which our tests did not cover, "
+"please feel free to contact us by using one of the links below."
+msgstr ""
+"If you come across any glitch, or a case which our tests did not cover, "
+"please feel free to contact us by using one of the links below."
+
+#: src/plugin-main.php:371
+#, php-format
+msgid ""
+"If you purchased a premium support service, or you wish to send us "
+"confidential information, please <a href=\"%1$s\">use our contact form</a>."
+msgstr ""
+"If you purchased a premium support service, or you wish to send us "
+"confidential information, please <a href=\"%1$s\">use our contact form</a>."
+
+#: src/plugin-main.php:374
+#, php-format
+msgid ""
+"If you have not purchased a premium support service, please <a href=\"%1$s\">"
+"use the public support forum</a>."
+msgstr ""
+"If you have not purchased a premium support service, please <a href=\"%1$s\">"
+"use the public support forum</a>."
+
+#. translators: plugin header field 'Version'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "1.13.2.200319"
+msgstr ""

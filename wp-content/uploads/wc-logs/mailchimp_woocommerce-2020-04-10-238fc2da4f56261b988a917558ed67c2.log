@@ -1,0 +1,16 @@
+2020-04-10T12:12:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:13:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-10T12:15:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:16:27+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-10T12:17:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:18:16+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-10T12:20:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:20:57+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-10T12:32:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:33:14+00:00 NOTICE product_submit.error :: addStoreProduct :: #154 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-10T12:35:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T12:35:50+00:00 NOTICE product_submit.error :: addStoreProduct :: #154 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-10T14:34:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-10T14:34:50+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-10T15:05:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 147
+2020-04-10T15:05:59+00:00 NOTICE product_submit.success :: updateStoreProduct :: #147

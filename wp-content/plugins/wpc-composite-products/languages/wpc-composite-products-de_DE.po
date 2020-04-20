@@ -1,0 +1,570 @@
+# Copyright (C) 2020 WPClever.net
+# This file is distributed under the same license as the WPC Composite Products for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Composite Products for WooCommerce 1.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-composite-"
+"products\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-23T05:40:57+00:00\n"
+"PO-Revision-Date: 2020-03-07 13:31+0100\n"
+"X-Generator: Poedit 2.3\n"
+"X-Domain: wpc-composite-products\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Composite Products for WooCommerce"
+msgstr "WPC Komposite-Produkte für WooCommerce"
+
+#. Plugin URI of the plugin
+#, fuzzy
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid ""
+"WPC Composite Products provide a powerful kit-building solution for "
+"WooCommerce store."
+msgstr ""
+"WPC Komposite-Produkte bieten eine leistungsfähige Kit-Building Lösung für "
+"den WooCommerce Shop."
+
+#. Author of the plugin
+msgid "WPClever.net"
+msgstr "WPClever.net"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net/"
+
+#: index.php:63 index.php:806
+msgid "Select options"
+msgstr "Optionen auswählen"
+
+#: index.php:69 index.php:812
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: index.php:80 index.php:823
+msgid "Add to cart"
+msgstr "In den Warenkorb"
+
+#: index.php:377
+msgid "remove"
+msgstr "entfernen"
+
+#: index.php:382 index.php:419
+msgid "Name"
+msgstr "Name"
+
+#: index.php:391
+msgid "Description"
+msgstr "Beschreibung"
+
+#: index.php:400
+msgid "Source"
+msgstr "Quelle"
+
+#: index.php:405
+msgid "Select source"
+msgstr "Quelle auswählen"
+
+#: index.php:407
+msgid "Categories"
+msgstr "Kategorien"
+
+#: index.php:410
+msgid "Products"
+msgstr "Produkte"
+
+#: index.php:414
+msgid "Orderby"
+msgstr "Sortieren nach"
+
+#: index.php:416 index.php:427
+msgid "Default"
+msgstr "Default"
+
+#: index.php:417
+msgid "None"
+msgstr "Keine"
+
+#: index.php:418
+msgid "ID"
+msgstr "ID"
+
+#: index.php:420
+msgid "Type"
+msgstr "Typ"
+
+#: index.php:421
+msgid "Rand"
+msgstr "Zufall"
+
+#: index.php:422
+msgid "Date"
+msgstr "Datum"
+
+#: index.php:423
+msgid "Modified"
+msgstr "Geändert"
+
+#: index.php:425
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: index.php:428
+msgid "DESC"
+msgstr "DESC"
+
+#: index.php:429
+msgid "ASC"
+msgstr "ASC"
+
+#: index.php:440
+msgid "Search for a category&hellip;"
+msgstr "Kategorie suchen&hellip;"
+
+#: index.php:464 index.php:490
+msgid "Search for a product&hellip;"
+msgstr "Produkt suchen&hellip;"
+
+#: index.php:481
+msgid "Default option"
+msgstr "Default Option"
+
+#: index.php:506
+msgid "Required"
+msgstr "Erforderlich"
+
+#: index.php:511 index.php:538 index.php:673 index.php:683 index.php:693
+#: index.php:703 index.php:751 index.php:856 index.php:890
+msgid "Yes"
+msgstr "Ja"
+
+#: index.php:514 index.php:535 index.php:674 index.php:684 index.php:694
+#: index.php:704 index.php:759 index.php:784 index.php:860 index.php:879
+#: index.php:894
+msgid "No"
+msgstr "Nein"
+
+#: index.php:521 index.php:1656
+msgid "Quantity"
+msgstr "Menge"
+
+#: index.php:530
+msgid "Custom quantity"
+msgstr "Benutzerdefinierte Menge"
+
+#: index.php:545
+msgid "New price"
+msgstr "Neuer Preis"
+
+#: index.php:552
+msgid ""
+"Set a new price using a number (eg. \"49\" for $49) or a percentage (eg. "
+"\"90%\" of the original price)."
+msgstr ""
+"Neuen Preis numerisch festlegen (eg. “49” für €49) oder prozentual (eg. "
+"“90%” des ursprünglichen Preises)."
+
+#: index.php:557
+msgid "Min"
+msgstr "Min"
+
+#: index.php:566
+msgid "Max"
+msgstr "Max"
+
+#: index.php:580 index.php:591
+msgid "WPC Composite Products"
+msgstr "WPC Komposite-Produkte"
+
+#: index.php:580
+msgid "Composite Products"
+msgstr "Komposite-Producte"
+
+#: index.php:594
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"Vielen Dank für die Nutzung dieses Plugins! Wenn Du zufrieden bist, gib uns "
+"doch bitte ein 5-Sterne %s Rating."
+
+#: index.php:597
+msgid "Reviews"
+msgstr "Reviews"
+
+#: index.php:599
+msgid "Changelog"
+msgstr "Changelog"
+
+#: index.php:601
+msgid "Discussion"
+msgstr "Diskussion"
+
+#: index.php:608
+msgid "How to use?"
+msgstr "Wie benutzt man dieses Plugin?"
+
+#: index.php:612 index.php:987
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: index.php:616 index.php:988
+msgid "Premium Version"
+msgstr "Premium Version"
+
+#: index.php:624
+msgid ""
+"When creating the product, please choose product data is \"Composite product"
+"\" then you can see the search field to start search and add component "
+"products."
+msgstr ""
+"Beim Erstellen eines Produkts wähle bitte “Komposite-Produkt”.  Im "
+"erscheinenden Feld “Quelle” kannst Du dann nach Produkten suchen, die eine "
+"Komponente Deines Komposite-Produkts darstellen sollen."
+
+#: index.php:636
+msgid "General"
+msgstr "Generell"
+
+#: index.php:640
+msgid "Price format"
+msgstr "Preisformat"
+
+#: index.php:643
+msgid "From regular price"
+msgstr "Ab Regulärer Preis"
+
+#: index.php:644
+msgid "From sale price"
+msgstr "Ab Angebotspreis"
+
+#: index.php:645
+msgid "Regular and sale price"
+msgstr "Regulärer- und Angebotspreis"
+
+#: index.php:648
+msgid "Choose a price format for composites on the archive page."
+msgstr "Wähle ein Preisformat für Komposites auf der Archivseite."
+
+#: index.php:653
+msgid "Selector interface"
+msgstr "Auswahl-Interface"
+
+#: index.php:656
+msgid "ddSlick"
+msgstr "ddSlick"
+
+#: index.php:657
+msgid "Select2"
+msgstr "Select2"
+
+#: index.php:658
+msgid "HTML select tag"
+msgstr "HTML select tag"
+
+#: index.php:670
+msgid "Exclude unpurchasable"
+msgstr "Unverkäufliches ausschließen"
+
+#: index.php:676
+msgid "Exclude unpurchasable products from the list."
+msgstr "Unverkäufliche Produkte von der Liste ausschließen."
+
+#: index.php:680
+msgid "Show quantity"
+msgstr "Menge anzeigen"
+
+#: index.php:686
+msgid "Show the quantity before product name."
+msgstr "Menge vor dem Produktnamen anzeigen."
+
+#: index.php:690
+msgid "Show image"
+msgstr "Bild anzeigen"
+
+#: index.php:696 index.php:706
+msgid "Only for HTML select tag."
+msgstr "Nur für HTML select tag."
+
+#: index.php:700
+msgid "Show price"
+msgstr "Preis anzeigen"
+
+#: index.php:710
+msgid "Option none"
+msgstr "Option für Leer"
+
+#: index.php:714 index.php:2010
+msgid "No, thanks. I don't need this"
+msgstr "Nein, danke. Ich brauche dies nicht."
+
+#: index.php:715
+msgid "Text to display for showing a \"Don't choose any product\" option."
+msgstr "Angezeigter Text zum Darstellen der Option “Kein Produkt auswählen” ."
+
+#: index.php:720
+msgid "Composite products"
+msgstr "Komposite-Produkte"
+
+#: index.php:724
+msgid "Total text"
+msgstr "Text für “Gesamt”"
+
+#: index.php:728 index.php:935
+msgid "Total price:"
+msgstr "Gesamtsumme:"
+
+#: index.php:730 index.php:741 index.php:798
+msgid ""
+"Leave blank to use the default text and its equivalent translation in "
+"multiple languages."
+msgstr ""
+"Leer lassen , um den Default-Text bzw. die entsprechende Übersetzung zu "
+"benutzen."
+
+#: index.php:735
+msgid "Saved text"
+msgstr "Gespeicherter Text"
+
+#: index.php:739 index.php:940
+msgid "(saved [d])"
+msgstr "(gespeichert [d])"
+
+#: index.php:746
+msgid "Change price"
+msgstr "Preis ändern"
+
+#: index.php:755
+msgid "Yes, custom selector"
+msgstr "Ja, Custom Selector"
+
+#: index.php:766
+msgid ""
+"Change the main product’s price based on the changes in prices of selected "
+"variations in a grouped products. This uses Javascript to change the main "
+"product’s price to it depends heavily on theme’s HTML. If the price doesn't "
+"change when this option is enabled, please contact us and we can help you "
+"adjust the JS file. "
+msgstr ""
+"Verändere den Preis des Haupt-Produktes basierend auf den Preisänderungen "
+"der ausgewählten Variationen. Diese Funktion benutzt Javascript und ist "
+"abhängig vom HTML Deines Themes. Sollte sich der Preis nach Aktivierung "
+"dieser Funktion nicht entsprechend anpassen, kontaktiere uns bitte, sodass "
+"wir Dir helfen können, die entsprechende Javascript-Datei anzupassen."
+
+#: index.php:771
+msgid "Link to individual product"
+msgstr "Link zum individuellen Produkt"
+
+#: index.php:776
+msgid "Yes, open product page"
+msgstr "Ja, Produktseite öffnen"
+
+#: index.php:780
+msgid "Yes, open quick view popup"
+msgstr "Ja, Quick-View Popup öffnen"
+
+#: index.php:787
+msgid "Add a link to the target individual product below this selection."
+msgstr ""
+"Füge einen Link hinzu, um das ausgewählte, individuelle Produkt anzuzeigen."
+
+#: index.php:795
+msgid "\"Add to Cart\" button labels"
+msgstr "Label für den Button “In den Warenkorb”"
+
+#: index.php:802
+msgid "Archive/shop page"
+msgstr "Archiv/Shop Seite"
+
+#: index.php:808
+msgid "For purchasable composites."
+msgstr "Für käufliche Komposites."
+
+#: index.php:814
+msgid "For unpurchasable composites."
+msgstr "Für unkäufliche Komposites."
+
+#: index.php:819
+msgid "Single product page"
+msgstr "Einzel-Produktseite"
+
+#: index.php:828
+msgid "Cart & Checkout"
+msgstr "Warenkorb & Kasse"
+
+#: index.php:832
+msgid "Cart content count"
+msgstr "Warenkorb Artikelzahl"
+
+#: index.php:837
+msgid "Composite only"
+msgstr "Nur Komposite-Produkte"
+
+#: index.php:841
+msgid "Component products only"
+msgstr "Nur Komponenten-Produkte"
+
+#: index.php:845
+msgid "Both composite and component products"
+msgstr "Sowohl Komposite- als auch Komponenten-Produkte"
+
+#: index.php:851
+msgid "Hide composite name before component products"
+msgstr "Verberge Komposite Name vor Komponenten-Produkten"
+
+#: index.php:866
+msgid "Hide component products on cart & checkout page"
+msgstr "Verstecke Komponenten-Produkte auf Warenkorb- & Kassenseite"
+
+#: index.php:871
+msgid "Yes, just show the composite"
+msgstr "Ja, nur Komposite anzeigen"
+
+#: index.php:875
+msgid "Yes, but show component product names under the composite"
+msgstr "Ja, aber zeige Komponenten-Produkt-Namen unter dem Komposite an"
+
+#: index.php:885
+msgid "Hide component products on mini-cart"
+msgstr "Verberge Komponenten-Produkte im Mini-Warenkorb"
+
+#: index.php:898
+msgid "Hide component products, just show the main composite on mini-cart."
+msgstr ""
+"Verstecke Komponenten-Produkte, zeige nur das Haupt-Komposite im Mini-"
+"Warenkorb an."
+
+#: index.php:905
+msgid "Update Options"
+msgstr "Optionen  aktualisieren"
+
+#: index.php:963
+msgid ""
+"Please choose at least [min] of the whole products before adding to the cart."
+msgstr ""
+"Bitte wähle mindestens [min] der  Gesamt-Produkte vor dem Hinzufügen zum "
+"Warenkorb aus."
+
+#: index.php:964
+msgid ""
+"Please choose maximum [max] of the whole products before adding to the cart."
+msgstr ""
+"Bitte wähle maximal [max] der  Gesamt-Produkte vor dem Hinzufügen zum "
+"Warenkorb aus."
+
+#: index.php:965
+msgid ""
+"Please select a purchasable product in the required component before adding "
+"the composite products to the cart."
+msgstr ""
+"Bitte wähle einen käuflichen Artikel der erforderlichen Komponente vor dem "
+"Hinzufügen des Komposites zum Warenkorb aus."
+
+#: index.php:1002
+msgid "Premium support"
+msgstr "Premium Support"
+
+#: index.php:1244
+msgid "Have an error when adding this composite products to the cart."
+msgstr ""
+"Fehler auslösen beim Hinzufügen eines Komposite-Produktes zum Warenkorb."
+
+#: index.php:1427 index.php:1451 index.php:1591 index.php:2245 index.php:2257
+msgid "Components"
+msgstr "Komponenten"
+
+#: index.php:1489
+msgid "(in %s)"
+msgstr "(in %s)"
+
+#: index.php:1555
+msgid "Composite (%s)"
+msgstr "Komposite (%s)"
+
+#: index.php:1584
+msgid "Composite product"
+msgstr "Komposite Produkt"
+
+#: index.php:1623
+msgid "+ Add component"
+msgstr "+ Komponente hinzufügen"
+
+#: index.php:1633
+msgid "Pricing"
+msgstr "Pricing"
+
+#: index.php:1636
+msgid "Only base price"
+msgstr "Nur Basis-Preis"
+
+#: index.php:1637
+msgid "Include base price"
+msgstr "Basis-Preis einbeziehen"
+
+#: index.php:1638
+msgid "Exclude base price"
+msgstr "Basis-Preis ausschließen"
+
+#: index.php:1641
+msgid ""
+"\"Base price\" is the price set in the General tab. When \"Only base price\" "
+"is chosen, the total price won't change despite the price changes in "
+"variable components."
+msgstr ""
+"Der “Basis-Preis” wird im Haupt-Tab festgelegt. Wenn “Nur Basis-Preis” "
+"ausgewählt wurde, ändert sich der Gesamtpreis nicht, auch wenn "
+"Preisänderungen in den variablen Komponenten vorliegen."
+
+#: index.php:1645
+msgid "Discount"
+msgstr "Rabatt"
+
+#: index.php:1652
+msgid ""
+"The universal percentage discount will be applied equally on each "
+"component's price, not on the total."
+msgstr ""
+"Der universelle, prozentuale Rabatt wird gleichmäßig auf die einzelnen "
+"Komponenten aufgeteilt, nicht auf dem Gesamtpreis."
+
+#: index.php:1668
+msgid "Shipping fee"
+msgstr "Versandkosten"
+
+#: index.php:1671
+msgid "Apply to the whole composite"
+msgstr "Auf das gesamte Komposite anwenden"
+
+#: index.php:1672
+msgid "Apply to each component product"
+msgstr "Auf alle Komponenten-Produkte anwenden"
+
+#: index.php:1677
+msgid "Custom display price"
+msgstr "Benutzerdefinierter Anzeige-Preis"
+
+#: index.php:1685
+msgid "Above text"
+msgstr "Über dem Text"
+
+#: index.php:1694
+msgid "Under text"
+msgstr "Unter dem Text"
+
+#: index.php:1810 index.php:1813
+msgid "From"
+msgstr "Ab"
+
+#: index.php:1977 index.php:2035
+msgid "Qty:"
+msgstr "Stk:"

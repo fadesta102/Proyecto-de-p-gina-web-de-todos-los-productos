@@ -1,0 +1,4 @@
+2020-04-09T20:13:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-09T20:13:59+00:00 NOTICE product_submit.error :: addStoreProduct :: #154 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-09T22:27:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-09T22:28:02+00:00 NOTICE product_submit.error :: addStoreProduct :: #154 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

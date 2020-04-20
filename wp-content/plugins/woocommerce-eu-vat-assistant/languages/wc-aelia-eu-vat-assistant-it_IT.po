@@ -1,0 +1,2280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce EU VAT Assistant v1.4.11.150810\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Tue Aug 11 2015 02:39:22 GMT+0100 (GMT Daylight Time)\n"
+"Last-Translator: dzanella <businessdad75@gmail.com>\n"
+"Language-Team: \n"
+"Language: Italian\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-Basepath: .\n"
+"X-Loco-Target-Locale: it_IT"
+
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:319
+#: src/plugin-main.php:635
+#, php-format
+msgid "Order ID \"%s\". Invalid VAT Number parsed: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:238
+#, php-format
+msgid "Plugin requires PHP %s or greater."
+msgstr "Questo plugin richiede PHP %s o superiore."
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:477
+msgid ""
+"Please review the missing requirements listed above, and ensure that all "
+"necessary plugins and PHP extensions are installed and loaded correctly. "
+"This plugin will work automatically as soon as all the requirements are met. "
+"If you need assistance on this matter, please <a href=\"https://aelia."
+"freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+msgstr ""
+
+#: src/lib/classes/integration/admin/products_integration.php:60
+msgid "EU VAT"
+msgstr "IVA UE"
+
+#: src/lib/classes/integration/admin/products_integration.php:123
+msgid "Bookable products can be rent or booked on a daily schedule"
+msgstr ""
+
+#: src/lib/classes/integration/frontend/frontend_integration.php:60
+msgctxt "placeholder"
+msgid "VAT Number"
+msgstr "Partita IVA"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:99
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:124
+#, php-format
+msgid "Could not store row in table \"%s\" rates. Fields (JSON): \"%s\"."
+msgstr ""
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:124
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:158
+#, php-format
+msgid ""
+"VAT currency exchange rate not found for order id \"%s\". Fetching exchange "
+"rate from FX provider."
+msgstr ""
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:226
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:277
+msgid ""
+"Could not prepare temporary table for the report. Please enable debug mode "
+"and tru again. If the issue persists, contact support and forward them the "
+"debug log produced by the plugin. For more information, please go to "
+"WooCommerce > EU VAT Assistant > Support."
+msgstr ""
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:277
+msgid "Year"
+msgstr "Anno"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:278
+msgid "Month"
+msgstr "Mese"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:285
+msgid "No sales falling under INTRASTAT scheme have been found."
+msgstr ""
+"Non sono stati trovati ordini che debbano essere riportati sul modulo "
+"INTRASTAT."
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:309
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:361
+msgid "Total"
+msgstr "Totale"
+
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:340
+#, php-format
+msgid "%s-%s %d"
+msgstr "%s-%s %d"
+
+#: src/lib/classes/reporting/reports/base/base_report.php:111
+#, php-format
+msgid ""
+"Creation of temporary table \"%s\" failed. Please check PHP error log for "
+"error messages related to the operation."
+msgstr ""
+
+#: src/lib/classes/reporting/reports/base/base_report.php:126
+#, php-format
+msgid ""
+"Unexpected error occurred while creating temporary table \"%s\". Error message:"
+" \"%s\". Pleasecheck PHP error log for further details related to the "
+"operation."
+msgstr ""
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:323
+msgid "Order ID"
+msgstr "ID ordine"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:324
+msgid "Customer country"
+msgstr "Nazione del cliente"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:325
+msgid "Customer VAT Number"
+msgstr "P.IVA del cliente"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:327
+msgid "Services"
+msgstr "Servizi"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:328
+msgid "Triangulation"
+msgstr "Triangolazione"
+
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:334
+msgid "No sales falling under VIES scheme have been found."
+msgstr "Non sono stati trovati ordini che debbano essere riportati sul modulo VIES."
+
+#: src/lib/classes/reporting/reports_manager.php:74
+#: src/lib/classes/settings/settings-renderer.php:575
+msgid "VIES"
+msgstr "VIES"
+
+#: src/lib/classes/reporting/reports_manager.php:82
+#: src/lib/classes/settings/settings-renderer.php:580
+msgid "INTRASTAT"
+msgstr "INTRASTAT"
+
+#: src/plugin-main.php:729
+#, php-format
+msgid "EU VAT validation response (JSON): \"%s\"."
+msgstr ""
+
+#: src/views/admin/product_euva_section.php:8
+msgid "Click to toggle"
+msgstr "Clicca per abilitare/disabilitare"
+
+#: src/views/admin/product_euva_section.php:10
+msgid "VIES Settings"
+msgstr "Impostazioni VIES"
+
+#: src/views/admin/product_euva_section.php:26
+msgid "This product is a service"
+msgstr "Questo prodotto è un servizio"
+
+#: src/views/admin/product_euva_section.php:28
+msgid ""
+"Tick this box if you want this product to be considered a service when "
+"generating the VIES report."
+msgstr ""
+"Seleziona questa opzione se desideri che questo prodotto venga considerato "
+"come \"servizio\" ai fini del report VIES."
+
+#: src/views/admin/reports/eu-vat-report-header.php:178
+msgid "Choose how you would like to process refunds"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:182
+msgid ""
+"Here you can choose how you would like to process the refunds that could be "
+"included in the report."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:191
+msgid "Which refunds should I include in the report?"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:196
+msgid ""
+"While this report was designed for VAT MOSS purposes, it can also be used "
+"for domestic VAT returns. You can find the data for your domestic VAT return "
+"in the \"Domestic\" section of the report (if applicable)."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:204
+msgid ""
+"EU VAT regulations indicate that refunds should be applied to the return "
+"related to the quarter in which the original order was placed. For example, "
+"if an order for 100 EUR is placed in March 2015, and a refund is granted in "
+"April 2015, the rule is that the original return for Q1 2015 should be "
+"amended."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:210
+msgid ""
+"Domestic VAT returns, instead, are regulated by the country where the "
+"merchant resides. In many cases, domestic rules indicate that refunds should "
+"be applied to the VAT return for the period in which they occurred (i.e. the "
+"original return does not have to be modified."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:218
+msgid ""
+"By selecting the appropriate setting, below, you can specify if the report "
+"should include the refunds <strong>granted in the selected period</strong>, "
+"or if it should include the refunds <strong>related to the orders that were "
+"placed in the selected period</strong>."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:236
+msgid "Include refunds applied to the orders placed in the selected period"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:247
+msgid "Include refunds granted in the selected period"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:257
+msgid "Include refunded orders?"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:261
+msgid ""
+"Here you can choose if you would like to include refunded orders in the data "
+"used for the report."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:270
+msgid "Should I include refunded orders?"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:275
+msgid ""
+"By default, the report does not include refunded orders. Such orders are "
+"considered fully refunded, and all the revenue and the refunds related to "
+"them are ignored, as they should void each other."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:279
+msgid ""
+"If you choose to include refunded orders, then their amounts will be added "
+"to the sales total, and any refund associated to them will be deducted from "
+"it. "
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:288
+msgid ""
+"If you decide to include refunded orders, make sure that you have created "
+"the appropriate refunds associated to them, so that the amounts that you "
+"have returned to your customers can be deducted. If you are not sure of what "
+"this means, we recommend to <strong>exclude</strong> refunded orders from "
+"the report."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:292
+msgid ""
+"For more information on refunds and on how to create them, please <a "
+"href=\"http://docs.woothemes.com/document/woocommerce-refunds/\"> refer to "
+"WooCommerce Refunds documentation</a>."
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:311
+msgid "Exclude refunded orders"
+msgstr ""
+
+#: src/views/admin/reports/eu-vat-report-header.php:322
+msgid "Include refunded orders"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "WooCommerce EU VAT Assistant"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: woocommerce-eu-vat-assistant.php:0
+msgid ""
+"Assists with EU VAT compliance, for the new VAT regime beginning 1st January "
+"2015."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "Aelia (Diego Zanella)"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "http://aelia.co"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: woocommerce-eu-vat-assistant.php:0
+msgid "1.4.11.150810"
+msgstr ""
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:147
+#, php-format
+msgid ""
+"An unexpected error occurred while fetching exchange rates from HMRC. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"Errore imprevisto durante il recupero dei tassi di cambio da HMRC. La causa "
+"più comune di questo problema è l'assenza di estensione PHP CURL. Si prega "
+"di assicurarsi che PHP CURL è installato e configurato nel sistema."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:254
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by IrishRevenueHTML."
+msgstr ""
+"Impossibile riadattare le quotazioni rispetto alla valuta di base \\\"%s\\\". "
+"Valuta non trovata nei dati restituiti da HMRC."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:137
+#, php-format
+msgid "Plugin requires \"%s\" PHP extension."
+msgstr "Il plugin richiede l'estensione PHP \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:204
+#, php-format
+msgid "Plugin \"%s\" must be version \"%s\" or later."
+msgstr "Il plugin \\\"%s\\\" deve essere alla versione \\\"%s\\\" o superiore."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:462
+#, php-format
+msgid "Plugin \"%s\" could not be loaded due to missing requirements."
+msgstr ""
+"Il plugin \\\"%s\\\" non può essere aggiunto a causa della mancanza dei "
+"requisiti necessari."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/pdf_invoices_packing_slips/eu_invoice_helper.php:171
+#: src/plugin-main.php:1262
+msgid "VAT #:"
+msgstr "P. IVA:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:266
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:254
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:345
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:302
+msgid "Currency for VAT returns:"
+msgstr "Valuta per dichiarazioni IVA:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:288
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:367
+msgid "Items"
+msgstr "Articoli"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:289
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:368
+msgid "Shipping"
+msgstr "Spedizione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:295
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:374
+msgid "Tax Rate"
+msgstr "Aliquota fiscale"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:300
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:306
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:379
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:385
+msgid "VAT Charged"
+msgstr "IVA Addebitata"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:301
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:307
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:380
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:386
+msgid "VAT Refunded"
+msgstr "IVA Rimborsata"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:311
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:390
+msgid "Final VAT Total"
+msgstr "Totale IVA Finale"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:317
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:396
+msgid "No VAT has been processed in this period"
+msgstr "Non c'è  IVA processata in questo periodo"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:407
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:486
+msgid "Totals"
+msgstr "Totali"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:261
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:276
+#, php-format
+msgid "Q%d %d"
+msgstr "Q%d %d"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports_manager.php:30
+#, php-format
+msgid ""
+"Reports could not be found for this WooCommerce version. Supported version "
+"are from %s to: %s."
+msgstr ""
+"Non soon stati trovati riscontri per questa versione di WooCommerce. Le "
+"versioni supportate sono da %s a: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports_manager.php:55
+msgid "EU VAT by Country"
+msgstr "IVA UE per Paese"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:55
+#, php-format
+msgid "Label not found for currency \"%s\""
+msgstr "Nome del campo non trovato per la valuta \\\"%s\\\""
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:69
+msgid "Checkout"
+msgstr "Acquisto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:77
+#: src/lib/classes/settings/settings-renderer.php:123
+#: src/lib/classes/settings/settings-renderer.php:694
+msgid "Currency"
+msgstr "Valuta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:89
+#: src/lib/classes/settings/settings-renderer.php:161
+#: src/lib/classes/settings/settings-renderer.php:169
+#: src/views/admin/reports/eu-vat-report-header.php:13
+#: src/views/admin/reports/sales-report-header.php:13
+msgid "Options"
+msgstr "Opzioni"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:97
+msgid "Support"
+msgstr "Assistenza"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:73
+msgid "Self-certification"
+msgstr "Autocertificazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:130
+msgid "Automatic update of exchange rates"
+msgstr "Aggiornamento automatico dei tassi di cambio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:137
+msgid "Exchange rates"
+msgstr "Tassi di cambio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:177
+msgid "Support Information"
+msgstr "Informazioni di Supporto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:185
+msgid "Debug"
+msgstr "Debug"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:231
+msgid "EU VAT field label"
+msgstr "Nome visualizzato per il campo IVA EU"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:232
+msgid "The label that will be displayed above the EU VAT field at checkout."
+msgstr "Il nome che verrà visualizzato per il campo IVA UE nella fase di acquisto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:238
+msgid "EU VAT field description"
+msgstr "Campo descrizione IVA UE"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:239
+msgid "A description that will be displayed above the EU VAT field at checkout."
+msgstr ""
+"Una descrizione che verrà visualizzata per il campo IVA UE nella fase di "
+"acquisto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:244
+msgid "Show EU VAT field when customer is located in base country"
+msgstr ""
+"Visualizza campo IVA UE quando il cliente risiede nello stesso paese del tuo "
+"negozio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:246
+msgid ""
+"Show the EU VAT field when customer address is located in any European "
+"country, including your shop's base country."
+msgstr ""
+"Visualizza il campo IVA UE quando l'indirizzo del cliente è afferente a "
+"qualsiasi paese europeo, compreso il paese del tuo negozio."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:251
+msgid "Deduct VAT if customer is located in base country"
+msgstr "Rimuovi l'IVA se il cliente risiede nello stesso paese del tuo negozio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:253
+msgid ""
+"Enable this option to deduct VAT from orders placed by customers who are located in your "
+"shop's base country, if they enter a valid EU VAT number."
+msgstr ""
+"Abilita questa opzione per non applicare l'IVA agli ordini dei clienti che "
+"si trovano nello stesso paese del tuo negozio, se hanno immesso un numero di "
+"Partita IVA UE verificato dal VIES."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:258
+msgid "Store invalid VAT numbers"
+msgstr "Memorizza i numeri di partita IVA non validi"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:261
+msgid ""
+"Enable this option to store VAT numbers that don't pass validation. Note: "
+"when an invalid VAT number is detected, VAT will still be applied."
+msgstr ""
+"Abilita questa opzione per archiviare i numeri di Partita IVA che non "
+"superano la convalida (VIES). Nota: quando viene rilevato un numero di "
+"Partita IVA non valido, l'IVA verrà applicata."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:266
+msgid "Accept VAT numbers that cannot be validated due to server busy"
+msgstr ""
+"Accetta  numeri di Partita IVA che non possono essere convalidati a causa "
+"del server VIES occupato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:272
+msgid ""
+"VAT numbers are validates using EU VIES service. Occasionally, the VIES "
+"server may return a \"busy\" response, which means that the VAT number was not "
+"processed and its validity is unknown. If you enable this option, a VAT "
+"number that cannot be validated due to the VIES server being busy will be "
+"accepted, and the customer will be considered exempt from VAT."
+msgstr ""
+"I numeri di Partita IVA sono validati usando il servizio VIES. "
+"Occasionalmente il server VIES può restituire una risposta di \"occupato\", "
+"quindi non verificherà la validità della Partita IVA, che risulterà "
+"sconosciuta. Abilitando questa opzione, una Partita IVA che non può essere "
+"verificata a causa del server VIES occupato, verrà accettata ed il cliente "
+"verrà considerato esente da IVA."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:277
+msgid "No (never show it)"
+msgstr "No (non mostrare mai)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:278
+msgid "Yes (always show it)"
+msgstr "Sì (mostra sempre)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:280
+msgid "Only when there is insufficient evidence about customer's location"
+msgstr "Solo quando ci sono prove insufficienti circa il paese del cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:284
+msgid "Allow customers to self-certify their location of residence"
+msgstr "Consentire ai clienti di autocertificare il loro paese di residenza"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:295
+msgid "Require self-certification when the evidence about location is insufficient"
+msgstr ""
+"Richiedi l'autocertificazione quando le prove sull'ubicazione del cliente "
+"sono insufficienti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:303
+msgid ""
+"<a href=\"http://en.wikipedia."
+"org/wiki/European_Union_value_added_tax#EU_VAT_area\">EU regulations require "
+"at least two pieces of non-conflicting evidence</a> to prove a customer's "
+"location (e.g. billing address, shipping address, IP address). If you enable "
+"this option, the self-certification will become mandatory unless at least "
+"two of these information will match the same country. "
+"<strong>Important</strong>: this rule applies only when the self-"
+"certification field is visible to the customer (see visibility options, "
+"above)."
+msgstr ""
+"<a href=\"http://en.wikipedia."
+"org/wiki/European_Union_value_added_tax#EU_VAT_area\">Il regolamento UE "
+"richiede almeno due prove non contraddittorie</a> per provare il paese di "
+"provenienza del cliente (es. indirizzo di fatturazione, indirizzo di "
+"spedizione, indirizzo IP). Se abiliti questa opzione, l'autocertificazione "
+"diventa obbligatoria se non ci sono almeno due di queste informazioni "
+"riferite allo stesso paese. <strong>Importante</strong>: questa regola vale "
+"solo quando il campo autocertificazione è visibile al cliente ( vedere le "
+"opzioni di visibilità , per questo)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:308
+msgid "Consider the shipping address as valid location evidence"
+msgstr ""
+"Considera l'indirizzo di spedizione come prova valida dell'ubicazione del "
+"cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:317
+msgid ""
+"Tick this box if you would like to use the shipping address as evidence to "
+"validate customer's location. When this option is enabled, and the customer "
+"enters the same country in both billing and shipping address, the plugin "
+"will consider them two pieces of non contradictory evidence and it will no "
+"longer ask for self-certification. We would recommend that you discuss with "
+"your Revenue office the possibility of using the shipping address as "
+"evidence before enabling this option."
+msgstr ""
+"Spuntare questa casella se si desidera utilizzare l'indirizzo di spedizione "
+"come prova per convalidare l'ubicazione del cliente. Quando questa opzione è "
+"attivata e il cliente inserisce gli stessi indirizzi di fatturazione e "
+"spedizione, il plugin li considererà due prove non contraddittorie e non "
+"chiederà più l'autocertificazione. Si raccomanda di verificare con l'Agenzia "
+"delle Entrate del proprio paese la possibilità di usare l'indirizzo di "
+"spedizione come prova prima di attivare questa opzione."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:17
+#: src/views/admin/order-vat-info-box.php:231
+msgid "Total VAT"
+msgstr "Totale IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:25
+msgid "Customer located in EU"
+msgstr "Cliente residente in EU"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:26
+msgid "Billing country"
+msgstr "Paese di fatturazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:27
+msgid "Shipping country"
+msgstr "Paese di spedizione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:28
+msgid "Customer's IP address"
+msgstr "Indirizzo IP del cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:29
+msgid "Country from IP address"
+msgstr "Paese da indirizzo IP"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:30
+msgid "Customer self-certified location"
+msgstr "Paese autocertificato dal cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:33
+msgid "Customer's VAT number"
+msgstr "Numero di partita IVA del cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:34
+msgid "Customer's VAT country"
+msgstr "Paese IVA del cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:35
+msgid "VAT number validated"
+msgstr "Numero di Partita IVA verificato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:188
+msgid "No VAT was paid on this order."
+msgstr "Nessuna IVA è stata pagata in questo ordine."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:193
+msgid "VAT Currency:"
+msgstr "Valuta IVA:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:200
+#, php-format
+msgid "Exchange rate (%s to %s):"
+msgstr "Tasso di cambio (%s%s):"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:242
+msgid "Totals by VAT rate"
+msgstr "IVA totale per tasso"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:261
+msgid "VAT evidence"
+msgstr "Prova IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:265
+msgid "No VAT evidence was stored with this order."
+msgstr "Nessuna prova IVA è stata memorizzata con questo ordine."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:269
+msgid "Location details"
+msgstr "Dettagli ubicazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+msgid "yes"
+msgstr "si"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:272
+#: src/views/admin/order-vat-info-box.php:282
+msgid "no"
+msgstr "no"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:277
+msgid "Exemption details"
+msgstr "Dettagli esenzione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:287
+msgid "N/A"
+msgstr "N/A"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/frontend/frontend_integration.php:59
+#: src/views/frontend/checkout-eu-vat-field.php:24
+msgid "VAT Number"
+msgstr "Partita IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/frontend/checkout-self-certification-field.php:15
+msgid "Due to European regulations, we have to ask you to confirm your location."
+msgstr ""
+"In base ai regolamenti europei, dobbiamo chiedervi di autocertificare la "
+"vostra ubicazione."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:53
+#, php-format
+msgid "Error returned by BitPay. Error code: %s. Error message: %s - %s."
+msgstr "Errore restituito da BitPay. Codice di errore:%s. Messaggio di errore:%s -%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:66
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from BitPay. Error "
+"message: %s."
+msgstr ""
+"Si è verificato un errore durante il recupero dei tassi di cambio da BitPay. "
+"Messaggio di errore: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:104
+msgid ""
+"An unexpected error occurred while fetching exchange rates from BitPay. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"Si è verificato un errore imprevisto durante il recupero dei tassi di cambio "
+"da HMRC. La causa più comune di questo problema è l'assenza di estensione "
+"PHP CURL. Si prega di assicurarsi che PHP CURL sia installato e configurato "
+"nel sistema."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-bitpay.php:138
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by BitPay."
+msgstr ""
+"Impossibile riadattare le quotazioni rispetto alla valuta di base \\\"%s\\\". "
+"Valuta non trovata nei dati restituiti da BitPay."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:72
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:56
+#, php-format
+msgid "Error returned by ECB. Error code: %s. Error message: %s - %s."
+msgstr "Errore restituito dalla BCE. Codice di errore:%s. Messaggio di errore:%s -%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:85
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:69
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from ECB. Error "
+"message: %s."
+msgstr ""
+"Si è verificato un errore durante il recupero dei tassi di cambio dalla BCE. "
+"Messaggio di errore: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:242
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:110
+msgid ""
+"An unexpected error occurred while fetching exchange rates from ECB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"Si è verificato un errore imprevisto durante il recupero dei tassi di cambio "
+"dalla BCE. La causa più comune di questo problema è l'assenza "
+"dell'estensione PHP CURL. Si prega di assicurarsi che PHP CURL sia "
+"installato e configurato nel sistema."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:281
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb.php:144
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by ECB."
+msgstr ""
+"Impossibile riadattare le quotazioni rispetto alla valuta di base \\\"%s\\\". "
+"Valuta non trovata nei dati restituiti dalla BCE."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:181
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by HMRC."
+msgstr ""
+"Impossibile riadattare le quotazioni rispetto alla valuta di base \\\"%s\\\". "
+"Valuta non trovata nei dati restituiti da HMRC."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:166
+#, php-format
+msgid ""
+"Error returned fetching Irish Revenue HTML page. Error code: %s. Error "
+"message: %s - %s."
+msgstr ""
+"Si è verificato un errore recuperando la pagina HTML di Irish Revenue. "
+"Codice errore: % s. messaggio di errore: %s - %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:179
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from Irish Revenue "
+"HTML page. Error message: %s."
+msgstr ""
+"Si è verificato un errore durante il recupero dei tassi di cambio dalla "
+"pagina HTML di Irish Revenue. Messaggio di errore: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-irish-revenue-html.php:220
+msgid ""
+"An unexpected error occurred while fetching exchange rates from "
+"IrishRevenueHTML. The most common cause of this issue is the absence of PHP "
+"CURL extension. Please make sure that PHP CURL is installed and configured "
+"in your system."
+msgstr ""
+"Si è verificato un errore imprevisto durante il recupero dei tassi di cambio "
+"dalla pagina HTML di Irish Revenue. La causa più comune di questo problema è "
+"l'assenza dell'estensione PHP CURL. Si prega di assicurarsi che PHP CURL sia "
+"installato e configurato nel sistema."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:290
+msgid ""
+"Choose if you would like to display a \"self-certification\" field at checkout."
+" By ticking the self-certification box, customers will be allowed to certify "
+"that the country entered as part of the billing address is their country of "
+"residence. Such declaration will be recorded with the completed order as "
+"part of the EU VAT evidence."
+msgstr ""
+"Scegliere se si desidera visualizzare un campo di  \"autocertificazione\" al "
+"momento dell'acquisto. Contrassegnando la casella di autocertificazione, i "
+"clienti potranno dichiarare che il paese inserito come indirizzo di "
+"fatturazione è il loro paese di residenza. Tale dichiarazione sarà "
+"registrata con il modulo d'ordine come parte delle prove  IVA ai fini dei "
+"regolamenti UE."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:327
+msgid ""
+"Enable this option if you would like to hide the self-certification field at "
+"checkout even when the customer enters a valid VAT number. "
+"<strong>Important</strong>: when this option is enabled, if the customer "
+"will enter a valid VAT number the self-certification requirement above will "
+"be ignored."
+msgstr ""
+"Abilita questa opzione per nascondere il campo di autocertificazione nella "
+"fase di acquisto se il cliente inserisce un numero di Partita IVA valido "
+"(VIES). <strong>Importante</strong>: quando questa opzione è abilitata, se "
+"il cliente inserisce un numero di Partita IVA valido l'impostazione relativa "
+"all'obbligo di autocertificazione di cui sopra verrà ignorata."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:336
+msgid ""
+"The label that will be displayed above the self-certification field at "
+"checkout. You can use the <code>{billing_country}</code> placeholder to "
+"automatically show the billing country chosen by the customer."
+msgstr ""
+"Il nome che verrà visualizzata per il campo di autocertificazione al momento "
+"dell'acquisto. È possibile utilizzare il segnaposto "
+"<code>{billing_country}</code> per visualizzare automaticamente il paese di "
+"fatturazione scelto dal cliente."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:342
+msgid "VAT Currency"
+msgstr "Valuta IVA:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:351
+msgid ""
+"EU regulations require that all payment and VAT amounts are indicated in the "
+"currency where your business is based. If you file your VAT reports in a "
+"currency different from shop's base currency, you can choose it here. "
+"<strong>Important:</strong> all VAT data will be calculated and stored with "
+"the orders as they are created. We strongly recommend to double check the "
+"currency you have selected, as changing it later could result in incorrect "
+"VAT reports being generated."
+msgstr ""
+"I regolamenti UE richiedono che tutti i pagamenti e gli importi IVA vengano "
+"indicati nella valuta del paese dove il tuo negozio risiede. Se desideri "
+"memorizzare il resoconto IVA in una valuta diversa dalla valuta di base del "
+"tuo negozio, puoi selezionarla qui. <strong>Importante:</strong> tutti i "
+"dati IVA saranno calcolati e memorizzati con gli ordini al momento della "
+"creazione. Si consiglia vivamente di ricontrollare la valuta selezionata, "
+"cambiarla in seguito potrebbe causare un errato resoconto IVA."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:358
+msgid "Tick this box to enable automatic updating of exchange rates."
+msgstr ""
+"Spunta questa casella per abilitare l'aggiornamento automatico dei tassi di "
+"cambio."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:367
+msgid "Select how often you would like to update the exchange rates."
+msgstr "Selezionare la frequenza di aggiornamento dei tassi di cambio."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:370
+#, php-format
+msgid ""
+"<p>Last update: <span id=\"last_exchange_rates_update\">%s</span>.</p><p>Next "
+"update: <span id=\"next_exchange_rates_update\">%s</span>.</p>"
+msgstr ""
+"<p>Ultimo aggiornamento: <span id=\\\"last_exchange_rates_update\\\">%s.</span> "
+"</p><p>Prossimo aggiornamento: <span id=\\\"next_exchange_rates_update\\\">%s."
+"</span>.</p>"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:378
+msgid "Exchange rates provider"
+msgstr "Provider dei tassi di cambio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:380
+msgid "Select the Provider from which the exchange rates will be fetched."
+msgstr "Selezionare il Provider da cui verranno prelevati i tassi di cambio."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:424
+msgid "Decimals for VAT rounding"
+msgstr "Decimali per arrotondamento IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:429
+msgid ""
+"The amount of decimals to use when rounding VAT. This setting applies when "
+"the VAT evidence is generated (for example during the conversion of VAT "
+"totals to the appropriate VAT currency). If you are not sure of how many "
+"decimals you should use, please contact your Revenue office."
+msgstr ""
+"La quantità di decimali da utilizzare per l'arrotondamento IVA. Questa "
+"impostazione si applica quando viene generata la prova IVA (ad esempio "
+"durante la conversione dei totali IVA alla valuta IVA appropriata). Se non "
+"sei sicuro di quanti decimali si debbano usare, contatta l'Agenzia delle "
+"Entrate del tuo paese."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:442
+msgid "Enable debug mode."
+msgstr "Abilita la modalità di debug"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:444
+#, php-format
+msgid ""
+"When debug mode is enabled, the plugin will log events to file "
+"<code>%s</code>."
+msgstr ""
+"Quando è attivata la modalità di debug, il plugin registrerà gli eventi nel "
+"file <code>%s</code>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:456
+#: src/views/admin/product_euva_variation.php:24
+msgid "EU VAT Assistant"
+msgstr "EU VAT Assistant"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:475
+msgid "EU VAT Assistant - Settings"
+msgstr "EU VAT Assistant - impostazioni"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:486
+msgid "In this page you can configure the settings for the EU VAT Assistant plugin."
+msgstr ""
+"In questa pagina è possibile configurare le impostazioni per il plugin EU "
+"VAT Assistant."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:492
+msgid "Here you can configure various parameters related to checkout."
+msgstr "Qui è possibile configurare vari parametri legati alla fase di acquisto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:496
+msgid ""
+"This page requires JavaScript to work properly. Please enable JavaScript in "
+"your browser and refresh the page.</u>."
+msgstr ""
+"Questa pagina richiede JavaScript per funzionare correttamente. Si prega di "
+"abilitare JavaScript nel browser e ricaricare la pagina."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:503
+msgid ""
+"Here you can decide to display an additional self-certification field that "
+"customers can use to confirm their country of residence."
+msgstr ""
+"Qui è possibile decidere di visualizzare un campo aggiuntivo di "
+"autocertificazione che i clienti possono utilizzare per confermare il loro "
+"paese di residenza."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:522
+msgid ""
+"These exchange rates will be used to convert the order amounts (totals, VAT, "
+"etc) in the currency you use to file your VAT returns. "
+"<strong>Important</strong>: you can enter the exchange rates manually, if "
+"you wish, but please make sure that they are in line with the values that "
+"your Revenue office would consider acceptable. The responsibility of "
+"ensuring that the rates are correct lies upon you. If you are in doubt, "
+"please contact your revenue office to determine which exchange rates they "
+"would consider acceptable. Most revenue offices have their own list of "
+"exchange rates, which you can enter here."
+msgstr ""
+"Questi tassi di cambio saranno utilizzati per convertire gli importi degli "
+"ordini ( totali, IVA, ecc.) nella valuta utilizzata per presentare le vostre "
+"dichiarazioni IVA . <strong > Importante < / strong>: è possibile inserire "
+"manualmente i tassi di cambio, se lo si desidera, ma in questo caso "
+"assicurarsi che siano allineati con quelli che la vostra Agenzia delle "
+"Entrate ritiene accettabili. La responsabilità di verificare che i tassi "
+"inseriti rientrino in questi paramentri e siano corretti è vostra. In caso "
+"di dubbio, contattarel' Agenzia delle Entrate per conoscere i tassi di "
+"cambio da loro considerati accettabili. La maggior parte delle Agenzie delle "
+"Entrate ha una propria lista di tassi di cambio, che è possibile insiìerire "
+"qui."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:529
+msgid ""
+"To set an exchange rate manually, tick the box next to the exchange rate "
+"field for the desired currency and enter the rate in the exchange rate field "
+"itself. The checkbox next to the \"<strong>Set manually</strong>\" label will "
+"select/deselect the checkboxes for all the currencies. "
+"<strong>Important</strong>: ensure that all exchange rates you flagged to be "
+"entered manually are filled. An empty exchange rate could lead to "
+"unpredictable results, as it's intepreted as zero."
+msgstr ""
+"Per impostare un tasso di cambio manualmente, spuntare la casella accanto al "
+"campo del tasso di cambio della valuta desiderata ed immettere il valore. La "
+"casella di controllo accanto all'etichetta \"<strong> Imposta manualmente "
+"</strong>\" selezionerà/deselezionerà le caselle di controllo per tutte le "
+"valute. <strong> Importante </strong>: assicurarsi che tutti i tassi di "
+"cambio contrassegnati per l'inserimento manuale siano compilati. Un tasso di "
+"cambio vuoto potrebbe portare a risultati imprevisti, essendo interpretato "
+"come zero."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:541
+msgid "Miscellaneous options."
+msgstr "Opzioni varie."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:595
+msgid ""
+"We designed this plugin to be robust and effective, as well as intuitive and "
+"easy to use. However, we are aware that, despite all best efforts, issues "
+"can arise and that there is always room for improvement."
+msgstr ""
+"Abbiamo progettato questo plugin affinché possa essere robusto, efficace, "
+"intuitivo e facile da usare. Tuttavia, siamo consapevoli che, nonostante "
+"tutti gli sforzi, potrebbero emergere problemi e che c'è sempre spazio per "
+"il miglioramento."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:600
+msgid ""
+"Should you need assistance, or if you just would like to get in touch with "
+"us, please use one of the links below."
+msgstr ""
+"Se avete bisogno di assistenza, o se semplicemente volete entrare in "
+"contatto con noi, siete pregati di utilizzare uno dei link sottostanti."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:608
+#, php-format
+msgid ""
+"<span class=\"label\">To request support</span>, please use our <a "
+"href=\"%s\">Support portal</a>. The portal also contains a Knowledge Base, "
+"where you can find the answers to the most common questions related to our "
+"products."
+msgstr ""
+"<span class=\\\"label\\\">Per richiedere assistenza,</span> siete pregati di "
+"utilizzare il nostro <a href=\\\"%s\\\">portale di supporto</a> . Il portale "
+"contiene anche una Knowledge Base, dove si possono trovare le risposte alle "
+"domande più frequenti relative ai nostri prodotti."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:63
+#, php-format
+msgid "Error returned by DNB. Error code: %s. Error message: %s - %s."
+msgstr "Errore restituito da DNB. Codice di errore:%s. Messaggio di errore:%s -%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:76
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from DNB. Error "
+"message: %s."
+msgstr ""
+"Si è verificato un'errore durante il recupero dei tassi di cambio dalla DNB. "
+"Messaggio di errore: %s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:121
+msgid ""
+"An unexpected error occurred while fetching exchange rates from DNB. The "
+"most common cause of this issue is the absence of PHP CURL extension. Please "
+"make sure that PHP CURL is installed and configured in your system."
+msgstr ""
+"Si è verificato un errore imprevisto durante il recupero dei tassi di cambio "
+"dalla DNB. La causa più comune di questo problema è l'assenza "
+"dell'estensione PHP CURL. Si prega di assicurarsi che PHP CURL sia "
+"installato e configurato nel sistema."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-dnb.php:155
+#, php-format
+msgid ""
+"Could not rebase rates against base currency \"%s\". Currency not found in "
+"data returned by DNB."
+msgstr ""
+"Impossibile riadattare le quotazioni rispetto alla valuta di base \\\"%s\\\". "
+"Valuta non trovato nei dati restituiti da DNB."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:107
+msgid "Checkout settings"
+msgstr "Impostazioni acquisto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:115
+msgid "Self-certification settings"
+msgstr "Impostazioni di autocertificazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:198
+msgid "Optional"
+msgstr "Opzionale"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:199
+msgid "Always required"
+msgstr "Sempre richiesto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:201
+msgid "Required only for EU addresses"
+msgstr "Richiesto solo per gli indirizzi europei"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:203
+msgid "Hidden"
+msgstr "Nascosto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:208
+msgid "EU VAT number field will be"
+msgstr "Il campo Partita IVA UE sarà"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:225
+msgid ""
+"Choose if you would like to display the EU VAT Number field, and how you "
+"would like to handle it.<ul "
+"class=\"description\"><li><strong>Optional</strong> - Customers can enter a EU "
+"VAT number to get VAT exemption.</li><li><strong>Always required</strong> - "
+"Customers must enter a valid EU VAT number to complete a purchase. This "
+"means that only B2B sales with EU businesses can be completed."
+"</li><li><strong>Required only for EU addresses</strong> - Customers who "
+"select a billing country that is part of the EU must enter a valid EU VAT "
+"number to complete a purchase. Customer who select a non-EU country can "
+"proceed without entering the VAT number.</li><li><strong>Hidden</strong> - "
+"Customers will not be able to enter a EU VAT number. This option is useful "
+"if you do not plan to sell to EU businesses.</li></ul>"
+msgstr ""
+"Scegliere se si desidera visualizzare il campo Partita IVA UE, e come si "
+"vorrebbe gestirlo.< ul class = \"description\" ><li><strong>Opzionale< / "
+"strong> - I clienti possono inserire un numero di partita IVA UE per "
+"ottenere l'esenzione dall'IVA.</li><li><strong>Sempre richiesto</strong> -  "
+"I clienti devono inserire un numero valido di partita IVA UE per completare "
+"un acquisto. Ciò significa che solo le vendite B2B con le imprese "
+"dell'Unione europea possono essere effettuate.</ li><li><strong>Richiesto "
+"solo per gli indirizzi UE</ strong> -  I clienti che scelgono un paese di "
+"fatturazione che fa parte dell'Unione europea devono inserire un numero "
+"valido di partita IVA UE per completare un acquisto.  I clienti che scelgono "
+"un paese non UE  possono procedere senza inserire il numero di partita IVA."
+"</ li><li><strong >Nascosto</ strong> - I clienti non potranno inserire un "
+"numero di Partita IVA. Questa opzione è utile se non si prevede di vendere "
+"per le imprese dell'UE.</li></ ul >"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:322
+msgid "Hide the self-certification field when a valid VAT number is entered"
+msgstr ""
+"Nascondi il campo di autocertificazione quando viene immesso un numero di "
+"Partita IVA valido"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:332
+msgid "Self-certification field label"
+msgstr "Nome del campo autocertificazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:612
+#, php-format
+msgid ""
+"<span class=\"label\">To send us general feedback</span>, suggestions, or "
+"enquiries, please use the <a href=\"%s\">contact form on our website.</a>"
+msgstr ""
+"<span class=\"label\">Per inviare un feedback generale</span>, suggerimenti o "
+"informazioni, si prega di utilizzare il <a href=\"%s\">modulo di contatto</a>"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:629
+msgid "Save and update exchange rates"
+msgstr "Salva e aggiorna i tassi di cambio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:684
+msgid "Argument \"exchange_rates\" must be an array."
+msgstr "L'argomento \"exchange_rates\" deve essere un'array."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:695
+msgid "Exchange Rate"
+msgstr "Tasso di cambio"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:697
+msgid "Set Manually"
+msgstr "Imposta manualmente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:119
+msgid "EU VAT Number"
+msgstr "Partita IVA UE"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:120
+msgid "Enter your EU VAT Number (if any). Country prefix is not required."
+msgstr ""
+"Inserisci il tuo numero di Partita IVA EU (se ne sei in possesso). Il "
+"prefisso del paese non è richiesto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:131
+msgid ""
+"I am established, have my permanent address, or usually reside within "
+"<strong>{billing_country}</strong>."
+msgstr ""
+"Sono residente, ho il mio indirizzo permanente, o solitamente risiedo "
+"all'interno del paese <strong>{billing_country}</strong>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:267
+msgid "Not Scheduled"
+msgstr "Non Pianificato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:278
+msgid "Never updated"
+msgstr "Mai aggiornato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:383
+msgid "Not available"
+msgstr "Non disponibile"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:446
+msgid "Settings saved. Exchange rates have been updated."
+msgstr "Impostazioni salvate. I tassi di cambio sono stati aggiornati."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:519
+#, php-format
+msgid ""
+"Attempted to register class \"%s\" as an Exchange Rates model, but the class "
+"does not exist, or does not implement Aelia\\WC\\IExchangeRatesModel interface."
+msgstr ""
+"Tentativo di registrare la classe \\\"%s\\\" come modello Tassi di Cambio, ma la "
+"classe non esiste, o non implementa l'interfaccia "
+"Aelia\\WC\\IExchangeRatesModel."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:538
+msgid "BitPay"
+msgstr "BitPay"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:539
+msgid "ECB"
+msgstr "BCE"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:540
+msgid "HMRC (UK)"
+msgstr "HMRC (UK)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:541
+msgid "Irish Revenue (HTML) - WARNING: experimental, may not always work!"
+msgstr ""
+"Ufficio Entrate Irlandese (HTML) - Avviso: funzione sperimentale, potrebbe "
+"non funzionare sempre!"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:542
+msgid "Danish National Bank"
+msgstr "Danish National Bank"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings.php:639
+#, php-format
+msgid ""
+"Some exchange rates entered manually are invalid. Please review the rates "
+"for the following currencies: %s."
+msgstr ""
+"Alcuni cambi immessi manualmente non sono validi. Si prega di rivedere le "
+"tariffe per le seguenti valute:%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:164
+#, php-format
+msgid ""
+"An empty or invalid VAT number was passed for validation. The VAT number "
+"should contain several digits, without the country prefix. Received VAT "
+"number: \"%s\"."
+msgstr ""
+"Un numero di partita IVA vuoto o non valido è stato inviato per la convalida."
+" Il numero di partita IVA deve contenere diverse cifre, senza il prefisso "
+"del paese. Ricevuto il numero di Partita IVA: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:172
+#, php-format
+msgid ""
+"A VAT prefix could not be found for the specified country. Received country "
+"code: \"%s\"."
+msgstr ""
+"Non è stato trovato un prefisso di Partita IVA per il paese specificato. "
+"Ricevuto il codice di paese: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:76
+#, php-format
+msgid ""
+"Error returned by HMRC. Feed URLs used for retrieval: %s. Error code: %s. "
+"Error message: %s - %s."
+msgstr ""
+"Errore restituito da HMRC. Feed URL utilizzati per il recupero:%s. Codice di "
+"errore:%s. Messaggio di errore:%s -%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-hmrc.php:92
+#, php-format
+msgid ""
+"Exception occurred while retrieving the exchange rates from HMRC. Feed URLs "
+"used for retrieval: %s. Error message: %s."
+msgstr ""
+"Si è verificato un'errore durante il recupero dei tassi di cambio da HMRC. "
+"Feed URL utilizzati per il recupero:%s. Messaggio di errore:%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/tools/eu_vat_validation.php:239
+#, php-format
+msgid "An error occurred initialising SOAP client. Error message: \"%s\"."
+msgstr "Errore di inizializzazione client SOAP. Messaggio di errore: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:131
+msgid "Standard rates"
+msgstr "Aliquote standard"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:132
+msgid "Reduced rates"
+msgstr "Aliquote ridotte"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:133
+msgid "Reduced rates (alternative)"
+msgstr "Aliquote ridotte (alternativa)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:134
+msgid "Super reduced rates"
+msgstr "Aliquote super ridotte"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:135
+msgid "Parking rates"
+msgstr "Tariffe di deposito"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:201
+#, php-format
+msgid ""
+"Could not fetch EU VAT rates from remote site. Error(s): \"%s\". Remote site: "
+"\"%s\"."
+msgstr ""
+"Impossibile recuperate le aliquote IVA UE dal sito remoto. Errore(i): \\\"%s\\\"."
+" Sito remoto: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:210
+#, php-format
+msgid ""
+"Unexpected response returned by EU VAT rates site. Returned data: \"%s\". "
+"Remote site: \"%s\"."
+msgstr ""
+"Risposta inattesa restituita dal sito delle aliquote IVA UE. Dati restituiti:"
+" \\\"%s\\\". Sito remoto: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:77
+msgid "Update EU VAT Rates"
+msgstr "Aggiorna aliquote IVA UE"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:78
+msgid "using"
+msgstr "utilizzando"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:79
+msgid "VAT"
+msgstr "IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:82
+msgid ""
+"VAT rates have been updated. Please review them, to ensure that they are "
+"correct, then click on \"Save changes\" to save the new rates."
+msgstr ""
+"Le aliquote IVA sono state aggiornate. Si prega di assicurarsi che siano "
+"corrette, quindi cliccare su \"Salva modifiche\" per salvare le nuove aliquote."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:85
+msgid ""
+"An error occurred retrieving the VAT rates, therefore this function cannot "
+"be used at the moment. Please try again by reloading the page later."
+msgstr ""
+"Si è verification un errore durante il recupero delle aliquote IVA, pertanto "
+"questa funzione non può essere utilizzata al momento. Si prega di riprovare "
+"ricaricando la pagina più tardi."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:557
+#, php-format
+msgid ""
+"Currency conversion - %s currency not valid or exchange rate not found for: "
+"\"%s\". Please make sure that the EU VAT assistant plugin is configured "
+"correctly and that an Exchange Rate has been specified for each of the "
+"available currencies."
+msgstr ""
+"Conversione di valuta - la valuta %s non è valida o il tasso di cambio non è "
+"stato trovato per: \"%s\". Si prega di assicurarsi che il plugin EU VAT "
+"assistant sia configurato correttamente e che sia stato specificato un tasso "
+"di cambio per ciascuna delle valute disponibili."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:562
+msgid "Source"
+msgstr "Sorgente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:573
+msgid "Destination"
+msgstr "Destinazione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:585
+#, php-format
+msgid "Stack trace: %s"
+msgstr "Stack trace: %s"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:809
+#, php-format
+msgid "Setting customer VAT exemption. Customer country: \"%s\". Number: \"%s\"."
+msgstr "Imposta esenzione IVA cliente. Paese del cliente: \\\"%s\\\". Numero: \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:880
+msgid ""
+"EU VAT Number field was hidden by plugin configuration. Customer cannot be "
+"made VAT exempt."
+msgstr ""
+"Il campo Partita IVA UE era nascosto nella configurazione del plugin. Il "
+"cliente non può essere esente IVA."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:883
+#, php-format
+msgid "VAT exemption check completed. Customer exemption: %d. Result: %d."
+msgstr "Controllo di esenzione IVA completato. Esenzione cliente: %d. Risultato: %d."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1063
+msgid ""
+"Unfortunately, we could not collect sufficient information to confirm your "
+"location. To proceed with the order, please tick the box below the billing "
+"details to confirm that you will be using the product(s) in country you "
+"selected."
+msgstr ""
+"Non siamo in grado di raccogliere sufficienti informazioni per confermare la "
+"vostra posizione. Per procedere con l'ordine, barrare la casella qui sotto "
+"per confermare che si utilizzeranno i prodotti acquistati nel paese "
+"selezionato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1126
+msgid "You must enter a valid EU VAT number to complete the purchase."
+msgstr ""
+"È necessario immettere un numero di Partita IVA UE valido per completare "
+"l'acquisto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1139
+#, php-format
+msgid "VAT number \"%s\" is not valid for your country."
+msgstr "Il numero di Partita IVA \\\"%s\\\" non è valido per il paese indicato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1170
+msgid "VAT information"
+msgstr "Informazioni IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1227
+msgid ""
+"<strong>EU VAT Assistant</strong> is almost ready! Please go to "
+"<code>WooCommerce > EU VAT Assistant</code> settings page to complete the "
+"configuration and start collecting the information required for EU VAT "
+"compliance."
+msgstr ""
+"<strong>EU VAT Assistant</strong> è quasi pronto! Vai alla pagina di "
+"impostazioni  <code>WooCommerce > EU VAT Assistant</code> per completare la "
+"configurazione ed iniziare a raccogliere le informazioni necessarie per la "
+"conformità IVA UE."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1230
+msgid "Go to EU VAT Assistant settings"
+msgstr "Vai alle impostazioni di EU VAT Assistant"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:12
+msgid "Items VAT"
+msgstr "Voci IVA"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:13
+#: src/views/admin/order-vat-info-box.php:16
+msgid "Shipping VAT "
+msgstr "IVA spedizione"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:14
+msgid "Items VAT refunded"
+msgstr "IVA articoli rimborsata"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:15
+msgid "Shipping VAT refunded"
+msgstr "IVA spedizione rimborsata"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:209
+msgid "Exchange rate retrieved on:"
+msgstr "Tasso di cambio recuperati su:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:216
+#: src/views/admin/order-vat-info-box.php:225
+msgid "Not recorded"
+msgstr "Non registrato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/order-vat-info-box.php:222
+msgid "Exchange rate provider:"
+msgstr "Provider tasso di cambio:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:298
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:279
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:377
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:326
+#: src/lib/classes/settings/settings-renderer.php:81
+msgid "Sales"
+msgstr "Vendite"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:145
+msgid "Sale restrictions"
+msgstr "Restrizioni di vendita"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:389
+msgid "Prevent sales to these countries"
+msgstr "Impedisci le vendite a questi paesi"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:395
+msgid ""
+"Here you can add a list of countries to which you do not want to sell. The "
+"countries in this list will not appear to the customer at any stage, thus "
+"preventing him from completing an order. Leave this field empty to allow "
+"sales to all countries configured in <strong>WooCommerce > Settings</strong> "
+"section."
+msgstr ""
+"Qui è possibile aggiungere un elenco di paesi a cui non si desidera vendere. "
+"I paesi in questa lista non appariranno fra quelli disponibili impedendo "
+"così all'acquirente che vi risiede di completare un ordine. Lascia questo "
+"campo vuoto per consentire le vendite a tutti i paesi  configurati nella "
+"sezione <strong>WooCommerce > impostazioni</strong>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:419
+msgid "Add European Union countries"
+msgstr "Aggiungi i paesi dell'Unione Europea"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:153
+#, php-format
+msgid ""
+"Could not store exchange rates. Provider: \"%s\". Base currency: \"%s\". Rates "
+"date: \"%s\". Rates (JSON): \"%s\"."
+msgstr ""
+"Impossibile memorizzare i tassi di cambio. Provider: \\\"%s\\\". Valuta di base: "
+"\\\"%s\\\". Data tasso: \\\"%s\\\". Tariffe (JSON): \\\"%s\\\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/exchange_rates/aelia-wc-exchangerates-ecb-historical.php:331
+#, php-format
+msgid ""
+"Invalid \"last day of quarter\" argument received: \"%s\". The argument must be "
+"in YYYY-Q format, and the quarter number must be between 1 and 4."
+msgstr ""
+"L' argomento \"ultimo giorno del trimestre\" ricevuto non è valido: \"%s\". "
+"L'argomento deve essere nel formato AAAA-Q (es. 2015-3), e il numero del "
+"trimestre deve essere compreso tra 1 e 4."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:165
+#, php-format
+msgid ""
+"Creation of table \"%s\" failed. Please check PHP error log for error messages "
+"related to the operation."
+msgstr ""
+"Creazione della tabella \"%s\" non riuscita. Controllare il registro degli "
+"errori PHP per messaggi di errore relativi all'operazione."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-eu-vat-assistant-install.php:171
+#: src/lib/classes/reporting/reports/base/base_report.php:117
+#, php-format
+msgid "Table \"%s\" created successfullly."
+msgstr "Tabella \"%s\" creata con successo."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:87
+msgid "Tax payable to Country"
+msgstr "Imposta dovuta allo stato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:90
+msgid ""
+"Specify to which country this tax should be paid. Leave empty to use the "
+"country to which the tax is applied (i.e. the one in the Country Code "
+"column)."
+msgstr ""
+"Specificare in quale paese questa tassa deve essere pagata. Lasciare vuoto "
+"per usare il paese a cui viene applicata l'imposta (cioè quella nella "
+"colonna Codice Paese)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/integration/admin/tax_settings_integration.php:91
+msgid "Auto"
+msgstr "Auto"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:272
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:261
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:351
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:308
+msgid "Exchange rates used:"
+msgstr "Tassi di cambio utilizzati:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:276
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:265
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:355
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:312
+msgid "Rates saved with each order"
+msgstr "Tassi salvati con ogni ordine"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:279
+#: src/lib/classes/reporting/reports/base/base_intrastat_report.php:268
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:358
+#: src/lib/classes/reporting/reports/base/base_vies_report.php:315
+msgid "ECB rates for each quarter"
+msgstr "Tassi BCE per ciascun trimestre"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:299
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:378
+msgid "Refunds"
+msgstr "Rimborsi"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:304
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:383
+msgid "Shipping charged"
+msgstr "Spese di spedizione addebitate"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:305
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:384
+msgid "Shipping refunded"
+msgstr "Spese di spedizione rimborsate"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:310
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:389
+msgid "Total charged"
+msgstr "Totale addebitato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_report.php:175
+#, php-format
+msgid ""
+"Invalid target date specified: \"%s\". The argument must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"Data specificata non valida: \\\"%s\\\". L'argomento deve essere nel formato "
+"AAAA-MM-GG."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:85
+#: src/lib/classes/settings/settings-renderer.php:565
+msgid "Reports"
+msgstr "Rapporti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:93
+msgid "Shortcuts"
+msgstr "Scorciatoie"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:153
+msgid "Reports settings"
+msgstr "Impostazioni Rapporti"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:410
+msgid "The following tax classes should not be included in MOSS reports"
+msgstr "Le seguenti classi fiscali non devono essere incluse nei rapporti MOSS"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:417
+msgid ""
+"Here you can select one or more tax classes whose rates should be excluded "
+"from MOSS reports. The tax information for those rates will still be tracked,"
+" this setting will just be used to filter the data using the report filters "
+"in the <strong>Reports</strong> interface."
+msgstr ""
+"Qui è possibile selezionare una o più classi fiscali le cui aliquote devono "
+"essere escluse dai rapporti MOSS. Le informazioni fiscali per tali classi "
+"saranno comunque tracciate, questa impostazione verrà utilizzata solo per "
+"filtrare i dati nell'interfaccia <strong>Rapporti</strong>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:549
+msgid ""
+"This section contains some convenient links to the sections of WooCommerce "
+"relevant to EU VAT compliance"
+msgstr ""
+"Questa sezione contiene alcuni utili collegamenti alle sezioni del "
+"WooCommerce pertinenti alla conformità IVA UE"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:553
+msgid "Settings"
+msgstr "Impostazioni"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:558
+msgid "Tax Settings"
+msgstr "Impostazioni fiscali"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/settings/settings-renderer.php:570
+msgid "EU VAT By Country"
+msgstr "IVA UE per Paese"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:861
+#, php-format
+msgid ""
+"EU VAT Number could not be validated due to errors in the communication with "
+"the VIES service. Error details (JSON): \"%s\"."
+msgstr ""
+"Il numero di Partita IVA UE non può essere convalidato a causa di errori "
+"nella comunicazione con il servizio VIES. Dettagli errore (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:17
+msgid "Show report for the following tax types"
+msgstr "Mostra rapporto per i seguenti tipi di imposta"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:23
+#: src/views/admin/reports/eu-vat-report-header.php:104
+#: src/views/admin/reports/eu-vat-report-header.php:184
+#: src/views/admin/reports/eu-vat-report-header.php:263
+msgid "[What is this?]"
+msgstr "[Di cosa si tratta?]"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:96
+msgid "Choose which exchange rates should be used"
+msgstr "Scegliere quali tassi di cambio dovrebbero essere usati"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:102
+msgid ""
+"Choose if you would like generate the report using the exchange rate saved "
+"with each order, or the official European Central Bank (ECB) rates that "
+"apply for the quarter. Click for more information."
+msgstr ""
+"Scegliere se si desidera generare il report utilizzando il tasso di cambio "
+"salvato con ogni ordine, oppure utilizzando le tariffe ufficiali della Banca "
+"Centrale Europea (BCE) che si applicano per il trimestre. Clicca per "
+"maggiori informazioni."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:113
+msgid ""
+"The EU VAT Assistant saves the exchange rate to convert order amounts from "
+"the currency in which orders were placed to the currency to be used for VAT "
+"reports. Such exchange rate is saved together with the order as soon as it "
+"is placed, and can be used to prepare the EU VAT report."
+msgstr ""
+"EU VAT Assistant salva il tasso di cambio per convertire gli importi degli "
+"ordini dalla valuta in cui sono stati acquisiti nella valuta da utilizzare "
+"per il resoconto IVA. Questi tassi di cambio sono memorizzati insieme "
+"all'ordine al momento della creazione e possono essere utilizzati per "
+"preparare la relazione IVA UE."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:116
+msgid ""
+"EU VAT regulations, however, have specific requirements about the exchange "
+"rates to be used. As per <a href=\"http://www.revenue."
+"ie/en/tax/vat/leaflets/mini-one-stop-shop.html\"title=\"Irish Revenue - The "
+"Mini One Stop Shop (MOSS)\" target=\"_blank\">official documentation</a>:"
+msgstr ""
+"E' bene notare che la normativa IVA UE ha requisiti specifici riguardo i "
+"tassi di cambio da utilizzare. Come da <a href=\"http://www.revenue."
+"ie/en/tax/vat/leaflets/mini-one-stop-shop.html\" title=\"Irish Revenue - The "
+"Mini One Stop Shop (MOSS)\" target=\"_blank\">documentazione ufficiale</a>:"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:121
+msgid ""
+"The Mini One Stop Shop (MOSS) - What currency should I use for the MOSS VAT "
+"return?"
+msgstr ""
+"Mini One Stop Shop (MOSS) - Quale valuta deve essere usata per la "
+"dichiarazione dell'IVA MOSS?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:127
+msgid ""
+"The exchange rate that must be used is the European Central Bank (ECB) rate "
+"applicable on the last day of the calendar quarter to which the return "
+"relates."
+msgstr ""
+"Il tasso di cambio da utilizzare è il tasso della Banca Centrale Europea "
+"(BCE) applicabile l'ultimo giorno del trimestre di calendario a cui si "
+"riferisce la dichiarazione."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:130
+msgid "Which exchange rates should I use?"
+msgstr "Quale tasso di cambio dovrei usare?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:135
+msgid ""
+"If you are preparing the report for your own use (for example, to get a "
+"rough idea of how much VAT you have collected), or if the quarter has not "
+"ended yet, you can use the exchange rates saved with the orders."
+msgstr ""
+"Se si sta preparando la relazione per uso personale (ad esempio, per avere "
+"un'idea approssimativa dell'IVA raccolta), o se il trimestre non è ancora "
+"terminato, è possibile utilizzare i tassi di cambio salvati con gli ordini."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:140
+msgid ""
+"If you are preparing the report to file the official VAT MOSS return, we "
+"recommend that you use the ECB exchange rates for the last day of the selected quarter."
+msgstr ""
+"Se si sta preparando la dichiarazione MOSS IVA ufficiale, raccomandiamo di "
+"utilizzare i tassi di cambio della BCE per il trimestre selezionato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:58
+#: src/views/admin/reports/eu-vat-report-header.php:144
+#: src/views/admin/reports/eu-vat-report-header.php:221
+#: src/views/admin/reports/eu-vat-report-header.php:296
+msgid "[Close]"
+msgstr "[Chiudi]"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:157
+msgid "Use the exchange rates saved with each order"
+msgstr "Utilizza i tassi di cambio salvati con ogni ordine"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:166
+msgid "Use the European Central Bank (ECB) rates for the last day of the selected quarter"
+msgstr ""
+"Utilizza i tassi della Banca Centrale Europea (BCE) per il trimestre "
+"selezionato"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:397
+msgid "Install plugin"
+msgstr "Installa il plugin"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:406
+msgid "Activate plugin"
+msgstr "Attiva il plugin"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:217
+#, php-format
+msgid "Plugin \"<strong>%s</strong>\" must be installed and activated."
+msgstr "Il plugin \"<strong>%s</strong>\" deve essere installato e attivato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:348
+#, php-format
+msgid ""
+"%s - Plugin not found: \"%s\". This could be due by an incorrect name "
+"specified in class \"%s\". Please report the issue to support."
+msgstr ""
+"%s - Plugin non trovato: \"%s\". Questo potrebbe essere dovuto da un errato "
+"nome specificato nella classe \"%s\". Si prega di segnalare il problema al "
+"supporto tecnico."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:502
+msgid ""
+"This will install and activate the plugin automatically. Would you like to "
+"proceed?"
+msgstr "Questo installerà e attiverà il plugin automaticamente. Vuoi procedere?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:503
+msgid "This will activate the plugin. Would you like to proceed?"
+msgstr "Questo attiverà il plugin. Vuoi continuare?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:535
+#, php-format
+msgid "Installing plugin \"%s\"..."
+msgstr "Installazione del plugin \"%s\"..."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:540
+msgid "Plugin is already installed."
+msgstr "Il plugin è già installato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:555
+msgid "Plugin installation failed. See errors below."
+msgstr "L'installazione del plugin non è riuscita. Controlla gli errori qui sotto."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:558
+#, php-format
+msgid "Please try installing the plugin manually. You can download it from %s."
+msgstr ""
+"Si prega di provare a installare il plugin manualmente. Potete scaricarlo "
+"da%s."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:578
+#, php-format
+msgid "Activating plugin \"%s\"..."
+msgstr "Attivazione plugin \"%s\"..."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:583
+msgid "Plugin is not installed."
+msgstr "Il plugin non è installato."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:589
+msgid "Plugin already active."
+msgstr "Il plugin è già attivo."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:597
+msgid "Activation failed."
+msgstr "Attivazione fallita."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:603
+msgid ""
+"Plugin activated successfully. Please refresh this page to hide the "
+"requirement notices and this message."
+msgstr ""
+"Plugin attivato con successo. Si prega di aggiornare questa pagina per "
+"eliminare gli avvisi sui requisiti e questo messaggio."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:663
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:709
+#, php-format
+msgid "Invalid plugin specified: \"%s\"."
+msgstr "Plugin specificato non valido:\"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:670
+msgid "Plugin does not have a URL from which it can be downloaded automatically."
+msgstr "Il plugin non ha un URL da cui può essere scaricato automaticamente."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:293
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:372
+msgid "Customer Country"
+msgstr "Paese Cliente"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:294
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:373
+msgid "Country Code"
+msgstr "Codice del paese"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:444
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:523
+msgid "MOSS VAT Details"
+msgstr "Dettagli IVA MOSS"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:445
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:524
+msgid "This section shows the data to be used to file the VAT MOSS return."
+msgstr ""
+"Questa sezione mostra i dati da utilizzare per compilare la dichiarazione "
+"IVA MOSS."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:448
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:527
+msgid "Domestic/non-MOSS VAT Details"
+msgstr "Dettagli IVA nazionale/non-MOSS"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/lib/classes/reporting/reports/base/base_eu_vat_by_country_report.php:449
+#: src/lib/classes/reporting/reports/base/base_sales_report.php:528
+msgid "This section shows the data for the domestic VAT return."
+msgstr "Questa sezione mostra i dati per la dichiarazione IVA nazionale."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1015
+#, php-format
+msgid ""
+"Unexpected condition occurred: no customer country was posted to \"checkout "
+"update order review\" event. Full posted data (JSON): \"%s\"."
+msgstr ""
+"Si è verificata un condizione imprevista: nessun paese cliente è stato "
+"inviato all'evento \"checkout update order review\". Dati completi inviati "
+"(JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1105
+msgid "Billing country on Customer object is empty. Retrieving it from posted data."
+msgstr ""
+"Il paese di fatturazione per l'oggetto Cliente è vuoto. Lo recupero da dati "
+"postati."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/plugin-main.php:1112
+#, php-format
+msgid ""
+"Unexpected condition occurred: no customer country was posted  during "
+"checkout. VAT exemption cannot be applied correctly. Full posted data (JSON):"
+" \"%s\"."
+msgstr ""
+"Si è verificata una condizione imprevista: nessun paese cliente è stato "
+"passato durante l'acquisto. L'esenzione IVA non può essere applicata "
+"correttamente. Dati completi inviati (JSON): \"%s\"."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:22
+msgid ""
+"Choose if you would like the report to only display taxes falling under the "
+"EU VAT MOSS regime, only taxes falling outside of it, or both. Click for "
+"more information."
+msgstr ""
+"Scegliere se si desidera che il resoconto visualizzi solo le tasse che "
+"rientrano nel regime IVA UE MOSS, solo tasse all'infuori di esso, o entrambe "
+"le tipologie. Clicca per maggiori informazioni."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:33
+msgid ""
+"The EU VAT Assistant collects information about all taxes associated with "
+"each order. Some of these taxes may fall under the VAT MOSS scheme, while "
+"others may not. For example, the VAT applied to a downloadable software "
+"would be part of VAT MOSS, while the VAT applies to a custom service would "
+"not."
+msgstr ""
+"EU VAT Assistant raccoglie informazioni su tutte le tasse associate a "
+"ciascun ordine. Alcune di tali tasse possono ricadere sotto il regime IVA UE "
+"MOSS, mentre altre no. Ad esempio, l'IVA applicata ad un software "
+"scaricabile fa parte del MOSS, mentre l'IVA relativa ad un servizio "
+"personalizzato no."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:37
+msgid ""
+"Additionally, all VAT applied to sales to customers in your own country are "
+"not part of the MOSS scheme, and should be filed as part of your standard "
+"domestic VAT report."
+msgstr ""
+"Inoltre, tutta l'IVA applicata alle vendite ai clienti nel vostro stesso "
+"paese non fa parte del regime MOSS e dovrebbe essere gestita come "
+"dichiarazione IVA standard."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:44
+msgid ""
+"By selecting the appropriate option, you can generate a report containing "
+"only the data required for the VAT MOSS return, only the data for your "
+"domestic VAT return, or both. If you choose to show all data, it will be "
+"separated in two groups (MOSS and domestic VAT)."
+msgstr ""
+"Selezionando l'opzione appropriata, è possibile generare un rapporto "
+"contenente solo i dati necessari per la dichiarazione MOSS, solo i dati per "
+"la dichiarazione IVA nazionale o entrambi. Se si sceglie di mostrare tutti i "
+"dati, essi saranno separati in due gruppi (MOSS e IVA nazionale)."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:47
+msgid "How does the EU VAT Assistant know which taxes are part of MOSS?"
+msgstr "Come fa EU VAT Assistant a sapere quali tasse fanno parte del MOSS?"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:52
+#, php-format
+msgid ""
+"By default, the EU VAT Assistant assumes that all taxes are part of the MOSS "
+"scheme. You can exclude some of them by adding the related tax class to the "
+"VAT MOSS exclusion list in <a href=\"%s\">EU VAT Assistant > Reports "
+"Settings</a>."
+msgstr ""
+"Per impostazione predefinita, EU VAT Assistant presuppone che tutte le tasse "
+"siano parte del sistema MOSS. È possibile escludere alcune di loro "
+"aggiungendo la classe fiscale relativa all'elenco di esclusioni IVA MOSS in "
+"<a href=\"%s\">EU VAT Assistant > Impostazioni rapporti</a>."
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:71
+msgid "Show only data for VAT MOSS return"
+msgstr "Visualizza solo i dati per la dichiarazione IVA MOSS"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:80
+msgid "Show only data for domestic (Non-MOSS) VAT return"
+msgstr "Visualizza solo i dati per la dichiarazione IVA nazionale (non-MOSS)"
+
+# @ wc-aelia-eu-vat-assistant
+#: src/views/admin/reports/eu-vat-report-header.php:89
+msgid "Show all data"
+msgstr "Mostra tutti i dati"
+
+msgid "Save Changes"
+msgstr "Salva impostazioni"

@@ -1,0 +1,26 @@
+2020-04-13T08:58:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 42
+2020-04-13T08:59:04+00:00 NOTICE product_submit.success :: updateStoreProduct :: #42
+2020-04-13T09:08:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 147
+2020-04-13T09:08:51+00:00 NOTICE product_submit.success :: updateStoreProduct :: #147
+2020-04-13T09:11:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 147
+2020-04-13T09:13:36+00:00 NOTICE product_submit.success :: updateStoreProduct :: #147
+2020-04-13T09:44:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 151
+2020-04-13T09:44:28+00:00 NOTICE product_submit.success :: updateStoreProduct :: #151
+2020-04-13T09:58:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 154
+2020-04-13T09:59:30+00:00 NOTICE product_submit.success :: updateStoreProduct :: #154
+2020-04-13T10:07:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 161
+2020-04-13T10:07:49+00:00 NOTICE product_submit.success :: updateStoreProduct :: #161
+2020-04-13T10:16:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 161
+2020-04-13T10:17:36+00:00 NOTICE product_submit.success :: updateStoreProduct :: #161
+2020-04-13T10:41:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 161
+2020-04-13T10:44:24+00:00 NOTICE product_submit.error :: addStoreProduct :: #161 :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-13T11:00:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 161
+2020-04-13T11:02:05+00:00 NOTICE product_submit.success :: updateStoreProduct :: #161
+2020-04-13T11:51:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 201
+2020-04-13T11:51:53+00:00 NOTICE product_submit.success :: addStoreProduct :: #201
+2020-04-13T11:57:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 202
+2020-04-13T11:57:52+00:00 NOTICE product_submit.success :: addStoreProduct :: #202
+2020-04-13T12:07:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 202
+2020-04-13T12:09:02+00:00 NOTICE product_submit.success :: updateStoreProduct :: #202
+2020-04-13T12:11:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 202
+2020-04-13T12:12:01+00:00 NOTICE product_submit.success :: updateStoreProduct :: #202

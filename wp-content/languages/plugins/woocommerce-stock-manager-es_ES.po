@@ -1,0 +1,484 @@
+# Translation of Plugins - WooCommerce Stock Manager - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Stock Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-04 13:02:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Stock Manager - Development (trunk)\n"
+
+#: admin/assets/src/components/SaveChanges.js:64
+msgid "Save all changes"
+msgstr "Guardar todos los cambios"
+
+#: admin/assets/src/components/SaveChanges.js:63
+msgid "Discard changes"
+msgstr "Descartar los cambios"
+
+#: admin/assets/src/components/ScreenOptions.js:33
+msgid "Show columns"
+msgstr "Mostrar las columnas"
+
+#: admin/assets/src/components/Products.js:158
+msgid "Loading more results..."
+msgstr "Cargando más resultados..."
+
+#: admin/assets/src/components/Products.js:53
+msgid "Loading failed"
+msgstr "Carga fallida"
+
+#: admin/assets/src/components/ProductFilter.js:99
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/assets/src/components/ProductFilter.js:92
+#: admin/assets/src/components/ProductFilter.js:105
+#: admin/assets/src/components/ProductFilter.js:118
+msgid "All"
+msgstr "Todo"
+
+#: admin/assets/src/components/ProductFilter.js:86
+msgid "Category"
+msgstr "Categoría"
+
+#: admin/assets/src/components/ProductFilter.js:74
+msgid "Search"
+msgstr "Buscar"
+
+#: admin/views/setting.php:29
+msgid "Active ol styles"
+msgstr "Activar los estilos «ol»"
+
+#: admin/class-stock-manager-admin.php:213
+#: admin/class-stock-manager-admin.php:214
+msgid "Setting"
+msgstr "Ajuste"
+
+#: admin/views/log-history.php:55
+msgid "No result"
+msgstr "Ningún resultado"
+
+#: admin/views/log-history.php:39
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/views/log.php:60 admin/views/log.php:94
+msgid "History"
+msgstr "Historia"
+
+#: admin/views/log.php:22
+msgid "Stock manager"
+msgstr "Stock manager"
+
+#: admin/views/components/filter.php:142
+msgid "Save setting"
+msgstr "Guardar ajuste"
+
+#: admin/views/components/filter.php:108
+msgid "Sales price"
+msgstr "Precio en oferta"
+
+#: admin/views/components/filter.php:101
+msgid "Hide or display cells"
+msgstr "Ocultar o mostrar celdas"
+
+#: admin/views/components/filter.php:54
+msgid "Clear filter"
+msgstr "Limpiar filtro"
+
+#: admin/views/components/filter.php:52
+msgid "Show"
+msgstr "Mostrar"
+
+#: admin/views/components/filter.php:42
+msgid "Yes manage stock"
+msgstr "Sí gestionar stock"
+
+#: admin/views/components/filter.php:41
+msgid "No manage stock"
+msgstr "No gestionar stock"
+
+#: admin/views/components/filter.php:28
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: admin/views/components/filter.php:24
+msgid "Products with variation"
+msgstr "Productos variables"
+
+#: admin/views/components/filter.php:23
+msgid "Simple products"
+msgstr "Productos simples"
+
+#: admin/views/components/filter.php:19
+msgid "SKU DESC"
+msgstr "SKU DESC"
+
+#: admin/views/components/filter.php:18
+msgid "SKU ASC"
+msgstr "SKU ASC"
+
+#: admin/views/components/filter.php:17
+msgid "Product name DESC"
+msgstr "Nombre del producto DESC"
+
+#: admin/views/components/filter.php:16
+msgid "Product name ASC"
+msgstr "Nombre del producto ASC"
+
+#: admin/views/components/filter.php:15
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: admin/views/components/filter.php:6
+msgid "Display setting"
+msgstr "Ajustes de visualización"
+
+#: admin/views/components/filter.php:5 admin/views/components/filter.php:73
+msgid "Search by product name"
+msgstr "Buscar por nombre de producto"
+
+#: admin/views/components/filter.php:4 admin/views/components/filter.php:63
+msgid "Search by sku"
+msgstr "Buscar por sku"
+
+#: admin/views/components/filter.php:3
+msgid "Filter"
+msgstr "Filtrar"
+
+#: admin/views/import-export.php:269
+msgid "Create export file"
+msgstr "Crear archivo de exportación"
+
+#: admin/views/import-export.php:268
+msgid "You can download csv file, with your stock data. "
+msgstr "Puedes descargar un archivo csv con tu información de stock. "
+
+#: admin/views/import-export.php:265
+msgid "Export"
+msgstr "Exportar"
+
+#: admin/views/import-export.php:251
+msgid "Sorry, there was an error uploading your file."
+msgstr "Lo siento, ocurrió un error al subir el archivo."
+
+#: admin/views/import-export.php:240
+msgid "Product with ID: "
+msgstr "Producto con ID: "
+
+#: admin/views/import-export.php:212
+msgid "The file "
+msgstr "El archivo"
+
+#: admin/views/import-export.php:201
+msgid "Upload"
+msgstr "Subir"
+
+#: admin/views/import-export.php:192
+msgid "Upload csv file"
+msgstr "Subir archivo csv"
+
+#: admin/views/import-export.php:185
+msgid "quantity value. If is empty, 0 will be save."
+msgstr "valor de cantidad. Si está vacío, se guardará 0."
+
+#: admin/views/import-export.php:183
+msgid "values: \"instock\", \"outofstock\". If is empty \"outofstock\" will be save."
+msgstr "valores: \"instock\", \"outofstock\". Si está vacío, se guardará como \"outofstock\""
+
+#: admin/views/import-export.php:182 admin/views/import-export.php:184
+msgid "values: \"yes\", \"notify\", \"no\". If is empty \"no\" will be save."
+msgstr "valores: \"yes\", \"notify\", \"no\". Si está vacío, se guardará como \"no\"."
+
+#: admin/views/import-export.php:181
+msgid "product unique identificator, required. Neccessary for import and export."
+msgstr "identificador único de producto, requerido. Necesario para la importación y exportación."
+
+#: admin/views/import-export.php:175
+msgid "simple"
+msgstr "simple"
+
+#: admin/views/import-export.php:174
+msgid "10"
+msgstr "10"
+
+#: admin/views/import-export.php:172
+msgid "instock"
+msgstr "instock"
+
+#: admin/views/import-export.php:171 admin/views/import-export.php:173
+msgid "yes"
+msgstr "yes"
+
+#: admin/views/import-export.php:170
+msgid "T-shirt"
+msgstr "Camiseta"
+
+#: admin/views/import-export.php:169
+msgid "111111"
+msgstr "111111"
+
+#: admin/views/import-export.php:166
+msgid "Parent SKU"
+msgstr "SKU del padre"
+
+#: admin/views/import-export.php:160
+#: admin/assets/src/components/Products.js:113
+#: admin/assets/src/components/ScreenOptions.js:43
+msgid "Product name"
+msgstr "Nombre de producto"
+
+#: admin/views/import-export.php:156
+msgid "File format. "
+msgstr "Formato del archivo."
+
+#: admin/views/import-export.php:155
+msgid "If you have a lot of products and export/import not working, increase memory limit.. "
+msgstr "Si tienes muchos productos y la exportación/importación no funciona, aumenta el límite de memoria… "
+
+#: admin/views/import-export.php:154
+msgid "CSV file must be in this format, or you can export file with exist data and edit them. "
+msgstr "El archivo CSV debe estar en este forma, o usted puede exportar el archivo con la información existente y editarlo."
+
+#: admin/views/import-export.php:153
+msgid "You can upload csv file, with your stock data. "
+msgstr "Puedes subir un archivo csv, con tu información de stock. "
+
+#: admin/views/import-export.php:150
+msgid "Import"
+msgstr "Importar"
+
+#: admin/views/stock-monitor.php:47
+msgid "Qty input step"
+msgstr "Paso de entrada de cantidad"
+
+#: admin/views/stock-monitor.php:43
+msgid "Allow stock for variable products"
+msgstr "Permitir stock para productos variables"
+
+#: admin/views/stock-monitor.php:39
+msgid "Products limit"
+msgstr "Límite de productos"
+
+#: admin/views/setting.php:22 admin/views/stock-monitor.php:32
+msgid "Stock manager setting"
+msgstr "Ajustes de Stock manager"
+
+#: admin/includes/wcm-class-table.php:649
+msgid "On backorder"
+msgstr "Reservable"
+
+#: admin/includes/wcm-class-table.php:648 admin/views/components/filter.php:48
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: admin/includes/wcm-class-table.php:647 admin/views/components/filter.php:47
+msgid "In stock"
+msgstr "En stock"
+
+#: admin/includes/wcm-class-table.php:540
+msgid "No shipping class"
+msgstr "Ninguna clase de envío"
+
+#: admin/includes/wcm-class-table.php:538
+msgid "Same as parent"
+msgstr "Igual que el padre"
+
+#: admin/includes/wcm-class-table.php:460
+msgid "Show variables"
+msgstr "Mostrar variaciones"
+
+#: admin/includes/wcm-class-table.php:413
+#: admin/includes/wcm-class-table.php:445
+msgid "Close"
+msgstr "Cerrado"
+
+#: admin/includes/wcm-class-table.php:364
+#: admin/includes/wcm-class-table.php:412
+#: admin/includes/wcm-class-table.php:444
+#: admin/includes/wcm-class-table.php:739
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/includes/wcm-class-table.php:354 admin/views/log.php:36
+#: admin/views/import-export.php:164 admin/views/import-export.php:185
+#: admin/views/components/filter.php:118 admin/views/log-history.php:40
+#: admin/assets/src/components/Products.js:146
+#: admin/assets/src/components/ScreenOptions.js:78
+msgid "Stock"
+msgstr "Stock"
+
+#: admin/includes/wcm-class-table.php:344 admin/views/import-export.php:163
+#: admin/views/import-export.php:184 admin/views/components/filter.php:116
+#: admin/assets/src/components/Products.js:143
+#: admin/assets/src/components/ScreenOptions.js:73
+msgid "Backorders"
+msgstr "Pedidos pendientes"
+
+#: admin/includes/wcm-class-table.php:334 admin/views/import-export.php:162
+#: admin/views/import-export.php:183 admin/views/components/filter.php:46
+#: admin/views/components/filter.php:114
+#: admin/assets/src/components/ProductFilter.js:112
+#: admin/assets/src/components/Products.js:140
+#: admin/assets/src/components/ScreenOptions.js:68
+msgid "Stock status"
+msgstr "Estado de stock"
+
+#: admin/includes/wcm-class-table.php:324 admin/views/import-export.php:161
+#: admin/views/import-export.php:182 admin/views/components/filter.php:40
+#: admin/views/components/filter.php:112
+#: admin/assets/src/components/Products.js:137
+#: admin/assets/src/components/ScreenOptions.js:63
+msgid "Manage stock"
+msgstr "Gestionar stock"
+
+#: admin/includes/wcm-class-table.php:314 admin/views/components/filter.php:110
+#: admin/assets/src/components/Products.js:134
+#: admin/assets/src/components/ScreenOptions.js:58
+msgid "Weight"
+msgstr "Peso"
+
+#: admin/includes/wcm-class-table.php:304
+#: admin/assets/src/components/Products.js:131
+#: admin/assets/src/components/ScreenOptions.js:53
+msgid "Sale price"
+msgstr "Precio de venta"
+
+#: admin/includes/wcm-class-table.php:294 admin/views/components/filter.php:106
+#: admin/assets/src/components/Products.js:128
+#: admin/assets/src/components/ScreenOptions.js:48
+msgid "Price"
+msgstr "Precio"
+
+#: admin/includes/wcm-class-table.php:284 admin/views/log.php:35
+msgid "Parent ID"
+msgstr "ID padre"
+
+#: admin/includes/wcm-class-table.php:274 admin/views/log.php:34
+#: admin/views/import-export.php:165 admin/assets/src/components/Products.js:97
+msgid "Product type"
+msgstr "Tipo de producto"
+
+#: admin/includes/wcm-class-table.php:264 admin/views/log.php:33
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/includes/wcm-class-table.php:234 admin/views/components/filter.php:104
+#: admin/assets/src/components/ScreenOptions.js:38
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: admin/includes/wcm-class-table.php:110 admin/views/components/filter.php:126
+#: admin/assets/src/components/Products.js:125
+#: admin/assets/src/components/ScreenOptions.js:93
+msgid "Shipping class"
+msgstr "Clase de envío"
+
+#: admin/includes/wcm-class-table.php:107 admin/views/components/filter.php:124
+#: admin/assets/src/components/Products.js:122
+#: admin/assets/src/components/ScreenOptions.js:88
+msgid "Tax class"
+msgstr "Clase de impuesto"
+
+#: admin/includes/wcm-class-table.php:104 admin/views/components/filter.php:122
+#: admin/assets/src/components/Products.js:119
+#: admin/assets/src/components/ScreenOptions.js:83
+msgid "Tax status"
+msgstr "Estado de impuestos"
+
+#: admin/includes/wcm-class-table.php:254 admin/includes/config.php:11
+#: admin/views/log.php:32 admin/assets/src/components/Products.js:93
+msgid "ID"
+msgstr "ID"
+
+#: admin/includes/wcm-class-table.php:244 admin/includes/config.php:6
+#: admin/includes/config.php:16 admin/includes/config.php:21
+#: admin/includes/config.php:26 admin/includes/config.php:31
+#: admin/views/log.php:31 admin/views/import-export.php:159
+#: admin/views/import-export.php:181
+#: admin/assets/src/components/ProductFilter.js:64
+#: admin/assets/src/components/Products.js:98
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/class-stock-manager-admin.php:271
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-stock-manager-admin.php:205
+#: admin/class-stock-manager-admin.php:206
+msgid "Stock log"
+msgstr "Registro del inventario"
+
+#: admin/class-stock-manager-admin.php:197
+#: admin/class-stock-manager-admin.php:198
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: admin/class-stock-manager-admin.php:160
+#: admin/includes/wcm-class-table.php:632
+#: admin/includes/wcm-class-table.php:665
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/class-stock-manager-admin.php:159
+#: admin/includes/wcm-class-table.php:664
+msgid "Notify"
+msgstr "Avisar"
+
+#: admin/class-stock-manager-admin.php:158
+#: admin/includes/wcm-class-table.php:633
+#: admin/includes/wcm-class-table.php:663
+msgid "No"
+msgstr "No"
+
+#: admin/class-stock-manager-admin.php:155
+#: admin/includes/wcm-class-table.php:482
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ninguno"
+
+#: admin/class-stock-manager-admin.php:154
+#: admin/includes/wcm-class-table.php:481
+msgid "Shipping only"
+msgstr "Sólo envío"
+
+#: admin/class-stock-manager-admin.php:153
+#: admin/includes/wcm-class-table.php:480
+msgid "Taxable"
+msgstr "Imponible"
+
+#: woocommerce-stock-manager.php:200
+msgid "All done! Close."
+msgstr "¡Todo listo! Cerrar."
+
+#: woocommerce-stock-manager.php:52
+msgid "Current plugin needs this versions of WordPress and WooCommerce:"
+msgstr "La versión actual del plugin requiere esta versión de WordPress y WooCommerce:"
+
+#: woocommerce-stock-manager.php:52
+msgid "Alert!"
+msgstr "¡Alerta!"
+
+#. Author URI of the plugin
+msgid "http://toret.cz"
+msgstr "http://toret.cz"
+
+#. Author of the plugin
+msgid "Vladislav Musílek"
+msgstr "Vladislav Musílek"
+
+#. Plugin URI of the plugin
+msgid "http:/toret.cz"
+msgstr "http:/toret.cz"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+#: admin/class-stock-manager-admin.php:180
+#: admin/class-stock-manager-admin.php:181
+msgid "WooCommerce Stock Manager"
+msgstr "WooCommerce Stock Manager"

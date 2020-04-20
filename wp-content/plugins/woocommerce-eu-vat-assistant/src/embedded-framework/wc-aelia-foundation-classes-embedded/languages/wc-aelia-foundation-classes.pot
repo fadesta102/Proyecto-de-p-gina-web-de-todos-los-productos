@@ -1,0 +1,425 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Aelia Foundation Classes for WooCommerce v1.6.11.151217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Jul 31 2015 16:44:20 GMT+0100 (GMT Daylight Time)\n"
+"POT-Revision-Date: Mon Jan 18 2016 16:12:02 GMT+0000 (GMT Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Aelia <support@aelia.co>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'PluginURI'
+#: wc-aelia-foundation-classes.php:0
+msgid "https://aelia.co/shop/product-category/woocommerce/"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: wc-aelia-foundation-classes.php:0
+msgid "Aelia"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: wc-aelia-foundation-classes.php:0
+msgid "http://aelia.co"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: wc-aelia-foundation-classes.php:0
+msgid "1.6.11.151217"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:390
+#, php-format
+msgid ""
+"%s Plugin Autoupdate - Could not obtain semaphore lock. This may mean that "
+"the process has already started, or that the lock is stuck. Update process "
+"will run again later."
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:412
+#, php-format
+msgid ""
+"Update method \"%s::%s()\" is not a \"callable\" and was skipped. Please report "
+"this issue to Support"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:438
+#, php-format
+msgid ""
+"Update method \"%s::%s() raised exception \"%s\". Update halted. Please contact "
+"Support and provide the error details that you will find below."
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:462
+msgid ""
+"<span class=\"wc_aeliaimportant\">Update halted</span>. Please review "
+"displayed messages and correct any issue that was reported."
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:51
+#, php-format
+msgid ""
+"Rendering - Requested template could not be found in either plugin's folders,"
+" nor in your theme. Plugin slug: \"%s\". Template name: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/base/messages/message.php:209
+msgid "Hide message permanently"
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:223
+#, php-format
+msgid ""
+"Could not track message dismissal to \"aelia_messages\" table. User ID: \"%s\". "
+"Message ID: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:230
+#, php-format
+msgid ""
+"Message dismissed successfully. User ID: \"%s\". Message ID: \"%s\". Dismissal "
+"record ID: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-afc-install.php:51
+#, php-format
+msgid ""
+"Creation of table \"%s\" failed. Please check PHP error log for error messages "
+"related to the operation."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-afc-install.php:57
+#, php-format
+msgid "Table \"%s\" created successfullly."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:356
+#, php-format
+msgid ""
+"%s - Plugin not found: \"%s\". This could be due by an incorrect name "
+"specified in class \"%s\". Please report the issue to support."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:485
+msgid ""
+"Please review the missing requirements listed above, and ensure that all "
+"necessary plugins and PHP extensions are installed and loaded correctly. "
+"This plugin will work automatically as soon as all the requirements are met. "
+"If you need assistance on this matter, please <a href=\"https://aelia."
+"freshdesk.com/helpdesk/tickets/new\">contact our Support team</a>."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:510
+msgid ""
+"This will install and activate the plugin automatically. Would you like to "
+"proceed?"
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:566
+#, php-format
+msgid "Please try installing the plugin manually. You can download it from %s."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:611
+msgid ""
+"Plugin activated successfully. Please refresh this page to hide the "
+"requirement notices and this message."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:678
+msgid "Plugin does not have a URL from which it can be downloaded automatically."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:88
+#: src/plugin-main.php:170
+#, php-format
+msgid ""
+"If the error persists, please download the the database manually, from <a "
+"href=\"%1$s\">%1$s</a>. Extract file <strong>%2$s</strong> from the archive "
+"and copy it to <code>%3$s</code>."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:95
+#: src/plugin-main.php:177
+msgid ""
+"Geolocation will become available automatically, as soon as the GeoIP "
+"database is copied in the indicated folder."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:99
+#: src/plugin-main.php:181
+#, php-format
+msgid ""
+"For more information about this message, <a href=\"%s\">please refer to our "
+"knowledge base</a>."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:122
+msgid "Server does not support gzopen. The GeoIP database could not be updated."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:149
+msgid ""
+"Unable to open downloaded GeoIP database file. The GeoIP database could not "
+"be updated."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:225
+#, php-format
+msgid ""
+"Method IP2Location::get_country_code() expects a valid IPv4 or IPv6 address "
+"(it will not work with host names). \"%s\" was passed, which is not a valid "
+"address."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:295
+#, php-format
+msgid ""
+"Error(s) occurred while retrieving Geolocation information for IP Address "
+"\"%s\". Error: %s."
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: wc-aelia-foundation-classes.php:0
+msgid "Aelia Foundation Classes for WooCommerce"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: wc-aelia-foundation-classes.php:0
+msgid ""
+"This plugin implements common classes for other WooCommerce plugins "
+"developed by Aelia."
+msgstr ""
+
+#: src/plugin-main.php:74
+msgid "Weekly"
+msgstr ""
+
+#: src/plugin-main.php:82
+msgid "Monthly (every 30 days)"
+msgstr ""
+
+#: src/plugin-main.php:161
+msgid "GeoIP database file not found."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:81
+#: src/plugin-main.php:163
+#, php-format
+msgid "Please %s."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:82
+#: src/plugin-main.php:164
+msgid "try to install the database again"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:65
+#: src/lib/classes/base/install/install.php:68
+#: src/lib/classes/base/messages/message.php:64
+#: src/lib/classes/base/messages/message.php:67
+msgid "Error"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:66
+#: src/lib/classes/base/install/install.php:69
+#: src/lib/classes/base/messages/message.php:65
+#: src/lib/classes/base/messages/message.php:68
+msgid "Warning"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:67
+#: src/lib/classes/base/install/install.php:70
+#: src/lib/classes/base/messages/message.php:66
+#: src/lib/classes/base/messages/message.php:69
+msgid "Notice"
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:401
+#, php-format
+msgid "Running updates for plugin <span class=\"wc_aeliaplugin_id\">%s</span>..."
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:420
+#, php-format
+msgid "Running update method %s::%s()..."
+msgstr ""
+
+#: src/lib/classes/base/install/install.php:457
+msgid "<span class=\"wc_aeliaimportant\">Update completed successfully</span>."
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:47
+#, php-format
+msgid "File not found: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:48
+msgid "Not implemented."
+msgstr ""
+
+#: src/lib/classes/base/messages/messages.php:54
+#, php-format
+msgid "Invalid widget class: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/base/semaphore/semaphore.php:66
+#, php-format
+msgid "Semaphore lock \"%s\" failed (line %s)."
+msgstr ""
+
+#: src/lib/classes/base/semaphore/semaphore.php:72
+#, php-format
+msgid "Semaphore lock \"%s\" obtained at %s."
+msgstr ""
+
+#: src/lib/classes/base/semaphore/semaphore.php:93
+#, php-format
+msgid "Semaphore \"%s\" unlocked."
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:143
+msgid "Default"
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:177
+msgid "WC - Aelia Foundation Classes"
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:196
+msgid "Aelia Foundation Classes for WC - Settings"
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:205
+msgid "Sample page description"
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:291
+msgid "Save Changes"
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:390
+msgid "Field ID must be specified."
+msgstr ""
+
+#: src/lib/classes/base/settings/settings-renderer.php:431
+msgid "Argument \"options\" must be an array."
+msgstr ""
+
+#: src/lib/classes/currency/aelia-wc-exchangeratesmodel.php:80
+msgid "Not implemented. Descendant classes must implement this method."
+msgstr ""
+
+#: src/lib/classes/currency/aelia-wc-exchangeratesmodel.php:96
+msgid "Base Currency is required, empty value received."
+msgstr ""
+
+#: src/lib/classes/currency/aelia-wc-exchangeratesmodel.php:102
+msgid "Destination Currency is required, empty value received."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:140
+#, php-format
+msgid "Plugin requires \"%s\" PHP extension."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:207
+#, php-format
+msgid "Plugin \"%s\" must be version \"%s\" or later."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:220
+#, php-format
+msgid "Plugin \"<strong>%s</strong>\" must be installed and activated."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:241
+#, php-format
+msgid "Plugin requires PHP %s or greater."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:405
+msgid "Install plugin"
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:414
+msgid "Activate plugin"
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:470
+#, php-format
+msgid "Plugin \"%s\" could not be loaded due to missing requirements."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:511
+msgid "This will activate the plugin. Would you like to proceed?"
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:543
+#, php-format
+msgid "Installing plugin \"%s\"..."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:548
+msgid "Plugin is already installed."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:563
+msgid "Plugin installation failed. See errors below."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:586
+#, php-format
+msgid "Activating plugin \"%s\"..."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:591
+msgid "Plugin is not installed."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:597
+msgid "Plugin already active."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:605
+msgid "Activation failed."
+msgstr ""
+
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:671
+#: src/lib/classes/install/aelia-wc-requirementscheck.php:717
+#, php-format
+msgid "Invalid plugin specified: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:79
+msgid "Could not download and install the GeoIP database."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:156
+#, php-format
+msgid "Unable to download GeoIP Database. Error: \"%s\"."
+msgstr ""
+
+#: src/lib/classes/ip2location/ip2location.php:286
+msgid "Could not instantiate GeoIP DB Reader. Geolocation aborted."
+msgstr ""

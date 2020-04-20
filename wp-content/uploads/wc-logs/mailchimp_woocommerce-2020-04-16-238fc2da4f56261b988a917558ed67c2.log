@@ -1,0 +1,4 @@
+2020-04-16T05:37:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon starts in the next minute :: obj_id 230
+2020-04-16T05:37:32+00:00 ERROR promo_code.error :: error updating promo code wfze39us :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-04-16T05:38:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon starts in the next minute :: obj_id 230
+2020-04-16T05:39:16+00:00 ERROR promo_code.error :: error updating promo code welcomedd :: Error Code 500 :: CURL error :: Could not resolve host: us4.api.mailchimp.com on 1755 in C:\xampp\htdocs\consumibleslau\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

@@ -1,0 +1,1188 @@
+# Translation of Themes - ShoppingCart in Spanish (Spain)
+# This file is distributed under the same license as the Themes - ShoppingCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-25 08:29:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - ShoppingCart\n"
+
+#. Theme Name of the theme
+#: inc/upgrade-plus/class-customize.php:63
+msgid "ShoppingCart"
+msgstr "ShoppingCart"
+
+#. Description of the theme
+msgid "ShoppingCart is a beautiful theme especially build for Store, eCommerce, Shop and also fits for any kind of Shopping theme which contains all the feature you need to create a stunning website. The theme consists of well organized components so it’s easy to edit and customize everything to create a specific website for your needs. It is designed for Shopping but this is competent for every kind of site such as personal blog, ecommerce, portfolio etc. which is designed and developed by Theme Freesia. With a focus on Shopping sites, it features multiple sections on the front page as well as widgets, multiple navigation and social menus, a logo and more. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, bbPress, wooCommerce and many more. It is 100% translation ready and you can easily customize with lots of options using Customizer. It consists contact us template, gallery template, Shopping Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View demo site at http://demo.themefreesia.com/shoppingcart."
+msgstr "ShoppingCart es un tema especialmente creado para tiendas de comercio electrónico y también se adapta a cualquier tipo de compras, ya que contiene todas las características necesarias para crear una web impresionante. El tema está formado por componentes bien organizados, por lo que es fácil editar y personalizar todo para crear una web específica para tus necesidades. Está diseñado para compras, pero es válido para todo tipo de sitios, como blogs personales, comercio electrónico, porfolios, etc., y ha sido diseñado y desarrollado por Theme Freesia. Con un enfoque en sitios de compras, cuenta con múltiples secciones en la página de inicio, así como widgets, navegación múltiple y menús sociales, logotipo y mucho más. Este tema es compatible con plugins populares como Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, bbPress, WooCommerce y muchos más. Está preparado para ser traducido al 100 % y puedes personalizarlo fácilmente con muchas opciones usando el personalizador. Contiene una plantilla de contacto, una plantilla de galería, una plantilla de compras, widgets y barra lateral. Obtén soporte gratuito en: https://tickets.themefreesia.com/ y visita el sitio de demostración en: http://demo.themefreesia.com/shoppingcart."
+
+#: woocommerce.php:28 sidebar.php:21 sidebar.php:25
+#: page-templates/contact-template.php:58
+#: page-templates/contact-template.php:62
+msgid "Secondary"
+msgstr "Secundario"
+
+#. translators: %s theme name
+#: inc/tgm/welcome-notice.php:37
+msgid "Download Demo Import Plugin %s"
+msgstr "Descargar el plugin de importación de demostraciones de %s"
+
+#: inc/tgm/welcome-notice.php:32
+msgid "We recommended you to install Install WooCommerce Plugin to display exactly as in our demo site. Use demo importer Plugin only if your site is fresh. If you have existing site then dummy importer is not recommended because unwanted products will be added in your existing site."
+msgstr "Te recomendamos que instales el plugin WooCommerce para que se muestre como en nuestro sitio de demostración. Usa el plugin de importación de demostraciones solo si el sitio es nuevo. Si ya tienes un sitio existente, entonces no se recomienda el contenido de muestra porque se añadirán productos no deseados a tu sitio existente."
+
+#. translators: %1$s: theme name, %2$s link
+#: inc/tgm/welcome-notice.php:28
+msgid "Welcome! Thank you for choosing %1$s! View  <a href=\"%2$s\" target=\"_blank\" class=\"notice-links\">Multiple Demos</a> <a href=\"%3$s\" target=\"_blank\" class=\"notice-links\">Documentation</a>"
+msgstr "¡Bienvenido! ¡Gracias por elegir %1$s! Revisa las<a href=\"%2$s\" target=\"_blank\" class=\"notice-links\">múltiples demostraciones</a> y la <a href=\"%3$s\" target=\"_blank\" class=\"notice-links\">documentación</a>"
+
+#. translators: %1$s: theme name, %2$s theme version
+#: inc/tgm/welcome-notice.php:21
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Bienvenido a %1$s - Versión %2$s"
+
+#. translators: %s: Name of current post
+#: inc/settings/shoppingcart-functions.php:44
+msgid "<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: footer.php:78
+msgid "Go to top"
+msgstr "Ir arriba"
+
+#: header.php:63
+msgid "Topbar Menu"
+msgstr "Menú de la barra superior"
+
+#: header.php:61
+msgid "Top Bar Menu"
+msgstr "Menú de la barra superior"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el siguiente plugin: %1$s."
+msgstr[1] "Este tema recomienda los siguientes plugins: %1$s."
+
+#: single.php:79 content.php:73
+msgid "% Comments"
+msgstr "% comentarios"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado correctamente."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado correctamente."
+
+#: single.php:62 single.php:65 content.php:63 content.php:66
+msgid ", "
+msgstr ", "
+
+#: inc/settings/shoppingcart-common-functions.php:70
+msgid "--Select--"
+msgstr "- Elige -"
+
+#: single.php:79 content.php:73
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> % Comments"
+msgstr "<i class=\"fa fa-comment-o\"></i>% comentarios"
+
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> 1 Comment"
+msgstr "<i class=\"fa fa-comment-o\"></i>1 comentario"
+
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "<i class=\"fa fa-comment-o\"></i> No Comments"
+msgstr "<i class=\"fa fa-comment-o\"></i>Sin comentarios"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activar"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versión mínima requerida:"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se encuentra esta página."
+
+#: single.php:98
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%title</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:122
+msgid "Sale!"
+msgstr "¡Oferta!"
+
+#: functions.php:301 inc/settings/shoppingcart-common-functions.php:121
+msgid "Total"
+msgstr "Total"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> actualización disponible"
+msgstr[1] "<span class=\"count\">(%s)</span> actualizaciones disponibles"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versión"
+
+#: inc/tgm/tgm.php:62
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: footer.php:68
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocido"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:25
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s respuesta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s respuestas a &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una respuesta a &ldquo;%s&rdquo;"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121
+#: inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: footer.php:67
+msgid "Designed by:"
+msgstr "Diseñado por:"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:149
+msgid "Add to Wishlist"
+msgstr "Añadir a la lista de deseos"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:56
+msgid "Category"
+msgstr "Categoría"
+
+#: inc/widgets/widgets-functions/popular-posts.php:39
+#: inc/widgets/widgets-functions/grid-column-widget.php:33
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/tgm/tgm.php:67
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Estado"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Obligatorio"
+
+#: pagination.php:18
+msgid "Page"
+msgstr "Página"
+
+#: pagination.php:17
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:53
+msgid "Options:"
+msgstr "Opciones:"
+
+#: functions.php:50 header.php:156
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: functions.php:49
+msgid "Top Menu"
+msgstr "Menú superior"
+
+#: archive.php:30 search.php:26 page-templates/contact-template.php:49
+#: page-templates/gallery-template.php:43 index.php:28 page.php:54
+msgid "No Posts Found."
+msgstr "No se han encontrado entradas."
+
+#: single.php:45 content.php:40
+msgid "Post By"
+msgstr "Publicado por"
+
+#: content.php:93 page-templates/gallery-template.php:30 page.php:43
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: single.php:71
+msgid "Previous Image"
+msgstr "Imagen anterior"
+
+#: single.php:72
+msgid "Next Image"
+msgstr "Siguiente imagen"
+
+#: single.php:79 content.php:73
+msgid "No Comments"
+msgstr "No hay comentarios"
+
+#: single.php:79 content.php:73
+#: inc/widgets/widgets-functions/popular-posts.php:107
+msgid "Comments Off"
+msgstr "Los comentarios están desactivados"
+
+#: single.php:102
+msgid "Next"
+msgstr "Siguiente"
+
+#: single.php:103
+msgid "Next post:"
+msgstr "Siguiente entrada:"
+
+#: single.php:105
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:106
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: inc/widgets/widgets-functions/register-widgets.php:93
+msgid "Footer Column "
+msgstr "Columna del pie de página"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: inc/customizer/functions/featured-content-customizer.php:79
+msgid "Select Products Category Slider"
+msgstr "Selecciona la categoría de productos del carrusel"
+
+#: inc/customizer/functions/featured-content-customizer.php:58
+msgid "Product Category"
+msgstr "Categoría de productos"
+
+#: inc/customizer/functions/featured-content-customizer.php:57
+msgid "Default Category"
+msgstr "Categoría por defecto"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: inc/customizer/functions/featured-content-customizer.php:53
+msgid "You need to enable WooCommerce Plugins to display Products on Slider"
+msgstr "Tienes que activar el plugin WooCommerce para mostrar productos en el carrusel"
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: inc/customizer/functions/featured-content-customizer.php:52
+msgid "Category/ Product Category Slider"
+msgstr "Categoría/Categoría de productos del carrusel"
+
+#: inc/customizer/functions/featured-content-customizer.php:41
+msgid "Disable Slider Promotions"
+msgstr "Desactivar el carrusel de promociones "
+
+#: inc/customizer/functions/featured-content-customizer.php:40
+msgid "Entire Site"
+msgstr "Todo el sitio"
+
+#: inc/customizer/functions/featured-content-customizer.php:39
+msgid "Front Page"
+msgstr "Página de inicio"
+
+#: inc/customizer/functions/featured-content-customizer.php:35
+msgid "This section includes Catalog Menu, Slider and Product Promotion"
+msgstr "Esta sección incluye el menú del catálogo, el carrusel y la promoción de productos"
+
+#: inc/customizer/functions/featured-content-customizer.php:34
+msgid "Enable Slider/ Promotions"
+msgstr "Activar el carrusel/promociones"
+
+#: inc/customizer/functions/featured-content-customizer.php:20
+msgid "Product Promotion"
+msgstr "Promoción de productos"
+
+#: inc/customizer/functions/featured-content-customizer.php:14
+msgid "Slider Settings"
+msgstr "Ajustes del carrusel"
+
+#: inc/customizer/functions/frontpage-features.php:165
+msgid "Featured Products category #"
+msgstr "Categoría de productos destacados nº"
+
+#: inc/customizer/functions/frontpage-features.php:117
+msgid "Show Background Color"
+msgstr "Mostrar el color de fondo"
+
+#: inc/customizer/functions/frontpage-features.php:116
+msgid "Hide Background Color"
+msgstr "Ocultar el color de fondo"
+
+#: inc/customizer/functions/frontpage-features.php:112
+msgid "Product Category Text Background Color"
+msgstr "Color de fondo del texto de la categoría de productos"
+
+#: inc/customizer/functions/frontpage-features.php:99
+msgid "Disable Product Category Section"
+msgstr "Desactivar la sección de las categorías de productos"
+
+#: inc/customizer/functions/frontpage-features.php:83
+msgid "Featured Products Brand #"
+msgstr "Marca de los productos destacados nº"
+
+#: inc/customizer/functions/frontpage-features.php:64
+#: inc/customizer/functions/frontpage-features.php:146
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/customizer/functions/frontpage-features.php:49
+#: inc/customizer/functions/frontpage-features.php:131
+msgid "Title"
+msgstr "Título"
+
+#: inc/customizer/functions/frontpage-features.php:35
+msgid "Disable Product Brand Section"
+msgstr "Desactivar la sección de la marca de los productos"
+
+#: inc/customizer/functions/frontpage-features.php:22
+msgid "Product Featured Brands"
+msgstr "Marcas de los productos destacados"
+
+#: inc/customizer/functions/frontpage-features.php:16
+msgid "Product Categories"
+msgstr "Categorías de los productos"
+
+#: inc/customizer/functions/color-options.php:28
+msgid "Theme Color Styles"
+msgstr "Estilos de color del tema"
+
+#: inc/customizer/functions/color-options.php:17
+msgid "Background Color Options"
+msgstr "Opciones del color de fondo"
+
+#: inc/customizer/functions/color-options.php:11
+msgid "Color Options"
+msgstr "Opciones de color"
+
+#: inc/customizer/functions/register-panel.php:60
+msgid "Colors Section"
+msgstr "Sección de colores"
+
+#: inc/customizer/functions/register-panel.php:49
+msgid "Frontpage Template"
+msgstr "Plantilla de la página de inicio"
+
+#: inc/customizer/functions/register-panel.php:38
+msgid "Slider Options"
+msgstr "Opciones del carrusel"
+
+#: inc/customizer/functions/register-panel.php:27
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: inc/customizer/functions/register-panel.php:16
+msgid "WordPress Settings"
+msgstr "Ajustes de WordPress"
+
+#: inc/customizer/functions/theme-options.php:173
+msgid "Reset all default settings. (Refresh it to view the effect)"
+msgstr "Restablecer todos los ajustes por defecto. (Refresca para ver el efecto)"
+
+#: inc/customizer/functions/theme-options.php:160
+msgid "Disable Main Menu"
+msgstr "Desactivar el menú principal"
+
+#: inc/customizer/functions/theme-options.php:148
+msgid "Disable Page/Single Featured Image"
+msgstr "Desactivar la página/imagen destacada individual"
+
+#: inc/customizer/functions/theme-options.php:136
+msgid "Disable Bottom Social Icons"
+msgstr "Desactivar los iconos sociales en la parte inferior"
+
+#: inc/customizer/functions/theme-options.php:124
+msgid "Disable Top Social Icons"
+msgstr "Desactivar los iconos sociales en la parte inferior"
+
+#: inc/customizer/functions/theme-options.php:112
+msgid "Disable Goto Top"
+msgstr "Desactivar «Ir arriba»"
+
+#: inc/customizer/functions/theme-options.php:100
+msgid "Disable Stick Menu"
+msgstr "Desactivar el menú fijo"
+
+#: inc/customizer/functions/theme-options.php:88
+msgid "Disable Search Form"
+msgstr "Desactivar el formulario de búsqueda"
+
+#: inc/customizer/functions/theme-options.php:76
+msgid "Disable Top Bar"
+msgstr "Desactivar la barra superior"
+
+#: inc/customizer/functions/theme-options.php:65
+msgid "Disable Both"
+msgstr "Desactivar ambos"
+
+#: inc/customizer/functions/theme-options.php:64
+msgid "Show Both"
+msgstr "Mostrar ambos"
+
+#: inc/customizer/functions/theme-options.php:63
+msgid "Display Site Logo Only"
+msgstr "Mostrar solo el logotipo del sitio"
+
+#: inc/customizer/functions/theme-options.php:62
+msgid "Display Site Title Only"
+msgstr "Mostrar solo el título del sitio"
+
+#: inc/customizer/functions/theme-options.php:57
+msgid "Site Logo/ Text Options"
+msgstr "Opciones del logotipo/texto del sitio"
+
+#: inc/customizer/functions/theme-options.php:43
+msgid "Options"
+msgstr "Opciones"
+
+#: inc/customizer/functions/theme-options.php:37
+msgid "Site Title & Logo Options"
+msgstr "Opciones del título del sitio y el logotipo"
+
+#: inc/customizer/functions/theme-options.php:32
+msgid "Static Front Page"
+msgstr "Página de inicio estática"
+
+#: inc/customizer/functions/theme-options.php:27
+msgid "Navigation"
+msgstr "Navegación"
+
+#: inc/customizer/functions/theme-options.php:22
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado, pero no activado"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Preempaquetado"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "El paquete remoto del plugin está compuesto por más de un archivo, pero los archivos no están empaquetados dentro de una carpeta."
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Por favor, contacta con el proveedor del plugin y pídele que empaquete su plugin de acuerdo con las directrices de WordPress."
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "El paquete remoto del plugin no contiene una carpeta con el slug deseado y no ha funcionado el renombrado."
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Actualización necesaria"
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Este plugin necesita ser actualizado para ser compatible con tu tema."
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, contacta con el administrador de este sitio para ayuda."
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Hay uno o más plugins necesarios o recomendados para instalar, actualizar o activar."
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins instalados y activados correctamente. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin no activado. Se necesita una versión superior de %s para este tema. Por favor, actualiza el plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se ha realizado ninguna acción. El plugin %1$s ya está activo."
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "El siguiente plugin ha sido activado correctamente:"
+msgstr[1] "Los siguientes plugins han sido activados correctamente:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+#: inc/tgm/class-tgm-plugin-activation.php:827
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: inc/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comenzar la activación del plugin"
+msgstr[1] "Comenzar la activación de los plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comenzar la actualización del plugin"
+msgstr[1] "Comenzar la actualización de los plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comenzar la instalación del plugin"
+msgstr[1] "Comenzar la instalación de los plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins recomendados están actualmente inactivos: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin necesario está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins necesarios están actualmente inactivos: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "El siguiente plugin necesita ser actualizado a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
+msgstr[1] "Los siguientes plugins necesitan ser actualizados a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema necesita el siguiente plugin: %1$s."
+msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Algo ha ido mal con la API del plugin."
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Actualizando el plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalando el plugin: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalar los plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalar los plugins necesarios"
+
+#: inc/customizer/functions/featured-content-customizer.php:175
+msgid " Enter Product Url #"
+msgstr "Introduce la URL del producto nº"
+
+#: inc/customizer/functions/featured-content-customizer.php:163
+msgid "Recommended Image size ( 450 X 250 )"
+msgstr "Tamaño recomendado de la imagen (450 x 250 px)"
+
+#: inc/customizer/functions/featured-content-customizer.php:161
+msgid "Product Promotion #"
+msgstr "Promoción del producto nº"
+
+#: inc/customizer/functions/featured-content-customizer.php:147
+msgid "This feature will not work on Animation Effect set to fade"
+msgstr "Esta característica no funcionará en los efectos de animación configurados como «fundido»"
+
+#: inc/customizer/functions/featured-content-customizer.php:146
+msgid " Set the speed of animations"
+msgstr "Establecer la velocidad de las animaciones"
+
+#: inc/customizer/functions/featured-content-customizer.php:134
+msgid "Set the speed of the slideshow cycling"
+msgstr "Establecer la velocidad del ciclo de la presentación de diapositivas"
+
+#: inc/customizer/functions/featured-content-customizer.php:123
+msgid "Fade"
+msgstr "Fundido"
+
+#: inc/customizer/functions/featured-content-customizer.php:122
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: inc/customizer/functions/featured-content-customizer.php:118
+msgid "Animation Effect"
+msgstr "Efecto de la animación"
+
+#: inc/customizer/functions/featured-content-customizer.php:102
+msgid "By default no slider is displayed. Slider Recommended image size is ( 1500 X 850 )"
+msgstr "Por defecto, no se muestra ningún carrusel. El tamaño de imagen recomendado para el carrusel es de (1.500 x 850 px)"
+
+#: inc/customizer/functions/featured-content-customizer.php:101
+msgid "Select Post Category Slider"
+msgstr "Selecciona la categoría de entradas del carrusel"
+
+#: inc/customizer/functions/featured-content-customizer.php:80
+msgid "Slider Recommended image size is ( 1500 X 850 )"
+msgstr "El tamaño de imagen recomendado para el carrusel es de (1.500 x 850 px)"
+
+#: footer.php:68
+msgid "Y"
+msgstr "Y"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:128
+msgid "Out of Stock"
+msgstr "Sin existencias"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:55
+msgid "All Latest"
+msgstr "Lo último"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:49
+msgid "Product Category will display only  when Category is selected from Options dropdown. "
+msgstr "La categoría del producto solo se mostrará cuando la categoría es seleccionada desde las opciones del desplegable."
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:46
+msgid "Select Product Category"
+msgstr "Selecciona la categoría de producto"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:40
+msgid "Number of Post:"
+msgstr "Número de entradas:"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:20
+msgid "TF: Product Grid Column Widget"
+msgstr "TF: widget de columna de productos en cuadrícula"
+
+#: inc/widgets/widgets-functions/grid-column-widget.php:18
+msgid "Displays Grid Column Widget in Shopping Cart Template"
+msgstr "Muestra el widget de columna en cuadrícula en la plantilla del carrito"
+
+#: inc/widgets/widgets-functions/popular-posts.php:34
+msgid "Number of popular posts:"
+msgstr "Número de entradas populares:"
+
+#: inc/widgets/widgets-functions/popular-posts.php:20
+msgid "TF: Popular Posts"
+msgstr "TF: entradas populares"
+
+#: inc/widgets/widgets-functions/popular-posts.php:18
+msgid "Displays popular posts"
+msgstr "Muestra las entradas populares"
+
+#: inc/widgets/widgets-functions/register-widgets.php:95
+msgid "Shows widgets at Footer Column "
+msgstr "Muestra widgets en la columna del pie de página"
+
+#: inc/widgets/widgets-functions/register-widgets.php:79
+msgid " ShoppingCart Template Footer Column "
+msgstr "Plantilla del carrito de la columna del pie de página"
+
+#: inc/widgets/widgets-functions/register-widgets.php:81
+msgid " Add WooCommerce widgets at ShoppingCart Template Footer Column "
+msgstr " Añade widgets de WooCommerce a la plantilla del carrito de la columna del pie de página"
+
+#: inc/widgets/widgets-functions/register-widgets.php:68
+msgid "Add WooCommerce Widgets Only"
+msgstr "Añadir solo widgets de WooCommerce"
+
+#: inc/widgets/widgets-functions/register-widgets.php:66
+msgid "WooCommerce Sidebar"
+msgstr "Barra lateral de WooCommerce"
+
+#: inc/widgets/widgets-functions/register-widgets.php:59
+msgid "Add Iframe Code using text widgets"
+msgstr "Añadir el código Iframe usando widgets de texto"
+
+#: inc/widgets/widgets-functions/register-widgets.php:57
+msgid "Iframe Code For Google Maps"
+msgstr "Código Iframe para Google Maps"
+
+#: inc/widgets/widgets-functions/register-widgets.php:50
+msgid "Shows widgets on Contact Page Template."
+msgstr "Muestra widgets en la plantilla de la página de contacto."
+
+#: inc/widgets/widgets-functions/register-widgets.php:48
+msgid "Contact Page Sidebar"
+msgstr "Barra lateral de la página de contacto"
+
+#: inc/widgets/widgets-functions/register-widgets.php:41
+msgid "Shows widgets on Shopping Cart Template."
+msgstr "Muestra widgets en la plantilla del carrito."
+
+#: inc/widgets/widgets-functions/register-widgets.php:39
+msgid "Shopping Cart Template"
+msgstr "Plantilla del carrito"
+
+#: inc/widgets/widgets-functions/register-widgets.php:31
+msgid "Advertisement Banner One"
+msgstr "Banner de anuncios 1"
+
+#: inc/widgets/widgets-functions/register-widgets.php:24
+msgid "Shows widgets on all page."
+msgstr "Muestra widgets en todas las páginas."
+
+#: inc/widgets/widgets-functions/register-widgets.php:22
+msgid "Top Header Info"
+msgstr "Información de la parte superior de la cabecera"
+
+#: inc/widgets/widgets-functions/register-widgets.php:15
+msgid "Shows widgets at Main Sidebar."
+msgstr "Muestra widgets en la barra lateral principal."
+
+#: inc/widgets/widgets-functions/register-widgets.php:13
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#: inc/tgm/tgm.php:79
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: inc/tgm/tgm.php:73
+msgid "Max Mega Menu"
+msgstr "Max Mega Menu"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando el plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Ocultar los detalles"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Mostrar los detalles"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Origen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins para instalar, actualizar o activar."
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para activar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para activar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Necesita actualización"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Actualización necesaria no disponible"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Activado"
+
+#: functions.php:166
+msgid "Important Links"
+msgstr "Enlaces importantes"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s ha fallado."
+
+#: pagination.php:16
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "La activación del plugin ha fallado."
+
+#. Template Name of the theme
+msgid "Contact Template"
+msgstr "Plantilla de contacto"
+
+#. Template Name of the theme
+msgid "ShoppingCart Template"
+msgstr "Plantilla del carrito"
+
+#: inc/customizer/functions/theme-options.php:17
+msgid "Colors"
+msgstr "Colores"
+
+#. Template Name of the theme
+msgid "Gallery Template"
+msgstr "Plantilla de galería"
+
+#: inc/customizer/functions/design-options.php:12
+msgid "Layout Options"
+msgstr "Opciones de diseño"
+
+#: inc/customizer/shoppingcart-default-values.php:22
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quieres probar una búsqueda?"
+
+#: functions.php:153 functions.php:154
+msgid "Review Us"
+msgstr "Valóranos"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: inc/settings/shoppingcart-common-functions.php:14
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: inc/settings/shoppingcart-common-functions.php:17
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: inc/settings/shoppingcart-common-functions.php:20
+msgid "Newer Comments"
+msgstr "Comentarios siguientes"
+
+#: inc/front-page/front-page-features.php:119
+msgid "Products"
+msgstr "Productos"
+
+#: inc/settings/shoppingcart-common-functions.php:83
+#: inc/widgets/widgets-functions/grid-column-widget.php:47
+msgid "--Select Category--"
+msgstr "--Seleccionar una categoría--"
+
+#: inc/upgrade-plus/class-customize.php:64
+msgid "Upgrade To Plus"
+msgstr "Actualizar a Plus"
+
+#: functions.php:159 functions.php:160
+msgid "Support Tickets"
+msgstr "Tickets de soporte"
+
+#: inc/customizer/functions/design-options.php:29
+msgid "OFF"
+msgstr "DESACTIVADO"
+
+#: inc/customizer/functions/design-options.php:28
+msgid "ON "
+msgstr "ACTIVADO"
+
+#: inc/customizer/functions/design-options.php:41
+msgid "Disable Category"
+msgstr "Desactivar la categoría"
+
+#: inc/customizer/functions/design-options.php:53
+msgid "Disable Author"
+msgstr "Desactivar el autor"
+
+#: inc/customizer/functions/design-options.php:65
+msgid "Disable Date"
+msgstr "Desactivar la fecha"
+
+#: inc/customizer/functions/design-options.php:77
+msgid "Disable Comments"
+msgstr "Desactivar los comentarios"
+
+#: inc/customizer/functions/design-options.php:138
+msgid "Design Layout"
+msgstr "Diseño de la plantilla"
+
+#: inc/customizer/functions/design-options.php:142
+msgid "Full Width Layout"
+msgstr "Diseño de ancho completo"
+
+#: inc/customizer/functions/design-options.php:143
+msgid "Boxed Layout"
+msgstr "Diseño de cajas"
+
+#: inc/customizer/functions/design-options.php:144
+msgid "Small Boxed Layout"
+msgstr "Diseño de cajas pequeñas"
+
+#: inc/customizer/functions/theme-options.php:12
+msgid "Header Media"
+msgstr "Cabecera multimedia"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No se han seleccionado plugins para instalar. No se ha realizado ninguna acción."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No se han seleccionado plugins para actualizar. No se ha realizado ninguna acción."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "En este momento no hay plugins disponibles para instalar."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "En este momento no hay plugins disponibles para actualizar."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No se han seleccionado plugins para activar. No se ha realizado ninguna acción."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "En este momento no hay plugins disponibles para activar."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando el plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ha ocurrido un error al instalar %1$s: <strong>%2$s</strong>."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación y activación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#: inc/customizer/shoppingcart-default-values.php:17
+msgid "Continue Reading"
+msgstr "Seguir leyendo"
+
+#: inc/customizer/functions/design-options.php:127
+msgid " Excerpt  Display"
+msgstr "Visualización del extracto"
+
+#: inc/customizer/functions/design-options.php:126
+msgid "Blog Full Content Display"
+msgstr "Visualización del contenido completo del blog"
+
+#: inc/customizer/functions/design-options.php:122
+msgid "Blog Content Display"
+msgstr "Visualización del contenido del blog"
+
+#: inc/customizer/functions/design-options.php:110
+msgid "Hide Entry Meta"
+msgstr "Ocultar el registro meta"
+
+#: inc/customizer/functions/design-options.php:109
+msgid "Display Entry Meta"
+msgstr "Mostrar el registro meta"
+
+#: inc/customizer/functions/design-options.php:105
+msgid "Disable Entry Meta from Blog Page"
+msgstr "Desactivar el registro meta de la página del blog"
+
+#: inc/customizer/functions/design-options.php:94
+msgid "Hide Entry Format"
+msgstr "Ocultar el formato meta"
+
+#: inc/customizer/functions/design-options.php:93
+msgid "Display Entry Format"
+msgstr "Mostrar el formato meta"
+
+#: inc/customizer/functions/design-options.php:89
+msgid "Disable Entry Meta from Single Page"
+msgstr "Desactivar el registro meta de la página individual"
+
+#: inc/customizer/functions/design-options.php:24
+msgid "Responsive Layout"
+msgstr "Diseño adaptable"
+
+#: functions.php:156 functions.php:157
+msgid "Theme Instructions"
+msgstr "Instrucciones del tema"
+
+#: functions.php:52
+msgid "Add Social Icons Only"
+msgstr "Añadir solo los iconos sociales"
+
+#: functions.php:51 inc/settings/shoppingcart-slider-functions.php:28
+#: inc/settings/shoppingcart-slider-functions.php:31
+msgid "Catalog Menu"
+msgstr "Menú del catálogo"
+
+#. Author of the theme
+#: footer.php:67
+msgid "Theme Freesia"
+msgstr "Tema Freesia"
+
+#. Author URI of the theme
+msgid "https://themefreesia.com"
+msgstr "https://themefreesia.com"
+
+#. Theme URI of the theme
+msgid "https://themefreesia.com/themes/shoppingcart"
+msgstr "https://themefreesia.com/themes/shoppingcart"

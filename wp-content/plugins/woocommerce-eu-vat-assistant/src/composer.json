@@ -1,0 +1,11 @@
+{
+	"require": {
+		"econea/nusoap": "~0.9.7"
+	},
+	"require-dev": {
+		"mockery/mockery": "0.9.9"
+  },
+	"autoload" : {
+		"classmap": ["lib/classes/"]
+	}
+}
